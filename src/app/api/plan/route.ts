@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
-import { getFlights, getHotels, getWeather, getCulturalTips, getActivities } from "@/lib/providers/demo-data";
+import { getFlights } from "@/lib/providers/flights";
+import { getHotels, getWeather, getCulturalTips, getActivities } from "@/lib/providers/demo-data";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
 import { synthesizeTripBrief, synthesizeWithGemini, synthesizeWithLLM } from "@/lib/synthesis/brief";
@@ -25,9 +26,13 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 2. Provider orchestration — fetch demo data
+    // 2. Provider orchestration — static JSON → Duffel live → demo fallback
     const nights = intent.duration || 5;
-    const rawFlights = getFlights(intent.destination);
+    const origin = intent.origin || "PHX";
+    const { flights: rawFlights, source: flightSource } = await getFlights(intent.destination, origin);
+    if (flightSource !== "cache") {
+      console.info(`Flights for ${intent.destination} served from: ${flightSource}`);
+    }
     const rawHotels = getHotels(intent.destination);
     const rawWeather = getWeather(intent.destination, nights);
     const rawCultural = getCulturalTips(intent.destination);
