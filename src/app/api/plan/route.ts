@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
 import { getFlights } from "@/lib/providers/flights";
 import { getHotels } from "@/lib/providers/demo-data";
+import { getWeatherLive } from "@/lib/providers/weather-live";
+import { getWikivoyageData } from "@/lib/providers/wikivoyage";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
 import { synthesizeTripBrief, synthesizeWithGemini, synthesizeWithLLM } from "@/lib/synthesis/brief";
@@ -26,7 +28,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 2. Provider orchestration — static JSON → Duffel live → demo fallback
+    // 2. Provider orchestration — live data where available, demo fallback
     const nights = intent.duration || 5;
     const origin = intent.origin || "PHX";
     const { flights: rawFlights, source: flightSource } = await getFlights(intent.destination, origin);
@@ -34,6 +36,12 @@ export async function POST(req: NextRequest) {
       console.info(`Flights for ${intent.destination} served from: ${flightSource}`);
     }
     const rawHotels = getHotels(intent.destination);
+    const [rawWeather, wikivoyage] = await Promise.all([
+      getWeatherLive(intent.destination, nights, intent.dates?.start),  // live OWM
+      getWikivoyageData(intent.destination, intent.activities), // live Wikivoyage
+    ]);
+    const rawCultural = wikivoyage.cultural;
+    const rawActivities = wikivoyage.activities;
 
     // 3. Extraction/normalization
     const normalized = normalizePayload({

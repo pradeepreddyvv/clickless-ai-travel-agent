@@ -2,14 +2,17 @@
 
 import { useState, useRef } from "react";
 import type { TripBrief } from "@/lib/types";
+import { useAuth } from "@/lib/supabase/auth";
 
 interface TripBriefViewProps {
   brief: TripBrief;
   onNewTrip: () => void;
   onShowSaved: () => void;
+  onShowProfile: () => void;
 }
 
-export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewProps) {
+export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile }: TripBriefViewProps) {
+  const { user, session } = useAuth();
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [saved, setSaved] = useState(false);
   const [activeTab, setActiveTab] = useState<"overview" | "itinerary" | "compare">("overview");
@@ -20,6 +23,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
   const budgetRef = useRef<HTMLDivElement>(null);
 
   const nights = brief.intent.duration || 5;
+  const totalDays = nights + 1; // nights + arrival/departure days
   const topFlight = brief.flights[0];
   const topHotel = brief.hotels[0];
   const travelers = brief.intent.travelers || 1;
@@ -38,8 +42,9 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
     setIsSpeaking(true);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     try {
+      // Always save to localStorage
       const trips = JSON.parse(localStorage.getItem("clickless_saved_trips") || "[]");
       const exists = trips.some((t: TripBrief) => t.id === brief.id);
       if (!exists) {
@@ -48,6 +53,18 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
       }
       setSaved(true);
       showToast("Trip saved to your collection!");
+
+      // Also save to Supabase if authenticated
+      if (user && session?.access_token) {
+        fetch("/api/trips", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${session.access_token}`,
+          },
+          body: JSON.stringify({ tripBrief: brief }),
+        }).catch(() => { /* silent fallback — localStorage is primary */ });
+      }
     } catch { /* storage full or blocked */ }
   };
 
@@ -124,16 +141,10 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
             className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "saved" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
             <span className="material-symbols-outlined">bookmark</span><span>Saved Trips</span>
           </button>
-          {[
-            { id: "profile", icon: "person", label: "Profile" },
-            { id: "prefs", icon: "tune", label: "Preferences" },
-          ].map((item) => (
-            <button key={item.id} onClick={() => setActiveNav(item.id)}
-              className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === item.id ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}
-              aria-current={activeNav === item.id ? "page" : undefined}>
-              <span className="material-symbols-outlined">{item.icon}</span><span>{item.label}</span>
-            </button>
-          ))}
+          <button onClick={onShowProfile}
+            className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "profile" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
+            <span className="material-symbols-outlined">person</span><span>Profile</span>
+          </button>
         </nav>
       </aside>
 
@@ -163,8 +174,8 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
             <button onClick={handleShare} className="p-2 text-[#43474d] hover:text-[#002542] hover:bg-[#f2f4f6] rounded-lg transition-colors" aria-label="Share trip" title="Share trip">
               <span className="material-symbols-outlined">share</span>
             </button>
-            <button className="p-2 text-[#43474d] hover:text-[#002542] hover:bg-[#f2f4f6] rounded-lg transition-colors" aria-label="Settings" title="Settings">
-              <span className="material-symbols-outlined">settings</span>
+            <button onClick={onShowProfile} className="p-2 text-[#43474d] hover:text-[#002542] hover:bg-[#f2f4f6] rounded-lg transition-colors" aria-label="Profile" title="Profile">
+              <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>account_circle</span>
             </button>
           </div>
         </header>
@@ -180,7 +191,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
               <h1 className="text-4xl md:text-5xl font-extrabold text-[#002542] leading-tight" style={{ fontFamily: "Manrope, sans-serif", textWrap: "balance" }}>
                 {brief.intent.destination}
               </h1>
-              <p className="text-xl text-[#43474d] mt-1">A {nights}-Day Cultural Adventure</p>
+              <p className="text-xl text-[#43474d] mt-1">A {totalDays}-Day Cultural Adventure</p>
             </div>
             <button onClick={scrollToBudget}
               className="bg-white p-6 rounded-2xl shadow-sm text-right hover:shadow-md transition-shadow cursor-pointer group"
@@ -245,7 +256,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved }: TripBriefViewPr
                     <span className="text-[10px] text-[#43474d]">Historical average</span>
                   </div>
                   <div className="flex gap-3 overflow-x-auto pb-2">
-                    {brief.weather.slice(0, 5).map((w) => {
+                    {brief.weather.map((w) => {
                       const d = new Date(w.date + "T12:00:00");
                       const dayLabel = d.toLocaleDateString("en-US", { weekday: "short" }).toUpperCase();
                       const dateLabel = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });

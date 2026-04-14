@@ -459,6 +459,3339 @@
       "price": 513,
       "currency": "USD",
       "source": "Duffel"
+  "city": "Paris",
+  "seededAt": "2026-04-14T05:14:08.280Z",
+  "weather90Days": [
+    {
+      "date": "2026-04-14",
+      "tempHighF": 63,
+      "tempLowF": 41,
+      "condition": "Foggy",
+      "humidity": 69,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-15",
+      "tempHighF": 64,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 61,
+      "rainChance": 2
+    },
+    {
+      "date": "2026-04-16",
+      "tempHighF": 66,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-17",
+      "tempHighF": 69,
+      "tempLowF": 51,
+      "condition": "Partly cloudy",
+      "humidity": 59,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-18",
+      "tempHighF": 64,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 5
+    },
+    {
+      "date": "2026-04-19",
+      "tempHighF": 63,
+      "tempLowF": 40,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 15
+    },
+    {
+      "date": "2026-04-20",
+      "tempHighF": 67,
+      "tempLowF": 43,
+      "condition": "Partly cloudy",
+      "humidity": 54,
+      "rainChance": 11
+    },
+    {
+      "date": "2026-04-21",
+      "tempHighF": 60,
+      "tempLowF": 44,
+      "condition": "Partly cloudy",
+      "humidity": 70,
+      "rainChance": 14
+    },
+    {
+      "date": "2026-04-22",
+      "tempHighF": 67,
+      "tempLowF": 50,
+      "condition": "Partly cloudy",
+      "humidity": 60,
+      "rainChance": 9
+    },
+    {
+      "date": "2026-04-23",
+      "tempHighF": 67,
+      "tempLowF": 51,
+      "condition": "Drizzle",
+      "humidity": 66,
+      "rainChance": 16
+    },
+    {
+      "date": "2026-04-24",
+      "tempHighF": 76,
+      "tempLowF": 54,
+      "condition": "Partly cloudy",
+      "humidity": 72,
+      "rainChance": 33
+    },
+    {
+      "date": "2026-04-25",
+      "tempHighF": 71,
+      "tempLowF": 55,
+      "condition": "Partly cloudy",
+      "humidity": 52,
+      "rainChance": 12
+    },
+    {
+      "date": "2026-04-26",
+      "tempHighF": 69,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 52,
+      "rainChance": 14
+    },
+    {
+      "date": "2026-04-27",
+      "tempHighF": 71,
+      "tempLowF": 54,
+      "condition": "Drizzle",
+      "humidity": 69,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-04-28",
+      "tempHighF": 63,
+      "tempLowF": 54,
+      "condition": "Drizzle",
+      "humidity": 79,
+      "rainChance": 16
+    },
+    {
+      "date": "2026-04-29",
+      "tempHighF": 70,
+      "tempLowF": 55,
+      "condition": "Clear sky",
+      "humidity": 60,
+      "rainChance": 18
+    },
+    {
+      "date": "2026-04-30",
+      "tempHighF": 84,
+      "tempLowF": 54,
+      "condition": "Clear sky",
+      "humidity": 39,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-01",
+      "tempHighF": 86,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 42,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-02",
+      "tempHighF": 85,
+      "tempLowF": 59,
+      "condition": "Partly cloudy",
+      "humidity": 48,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-03",
+      "tempHighF": 77,
+      "tempLowF": 60,
+      "condition": "Rain",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-04",
+      "tempHighF": 60,
+      "tempLowF": 48,
+      "condition": "Drizzle",
+      "humidity": 66,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-05",
+      "tempHighF": 57,
+      "tempLowF": 43,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-06",
+      "tempHighF": 60,
+      "tempLowF": 44,
+      "condition": "Partly cloudy",
+      "humidity": 61,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-07",
+      "tempHighF": 60,
+      "tempLowF": 46,
+      "condition": "Partly cloudy",
+      "humidity": 66,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-08",
+      "tempHighF": 65,
+      "tempLowF": 47,
+      "condition": "Partly cloudy",
+      "humidity": 59,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-09",
+      "tempHighF": 68,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 46,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-10",
+      "tempHighF": 75,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 43,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-11",
+      "tempHighF": 76,
+      "tempLowF": 56,
+      "condition": "Rain",
+      "humidity": 59,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-12",
+      "tempHighF": 67,
+      "tempLowF": 56,
+      "condition": "Drizzle",
+      "humidity": 75,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-13",
+      "tempHighF": 69,
+      "tempLowF": 51,
+      "condition": "Rain",
+      "humidity": 79,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-14",
+      "tempHighF": 77,
+      "tempLowF": 51,
+      "condition": "Partly cloudy",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-15",
+      "tempHighF": 64,
+      "tempLowF": 47,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-16",
+      "tempHighF": 68,
+      "tempLowF": 47,
+      "condition": "Clear sky",
+      "humidity": 61,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-17",
+      "tempHighF": 65,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 61,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-18",
+      "tempHighF": 68,
+      "tempLowF": 47,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-19",
+      "tempHighF": 73,
+      "tempLowF": 46,
+      "condition": "Partly cloudy",
+      "humidity": 57,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-20",
+      "tempHighF": 78,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 47,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-21",
+      "tempHighF": 64,
+      "tempLowF": 52,
+      "condition": "Rain",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-22",
+      "tempHighF": 66,
+      "tempLowF": 46,
+      "condition": "Drizzle",
+      "humidity": 68,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-23",
+      "tempHighF": 65,
+      "tempLowF": 46,
+      "condition": "Partly cloudy",
+      "humidity": 54,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-24",
+      "tempHighF": 68,
+      "tempLowF": 47,
+      "condition": "Drizzle",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-25",
+      "tempHighF": 69,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-26",
+      "tempHighF": 66,
+      "tempLowF": 50,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-27",
+      "tempHighF": 67,
+      "tempLowF": 54,
+      "condition": "Partly cloudy",
+      "humidity": 69,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-28",
+      "tempHighF": 70,
+      "tempLowF": 57,
+      "condition": "Rain",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-29",
+      "tempHighF": 76,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 66,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-30",
+      "tempHighF": 86,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-31",
+      "tempHighF": 86,
+      "tempLowF": 62,
+      "condition": "Rain",
+      "humidity": 71,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-01",
+      "tempHighF": 73,
+      "tempLowF": 60,
+      "condition": "Drizzle",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-02",
+      "tempHighF": 71,
+      "tempLowF": 56,
+      "condition": "Drizzle",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-03",
+      "tempHighF": 76,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 52,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-04",
+      "tempHighF": 68,
+      "tempLowF": 57,
+      "condition": "Drizzle",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-05",
+      "tempHighF": 66,
+      "tempLowF": 55,
+      "condition": "Rain",
+      "humidity": 76,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-06",
+      "tempHighF": 70,
+      "tempLowF": 57,
+      "condition": "Rain",
+      "humidity": 75,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-07",
+      "tempHighF": 68,
+      "tempLowF": 57,
+      "condition": "Drizzle",
+      "humidity": 74,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-08",
+      "tempHighF": 66,
+      "tempLowF": 53,
+      "condition": "Rain",
+      "humidity": 70,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-09",
+      "tempHighF": 72,
+      "tempLowF": 50,
+      "condition": "Drizzle",
+      "humidity": 69,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-10",
+      "tempHighF": 78,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 70,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-11",
+      "tempHighF": 82,
+      "tempLowF": 56,
+      "condition": "Partly cloudy",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-12",
+      "tempHighF": 89,
+      "tempLowF": 63,
+      "condition": "Partly cloudy",
+      "humidity": 51,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-13",
+      "tempHighF": 91,
+      "tempLowF": 68,
+      "condition": "Rain",
+      "humidity": 62,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-14",
+      "tempHighF": 81,
+      "tempLowF": 68,
+      "condition": "Rain",
+      "humidity": 77,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-15",
+      "tempHighF": 72,
+      "tempLowF": 62,
+      "condition": "Drizzle",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-16",
+      "tempHighF": 80,
+      "tempLowF": 53,
+      "condition": "Partly cloudy",
+      "humidity": 59,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-17",
+      "tempHighF": 84,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 54,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-18",
+      "tempHighF": 84,
+      "tempLowF": 60,
+      "condition": "Partly cloudy",
+      "humidity": 50,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-19",
+      "tempHighF": 88,
+      "tempLowF": 64,
+      "condition": "Clear sky",
+      "humidity": 50,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-20",
+      "tempHighF": 89,
+      "tempLowF": 66,
+      "condition": "Partly cloudy",
+      "humidity": 43,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-21",
+      "tempHighF": 96,
+      "tempLowF": 65,
+      "condition": "Partly cloudy",
+      "humidity": 38,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-22",
+      "tempHighF": 84,
+      "tempLowF": 73,
+      "condition": "Partly cloudy",
+      "humidity": 44,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-23",
+      "tempHighF": 78,
+      "tempLowF": 64,
+      "condition": "Drizzle",
+      "humidity": 57,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-24",
+      "tempHighF": 86,
+      "tempLowF": 57,
+      "condition": "Partly cloudy",
+      "humidity": 48,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-25",
+      "tempHighF": 97,
+      "tempLowF": 64,
+      "condition": "Drizzle",
+      "humidity": 52,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-26",
+      "tempHighF": 79,
+      "tempLowF": 65,
+      "condition": "Rain",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-27",
+      "tempHighF": 81,
+      "tempLowF": 67,
+      "condition": "Drizzle",
+      "humidity": 69,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-28",
+      "tempHighF": 83,
+      "tempLowF": 65,
+      "condition": "Partly cloudy",
+      "humidity": 68,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-29",
+      "tempHighF": 85,
+      "tempLowF": 65,
+      "condition": "Partly cloudy",
+      "humidity": 66,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-30",
+      "tempHighF": 95,
+      "tempLowF": 68,
+      "condition": "Partly cloudy",
+      "humidity": 56,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-01",
+      "tempHighF": 102,
+      "tempLowF": 74,
+      "condition": "Partly cloudy",
+      "humidity": 38,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-02",
+      "tempHighF": 91,
+      "tempLowF": 68,
+      "condition": "Rain",
+      "humidity": 57,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-03",
+      "tempHighF": 79,
+      "tempLowF": 61,
+      "condition": "Partly cloudy",
+      "humidity": 52,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-04",
+      "tempHighF": 82,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 43,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-05",
+      "tempHighF": 80,
+      "tempLowF": 59,
+      "condition": "Partly cloudy",
+      "humidity": 41,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-06",
+      "tempHighF": 69,
+      "tempLowF": 59,
+      "condition": "Rain",
+      "humidity": 83,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-07",
+      "tempHighF": 65,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-08",
+      "tempHighF": 69,
+      "tempLowF": 56,
+      "condition": "Drizzle",
+      "humidity": 70,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-09",
+      "tempHighF": 76,
+      "tempLowF": 52,
+      "condition": "Partly cloudy",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-10",
+      "tempHighF": 81,
+      "tempLowF": 56,
+      "condition": "Partly cloudy",
+      "humidity": 61,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-11",
+      "tempHighF": 85,
+      "tempLowF": 63,
+      "condition": "Clear sky",
+      "humidity": 56,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-12",
+      "tempHighF": 84,
+      "tempLowF": 64,
+      "condition": "Partly cloudy",
+      "humidity": 53,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-13",
+      "tempHighF": 88,
+      "tempLowF": 63,
+      "condition": "Partly cloudy",
+      "humidity": 45,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-14",
+      "tempHighF": 83,
+      "tempLowF": 66,
+      "condition": "Rain",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-15",
+      "tempHighF": 77,
+      "tempLowF": 62,
+      "condition": "Drizzle",
+      "humidity": 53,
+      "rainChance": 20
+    }
+  ],
+  "activities": [
+    {
+      "id": "a17",
+      "name": "Louvre Museum",
+      "category": "museums",
+      "description": "World's largest art museum. Mona Lisa, Venus de Milo, Winged Victory. Book timed entry online.",
+      "estimatedCost": 17,
+      "duration": "4h",
+      "location": "1st Arr."
+    },
+    {
+      "id": "a18",
+      "name": "Eiffel Tower Visit",
+      "category": "sightseeing",
+      "description": "Iconic iron tower (1889). Summit access via elevator. Book tickets 2 months ahead.",
+      "estimatedCost": 26,
+      "duration": "2h",
+      "location": "7th Arr."
+    },
+    {
+      "id": "a19",
+      "name": "Montmartre Food Walk",
+      "category": "food tours",
+      "description": "Crêpes at Le Consulat, cheese at La Fermette, wine tasting. Sacré-Cœur views.",
+      "estimatedCost": 35,
+      "duration": "3h",
+      "location": "18th Arr."
+    },
+    {
+      "id": "a20",
+      "name": "Seine River Cruise",
+      "category": "sightseeing",
+      "description": "See Notre-Dame, Louvre, and Musée d'Orsay from the water. Especially beautiful at sunset.",
+      "estimatedCost": 16,
+      "duration": "1h",
+      "location": "Seine"
+    },
+    {
+      "id": "a21",
+      "name": "Musée d'Orsay",
+      "category": "museums",
+      "description": "Impressionist masterpieces — Monet, Renoir, Van Gogh, Degas. Housed in a stunning Beaux-Arts train station.",
+      "estimatedCost": 16,
+      "duration": "3h",
+      "location": "7th Arr."
+    },
+    {
+      "id": "a22",
+      "name": "Le Marais Neighborhood Walk",
+      "category": "culture",
+      "description": "Historic Jewish quarter, Place des Vosges, falafel on Rue des Rosiers, boutique shopping.",
+      "estimatedCost": 10,
+      "duration": "2.5h",
+      "location": "3rd-4th Arr."
+    },
+    {
+      "id": "wv-7",
+      "name": "Maison Européene de la Photographie",
+      "category": "do",
+      "description": "Important center for contemporary photography with a large exposition area having three or four major expositions per year dedicated to contemporary photography. Housed in an updated hôtel particulier built in 1706. Ther",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "5/7 Rue de Fourcy"
+    },
+    {
+      "id": "wv-8",
+      "name": "Better Paris Photos",
+      "category": "do",
+      "description": "Better Paris Photos offers instructional tours and workshops that combine hands-on learning of essential photographic techniques with guiding to, and commentary about, the most photogenic spots of Paris. Led by English-s",
+      "estimatedCost": 195,
+      "duration": "2h",
+      "location": "32 Avenue de Suffren"
+    },
+    {
+      "id": "wv-9",
+      "name": "La Tour Eiffel",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-10",
+      "name": "l'Assemblée Nationale",
+      "category": "see",
+      "description": "Guided tours conducted all day, ID required. Formerly the Palais Bourbon, this building has housed the National Assembly, the French parliament's lower house, since 1827. Some interesting architecture and the library fea",
+      "duration": "2h",
+      "location": "33, quai d'Orsay"
+    },
+    {
+      "id": "wv-11",
+      "name": "Hôtel des Invalides",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "6, boul des Invalides"
+    },
+    {
+      "id": "wv-12",
+      "name": "Musée de l'Armée",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "129, rue de Grenelle"
+    },
+    {
+      "id": "wv-14",
+      "name": "Musée du quai Branly",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "37, quai Branly"
+    },
+    {
+      "id": "wv-15",
+      "name": "Musée Rodin",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "79, rue de Varenne"
+    },
+    {
+      "id": "wv-16",
+      "name": "Musée des Égouts de Paris",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Entrance opposite 93, quai d'Orsay near the Pont d'Alma, {{station"
+    },
+    {
+      "id": "wv-17",
+      "name": "Vedettes de Paris",
+      "category": "do",
+      "description": "Discover Paris by river on a chic boat.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-18",
+      "name": "Champagne on the Eiffel Tower",
+      "category": "do",
+      "description": "Enjoy a glass of champagne at the top of the Eiffel Tower and finish your visit on a festive note. The Champagne Bar, located on the top floor of the tower, is both elegant and original. The bar, which is part of the bui",
+      "estimatedCost": 4730,
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-19",
+      "name": "Le Bon Marché",
+      "category": "buy",
+      "description": "One of the world's first department stores, the oldest and one of the largest in modern Paris.",
+      "duration": "2h",
+      "location": "24, rue de Sèvres"
+    },
+    {
+      "id": "wv-20",
+      "name": "Magasin Sennelier",
+      "category": "buy",
+      "description": "In 1887 Gustave Sennelier founded this house next to the Ecole des Beaux Arts.",
+      "duration": "2h",
+      "location": "3, quai Voltaire"
+    },
+    {
+      "id": "wv-21",
+      "name": "Rue Cler",
+      "category": "buy",
+      "description": "Market street 10 minutes from the Eiffel Tower. The market is at its best on Tu–Sa, 08:30–13:00 or 15:00–19:30; Su, 08:30–12:00; closed on M.",
+      "duration": "2h",
+      "location": "rue cler"
+    },
+    {
+      "id": "wv-22",
+      "name": "Chez Germaine",
+      "category": "eat",
+      "description": "It's all about home-cooking, like your grandma would do if she were French and trained in cooking.",
+      "duration": "2h",
+      "location": "30, rue Pierre Leroux"
+    },
+    {
+      "id": "wv-23",
+      "name": "Au Pied de Fouet",
+      "category": "eat",
+      "description": "It's an appropriate name for a restaurant renowned for its unapologetically rude wait staff. Some people say that this is part of the charm of the place, perhaps that fits your definition of the word \"charm\" as well? Or ",
+      "estimatedCost": 8,
+      "duration": "2h",
+      "location": "45, rue de Babylone"
+    },
+    {
+      "id": "wv-24",
+      "name": "Chez l'Ami Jean",
+      "category": "eat",
+      "description": "A sensational little restaurant featuring food and wine from the Basque region.",
+      "estimatedCost": 30,
+      "duration": "2h",
+      "location": "27 Rue Malar"
+    },
+    {
+      "id": "wv-25",
+      "name": "Le Clos des Gourmets",
+      "category": "eat",
+      "description": "A great little restaurant, elegant without being stuffy, popular with foreign visitors and American diplomatic staff. French cuisine with a twist. Try the avocado millefeuille with orange sauce for dessert, a surprisingl",
+      "estimatedCost": 33,
+      "duration": "2h",
+      "location": "16 avenue Rapp"
+    },
+    {
+      "id": "wv-26",
+      "name": "Tribeca",
+      "category": "eat",
+      "description": "A very nice terrasse on the rue Cler (pedestrian area). The food is simple, but good and reasonably cheap.",
+      "estimatedCost": 20,
+      "duration": "2h",
+      "location": "36, Rue Cler"
+    },
+    {
+      "id": "wv-27",
+      "name": "58 Tour Eiffel",
+      "category": "eat",
+      "description": "The restaurant in the first floor of the Eiffel Tower. One pays of course for the view, not so much for the food.",
+      "duration": "2h",
+      "location": "Tour Eiffel 1st floor"
+    },
+    {
+      "id": "wv-28",
+      "name": "Gâteaux Thoumieux",
+      "category": "eat",
+      "description": "Chef patisser Ludovic Chaussard, who had previously worked with Alain Ducasse is designing the cakes.",
+      "duration": "2h",
+      "location": "58 rue Saint Dominique"
+    },
+    {
+      "id": "wv-29",
+      "name": "Le Petit Tibéro",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "132 rue du Bac"
+    },
+    {
+      "id": "wv-30",
+      "name": "Le Voltaire",
+      "category": "eat",
+      "description": "Le Voltaire has always been tres chic and with customers like Helene Rochas and the Rothschild family, you know you are dining with the right set. Peaceful wood paneling and lighting that flatters, it is an intimate and ",
+      "duration": "2h",
+      "location": "27, quai Voltaire"
+    },
+    {
+      "id": "wv-31",
+      "name": "Avenue des Champs-Elysées",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-32",
+      "name": "Place de la Concorde",
+      "category": "see",
+      "description": "The largest square in Paris with fantastic vistas in every direction. It was in this square (then called la Place de la Revolution) that the French King Louis XVI, Marie Antoinette and many others were guillotined during",
+      "duration": "2h",
+      "location": "At the east end of the Champs-Elysées"
+    },
+    {
+      "id": "wv-33",
+      "name": "l'Arc de Triomphe",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Place de l'Étoile, Place Charles de Gaulle"
+    },
+    {
+      "id": "wv-34",
+      "name": "Église de la Madeleine",
+      "category": "see",
+      "description": "One of the best-known and most beautiful churches in Paris, in the guise of a Corinthian order classical temple. Construction started in 1764, although the church was not finally consecrated until 1845. The Madeleine has",
+      "duration": "2h",
+      "location": "place de la Madeleine"
+    },
+    {
+      "id": "wv-35",
+      "name": "Élysée Palace",
+      "category": "see",
+      "description": "The official residence of the President of France since 1848. Dating to the early 18th century, it contains the office of the President and the meeting place of the Council of Ministers. The name Élysée derives from Elys",
+      "duration": "2h",
+      "location": "55, Rue du Faubourg, Saint-Honoré"
+    },
+    {
+      "id": "wv-36",
+      "name": "Pont Alexandre III",
+      "category": "see",
+      "description": "The bridge is widely regarded as the most ornate, extravagant bridge in the city. It is classified as a French Monument historique.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-37",
+      "name": "Le Grand Palais",
+      "category": "see",
+      "description": "Built in 1900 for the universal exposition, the Grand Palais was an engineering feat and a milestone of design, marking the transition between historicism and modern architecture. It remain impressive today due to its un",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-38",
+      "name": "Musée du Petit Palais",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Avenue Winston Churchill"
+    },
+    {
+      "id": "wv-39",
+      "name": "Palais de la decouverte",
+      "category": "see",
+      "description": "In a magnificent the western wing of the Grand Palais, this museum forms a part of science-themed education-oriented universcience establishment together with the La Cite des Sciences in [[Paris/19th arrondissement",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "Avenue Franklin D. Roosevelt"
+    },
+    {
+      "id": "wv-40",
+      "name": "Jerome de Noirmont",
+      "category": "see",
+      "description": "This museum represents some key contemporary and emerging artists such as Jean Pierre Raynaud, Eva and Adele, and Jeff Koons.",
+      "duration": "2h",
+      "location": "38, av Matignon"
+    },
+    {
+      "id": "wv-41",
+      "name": "Musée Cernuschi",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "7, av Vélasquez"
+    },
+    {
+      "id": "wv-42",
+      "name": "Musée Jacquemart-André",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-43",
+      "name": "Parc Monceau",
+      "category": "see",
+      "description": "One of Paris's best kept secrets, painted by Monet numerous times. It is a very elegant centre of green in the middle of cosmopolitan Paris. Make sure you check out the statues, entrance rotunda and the surrounding mansi",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-44",
+      "name": "Lido de Paris",
+      "category": "do",
+      "description": "The most famous cabaret celebrates spectacle revues. Children ages 4 and older are welcome. Casual elegant dress code. Coat and tie appreciated. Shorts, athletic clothing and tennis shoes are not allowed.",
+      "duration": "2h",
+      "location": "116 bis av des Champs-Elysées"
+    },
+    {
+      "id": "wv-45",
+      "name": "Carre Marigny",
+      "category": "buy",
+      "description": "The open-air market for trading postage stamps and other similar collectibles",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-46",
+      "name": "C42",
+      "category": "buy",
+      "description": "C42 is the flasghip Citroen store occupying an entire building, designed by Manuelle Gautrand and completed in 2007, being the first new building in the Avenue in some 30 years. The unmistakable facade is inspired by Cit",
+      "duration": "2h",
+      "location": "Avenue de Champs-Elysees 42"
+    },
+    {
+      "id": "wv-47",
+      "name": "Atelier Renault",
+      "category": "buy",
+      "description": "Renault has opened its Champs-Elysees showroom at this location in 1910. The highlight of its current form, launched in 2011, is the cafe/restaurant/bar in the \"floating\" mezzanine, where you can enjoy some good drinks a",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "Avenue des Champs-Elysees 51-53"
+    },
+    {
+      "id": "wv-48",
+      "name": "Guerlain",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "No. 68"
+    },
+    {
+      "id": "wv-49",
+      "name": "Avenue Peugeot",
+      "category": "buy",
+      "description": "While not as spectacular from the outside as its sister brand Citroen's building, the Avenue Peugeot is also worth a visit if you are a car fan, as it always has a temporary exhibition of some of Peugeot's concept or com",
+      "estimatedCost": 8,
+      "duration": "2h",
+      "location": "Avenue des Champs-Elysées 136"
+    },
+    {
+      "id": "wv-50",
+      "name": "Louis Vuitton Building",
+      "category": "buy",
+      "description": "An unmistakable piece of modernist architecture at the corner of Avenue George V, the Louis Vuitton Building was erected in 1913 and in the 21st century continues to serve as the flagship for the luxury brand, housing th",
+      "duration": "2h",
+      "location": "Avenue de Champs-Elysees 101"
+    },
+    {
+      "id": "wv-51",
+      "name": "Christian Dior",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Avenue Montaigne 26-30"
+    },
+    {
+      "id": "wv-52",
+      "name": "Louis Vuitton",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Avenue Montaigne 22"
+    },
+    {
+      "id": "wv-53",
+      "name": "Valentino",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Avenue Montaigne 17-19"
+    },
+    {
+      "id": "wv-54",
+      "name": "Chanel",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Avenue Montaigne 51"
+    },
+    {
+      "id": "wv-55",
+      "name": "Montaigne Market",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Aveue Montaigne 18"
+    },
+    {
+      "id": "wv-56",
+      "name": "Zadig & Voltaire",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Rue Francois 1er 18-22"
+    },
+    {
+      "id": "wv-57",
+      "name": "Hermes flagship store",
+      "category": "buy",
+      "description": "Hermes has been occupying those premises since 1880, contributing to the street's long-lasting reputation as the hub for luxury apparel and accessories.",
+      "duration": "2h",
+      "location": "Rue du Faubourg Saint-Honore 24"
+    },
+    {
+      "id": "wv-58",
+      "name": "Lanvin flagship store",
+      "category": "buy",
+      "description": "Jeanne Lanvin moved her maison de couture to premises facing Hermes in 1889, where it remained to this day.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-59",
+      "name": "Chez Francis",
+      "category": "eat",
+      "description": "View of the Eiffel Tower.",
+      "estimatedCost": 12,
+      "duration": "2h",
+      "location": "7, place de l'Alma"
+    },
+    {
+      "id": "wv-60",
+      "name": "Diep",
+      "category": "eat",
+      "description": "Thai, Chinese, and Indonesian. Vegetarian friendly.",
+      "duration": "2h",
+      "location": "55, rue Pierre-Charron"
+    },
+    {
+      "id": "wv-61",
+      "name": "Kokohana",
+      "category": "eat",
+      "description": "Two chefs battle against each other in a spectacular performance of chopping, slicing, sauteing everything from scallops to foie gras. The food is average, but the presentation is well worth it.",
+      "estimatedCost": 14,
+      "duration": "2h",
+      "location": "1, rue Jean Mermoz"
+    },
+    {
+      "id": "wv-62",
+      "name": "Villa Spicy",
+      "category": "eat",
+      "description": "Warm and peaceful close to the Champs-Élysées serving an organic detox menu.",
+      "duration": "2h",
+      "location": "8, av Franklin Roosevelt"
+    },
+    {
+      "id": "wv-63",
+      "name": "Hanawa",
+      "category": "eat",
+      "description": "Great sushi in a nice atmosphere, extensive menu.",
+      "duration": "2h",
+      "location": "26, rue Bayard"
+    },
+    {
+      "id": "wv-64",
+      "name": "Ladurée",
+      "category": "eat",
+      "description": "Famous for their macaroon cookies, which come in over 15 different flavours. Expensive, but an experience. There is a tea room, a bar, and a restaurant. You can also order baked goods to go, in fancy boxes and bags.",
+      "duration": "2h",
+      "location": "75, avenue des Champs-Elysées"
+    },
+    {
+      "id": "wv-65",
+      "name": "Le Marais",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-66",
+      "name": "Place des Vosges",
+      "category": "see",
+      "description": "The oldest planned square in Paris, and what many tourists as well as locals consider the heart of the Marais area.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-67",
+      "name": "Rue des Rosiers",
+      "category": "see",
+      "description": "The Jewish quarter, with many small delis and shops. Lively on most days except for Saturdays.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-68",
+      "name": "Île Saint-Louis",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-69",
+      "name": "Notre-Dame de Paris",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Ile de la Cité 6, Place du Parvis Notre Dame"
+    },
+    {
+      "id": "wv-70",
+      "name": "Hôtel de Ville",
+      "category": "see",
+      "description": "Many feel that this, Paris' town hall, is one of the loveliest buildings in the city. You might not get that from the front view, but try watching the light change on its roofs and towers during sunset from one of the ca",
+      "duration": "2h",
+      "location": "Place de la Hôtel de Ville"
+    },
+    {
+      "id": "wv-71",
+      "name": "Tour St Jacques",
+      "category": "see",
+      "description": "A [[Gothic architecture",
+      "duration": "2h",
+      "location": "Rue de Rivoli"
+    },
+    {
+      "id": "wv-72",
+      "name": "La Bastille",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Metro: {{station"
+    },
+    {
+      "id": "wv-73",
+      "name": "Mémorial de la Shoah",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "17, rue Geoffroy l’Asnier"
+    },
+    {
+      "id": "wv-74",
+      "name": "Centre Georges Pompidou",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Place George Pompidou"
+    },
+    {
+      "id": "wv-75",
+      "name": "Maison de Victor Hugo",
+      "category": "see",
+      "description": "The house in which the famous French novelist Victor Hugo once lived.",
+      "duration": "2h",
+      "location": "6, Place des Vosges"
+    },
+    {
+      "id": "wv-76",
+      "name": "Hôtel de Sully",
+      "category": "see",
+      "description": "Built in 1625, the Hotel de Sully is an interesting house with some sculptures in a beautiful courtyard. The house features special exhibitions, so check listings when in Paris.",
+      "duration": "2h",
+      "location": "62 rue Saint-Antoine"
+    },
+    {
+      "id": "wv-77",
+      "name": "Marché aux fleurs Reine-Elizabeth-II",
+      "category": "buy",
+      "description": "On the north side of the Ile de la Cité, the main island at the centre of Paris you'll find a burgeoning daily flower market, where you can buy just about any type of flower, and oddly enough, a range of exotic tropical ",
+      "duration": "2h",
+      "location": "Place Louis Lepine"
+    },
+    {
+      "id": "wv-78",
+      "name": "Opéra BD",
+      "category": "buy",
+      "description": "Comics (Bandes Dessinées) are a serious art form in France and even regular corporate bookstores have a good selection, but it's much better to look for them where they are really appreciated, in one of Paris's many priv",
+      "duration": "2h",
+      "location": "2 rue des Tournelles"
+    },
+    {
+      "id": "wv-79",
+      "name": "Mariage Frères",
+      "category": "buy",
+      "description": "If you love tea, you'll love this old salon de the in the Marais.",
+      "duration": "2h",
+      "location": "30 & 35 rue de Bourg-Tibourg"
+    },
+    {
+      "id": "wv-80",
+      "name": "BHV",
+      "category": "buy",
+      "description": "Is a general store with most of everything: clothes, perfumes, furniture, you name it—it's especially famous for its basement section, dedicated to handiwork & DIY --think of it as a small Home Depot in a basement, thoug",
+      "duration": "2h",
+      "location": "52 rue de Rivoli"
+    },
+    {
+      "id": "wv-81",
+      "name": "Chez Marianne",
+      "category": "eat",
+      "description": "At the corner of rue des Hospitalières-Saint Gervais, and the rue Rosiers, Chez Marianne—like the many falafel stands in the Pletzle—serves excellent sandwiches out of a walk up window, but unlike some of the others also",
+      "estimatedCost": 4,
+      "duration": "2h",
+      "location": "2, Rue des Hospitalières-Saint Gervais"
+    },
+    {
+      "id": "wv-82",
+      "name": "La Perla",
+      "category": "eat",
+      "description": "Good Mexican food to be had within a stone's throw of the Ile de St. Louis. They mix a decent margarita too!",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "26 rue François Miron"
+    },
+    {
+      "id": "wv-83",
+      "name": "Flunch",
+      "category": "eat",
+      "description": "Self-service restaurant, right next to the Pompidou centre. Steaks etc. are cooked fresh when ordered, other food is pre-cooked and there is a microwave in the table area should you need to heat anything up. A chance to ",
+      "estimatedCost": 8,
+      "duration": "2h",
+      "location": "21 Rue de Beaubourg"
+    },
+    {
+      "id": "wv-84",
+      "name": "O Corcovado Marais",
+      "category": "eat",
+      "description": "This Brazilian restaurant serves authentic food.",
+      "duration": "2h",
+      "location": "7, rue Simon-Lefranc"
+    },
+    {
+      "id": "wv-85",
+      "name": "Creperie Beaubourg",
+      "category": "eat",
+      "description": "The restaurant serves salty \"galette\" and sweet \"crepes\" with cider for a reasonable price. In summertime one can sit nicely outdoor.",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "2 Rue Brisemiche"
+    },
+    {
+      "id": "wv-86",
+      "name": "Le Loir dans la Théière",
+      "category": "eat",
+      "description": "A highly recommended and quaint little tea shop, well worth a visit especially for brunch, which at €15.50 is a great value for the quantity, quality, and ambience. The cakes are huge, but if one is too late they might a",
+      "duration": "2h",
+      "location": "3, rue des Rosiers"
+    },
+    {
+      "id": "wv-87",
+      "name": "Pain Vin Fromages",
+      "category": "eat",
+      "description": "It's all about cheese, with a selection of Swiss dishes, and others.",
+      "duration": "2h",
+      "location": "3, rue Geoffrey l'Angevin"
+    },
+    {
+      "id": "wv-88",
+      "name": "Le Colimaçon",
+      "category": "eat",
+      "description": "Cozy, charming space. Attentive service. French cuisine with daily specials.",
+      "estimatedCost": 62,
+      "duration": "2h",
+      "location": "44 Rue Vieille du Temple"
+    },
+    {
+      "id": "wv-89",
+      "name": "L'Ambroisie",
+      "category": "eat",
+      "description": "In the aristocratic décors of the 18th century the chef Bernard Pacaud and his son prepare modern and refined food. The \"tarte au chocolat\" is surreal.",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "9, place des Vosges"
+    },
+    {
+      "id": "wv-90",
+      "name": "Brasserie Bofinger",
+      "category": "eat",
+      "description": "A beautiful, historical décor in the Art Nouveau style (see the ceiling upstairs); good Alsatian cuisine : choucroute, kuglopf, etc, plus good classic cuisine de brasserie.",
+      "duration": "2h",
+      "location": "3, rue de la Bastille"
+    },
+    {
+      "id": "wv-91",
+      "name": "Le Georges",
+      "category": "eat",
+      "description": "On the top floor of the Centre Georges Pompidou, the restaurant Georges offers a panoramic view of Paris. Serves modern French food with classic desserts like \"blancs en neige\".",
+      "estimatedCost": 11,
+      "duration": "2h",
+      "location": "19 rue Beaubourg"
+    },
+    {
+      "id": "wv-92",
+      "name": "Amorino",
+      "category": "eat",
+      "description": "The oldest of the many boutiques operated by this gelato (Italian ice cream) maker.",
+      "duration": "2h",
+      "location": "47, rue Saint Louis en l’Ile"
+    },
+    {
+      "id": "wv-93",
+      "name": "Glacier Berthillon",
+      "category": "eat",
+      "description": "The most renowned French sorbet has his little tea shop since 1954. The wait in the queue is definitely worth it, also with some luck the queue isn't that big. On the corner, the queue for takeaway is usually bigger but,",
+      "duration": "2h",
+      "location": "31 Rue Saint-Louis en l'Île"
+    },
+    {
+      "id": "wv-94",
+      "name": "Pozetto",
+      "category": "eat",
+      "description": "Little shop that's both a café and sells Italian ice cream. The ice cream flavours vary according to the season.",
+      "duration": "2h",
+      "location": "39 Rue du Roi de Sicile"
+    },
+    {
+      "id": "wv-95",
+      "name": "Sacré-Cœur",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-96",
+      "name": "Cimetière de Montmartre",
+      "category": "see",
+      "description": "There are a number of famous occupants, but the real reason to visit this cemetery is to see the ornate tombstones, sculptures, and other sometimes macabre, sometimes touching memorials Parisians have left here for their",
+      "duration": "2h",
+      "location": "rue de la Barrière Blanch"
+    },
+    {
+      "id": "wv-97",
+      "name": "Artists' Square",
+      "category": "see",
+      "description": "Numerous artists paint portraits of tourists and also sell their paintings.",
+      "duration": "2h",
+      "location": "place du Tertre"
+    },
+    {
+      "id": "wv-98",
+      "name": "Place Pigalle",
+      "category": "see",
+      "description": "The sleaze of boulevard de Clichy between place Pigalle and place Blanche can provide a moment of distraction. Be warned if you are male it is better to do this in the company of a female fellow traveller, as the clubs o",
+      "duration": "2h",
+      "location": "On the border with the [[Paris/9th arrondissement"
+    },
+    {
+      "id": "wv-99",
+      "name": "Moulin de la Galette",
+      "category": "see",
+      "description": "Built in 1717, the windmill is now part of a restaurant of the same name, and is easily visible from the street.",
+      "duration": "2h",
+      "location": "Rue Lepic 83"
+    },
+    {
+      "id": "wv-100",
+      "name": "Moulin Blute-Fin",
+      "category": "see",
+      "description": "The windmill is within fenced private property, and may be difficult to see from the street, especially if there are leaves on the nearby trees. It is near the more visible Moulin de la Galette.",
+      "duration": "2h",
+      "location": "Rue Lepic"
+    },
+    {
+      "id": "wv-101",
+      "name": "Espace Dali",
+      "category": "see",
+      "description": "A fantastic and undeservedly little-known collection of the great surrealist artist's often overlooked sculptural works. Those travellers seeking a more authentic experience should be warned that the majority of works he",
+      "estimatedCost": 11,
+      "duration": "2h",
+      "location": "11, rue Poulbot (place du Tertre)"
+    },
+    {
+      "id": "wv-102",
+      "name": "Musée de Montmartre",
+      "category": "see",
+      "description": "The museum is located in a 17th century house with a garden, and features the history and culture of Montmartre. Several famous artists had lived in the house including Renoir.",
+      "duration": "2h",
+      "location": "12 Rue Cortot"
+    },
+    {
+      "id": "wv-103",
+      "name": "\"I love you\" wall",
+      "category": "see",
+      "description": "Wall with the words for \"I love you\" written in many languages.",
+      "duration": "2h",
+      "location": "Near Sacré-Cœur"
+    },
+    {
+      "id": "wv-104",
+      "name": "Abbesses métro station",
+      "category": "see",
+      "description": "The station's beautiful entrance (circa 1900) is one of only two remaining glass-covered \"dragonfly\" entrances designed by Hector Guimard (1867–1942). It was featured in the film Le Fabuleux destin d'Amélie Poulain. Whil",
+      "duration": "2h",
+      "location": "Place des Abbesses"
+    },
+    {
+      "id": "wv-105",
+      "name": "Villa Léandre",
+      "category": "see",
+      "description": "Villa Léandre is a short residential street where the houses have small front gardens giving the street an English look.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-106",
+      "name": "Vigne du Clos Montmartre",
+      "category": "see",
+      "description": "Montmartre has a small vineyard which can be seen through a chain-linked fence. One of its products (vin Clos Montmartre) can be purchased at the nearby Musée de Montmartre.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-107",
+      "name": "Buste de Dalida",
+      "category": "see",
+      "description": "Dalida was a chanteuse and actrice who sold 170 million albums and singles worldwide. The bust faces the attractive Rue de l'Abreuvoir. The breast area of her bronze bust has a bleached colour possibly due attention give",
+      "duration": "2h",
+      "location": "Place Dalida"
+    },
+    {
+      "id": "wv-108",
+      "name": "Le Passe-Muraille",
+      "category": "see",
+      "description": "The sculpture of a man walking through a store wall like a ghost was inspired by a novel by Marcel Aymé about a civil servant who takes revenge on people who humiliated him after he discovered he could pass through walls",
+      "duration": "2h",
+      "location": "Place Marcel Aymé"
+    },
+    {
+      "id": "wv-109",
+      "name": "Le Moulin Rouge",
+      "category": "do",
+      "description": "With two shows a night, this turn-of-the-20th century burlesque palace offers a big production choreographed dance show interspersed with comedians, jugglers, and magicians. The show is more than bilingual, actually play",
+      "estimatedCost": 21,
+      "duration": "2h",
+      "location": "place Blanche"
+    },
+    {
+      "id": "wv-110",
+      "name": "Cooking with Class",
+      "category": "do",
+      "description": "Hands on French cooking classes in a relaxed atmosphere with an experienced French chef. 4 hours of fun, including market visit, cheese and wine tasting, 5 minutes from the Sacre Coeur in the heart of Montmartre.",
+      "duration": "2h",
+      "location": "21, rue Custine"
+    },
+    {
+      "id": "wv-111",
+      "name": "Môm'artre",
+      "category": "do",
+      "description": "An arts centre intended primarily for kids (Môme means kid) the Môm'artre features workshops for kids and adults, hosted by neighborhood artists.",
+      "duration": "2h",
+      "location": "44, rue Joseph de Maistre"
+    },
+    {
+      "id": "wv-112",
+      "name": "Marché aux Puces de St-Ouen",
+      "category": "buy",
+      "description": "Widely-acclaimed as the largest flea market in all of , in existence since 1885, this sprawling bazaar is made up of both permanent stalls and temporary stands (over 2,000 of them), arranged in winding, sometimes chaotic",
+      "duration": "2h",
+      "location": "Porte de Clignancourt"
+    },
+    {
+      "id": "wv-113",
+      "name": "Ouistitipop",
+      "category": "buy",
+      "description": "New and used kids' clothing, toys, strollers and furniture. They take consignments too.",
+      "duration": "2h",
+      "location": "19 rue Ramey"
+    },
+    {
+      "id": "wv-114",
+      "name": "Thibault van der Straete",
+      "category": "buy",
+      "description": "Clothing boutique featuring designs made of the rare and luxurious alpaca wool. His soft and sumptuous men's and women's designs are a favourite of those enchanted by ethno-chic.",
+      "duration": "2h",
+      "location": "30, rue Durantin"
+    },
+    {
+      "id": "wv-115",
+      "name": "Spree",
+      "category": "buy",
+      "description": "Hip and trendy bazaar that features designs and clothes from all around the world. Its large space also hold artist exhibitions.",
+      "duration": "2h",
+      "location": "16, rue La Vieuville, 18th"
+    },
+    {
+      "id": "wv-116",
+      "name": "Au Marché de la Butte",
+      "category": "buy",
+      "description": "The grocery store featured in the film Le Fabuleux destin d'Amélie Poulain still functions as such but also displays memorabilia from the film in its windows, and sells some as souvenirs.",
+      "duration": "2h",
+      "location": "56 Rue des Trois Frères"
+    },
+    {
+      "id": "wv-117",
+      "name": "Nawab",
+      "category": "eat",
+      "description": "This Indian and Pakistani restaurant is usually packed especially for lunch so be sure to call ahead and reserve a table. One of the reasons is that if you ask them to spice it up \"like in Pakistan\" they actually will.",
+      "estimatedCost": 15,
+      "duration": "2h",
+      "location": "174, rue Ordener"
+    },
+    {
+      "id": "wv-118",
+      "name": "Le Surcouf",
+      "category": "eat",
+      "description": "Very ordinary non-touristy cafe run by family from the Maghreb. \"French\" food is pricey for what you get, but the couscous dishes are huge, cheap and delicious with a home-cooked feel to them. There's a dog hanging aroun",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "36, Avenue de Saint Ouen"
+    },
+    {
+      "id": "wv-119",
+      "name": "La Travesia",
+      "category": "eat",
+      "description": "Inexpensive but excellent Lebanese food. Vegetarian friendly. Just down the steps from the Sacre Coeur.",
+      "estimatedCost": 20,
+      "duration": "2h",
+      "location": "19 rue muller"
+    },
+    {
+      "id": "wv-120",
+      "name": "Au Grain de Folie",
+      "category": "eat",
+      "description": "A one-woman operation with some mixed reviews, but apparently when she gets it right it's just about the best dining experience you'll ever have. Booking a day ahead is suggested.",
+      "duration": "2h",
+      "location": "24, rue de la Vieuville"
+    },
+    {
+      "id": "wv-121",
+      "name": "Le Buffet",
+      "category": "eat",
+      "description": "Tasty, homey French food in a family-run restaurant. Lunch menu is around €12 (can be had until 20ː00).",
+      "duration": "2h",
+      "location": "18, rue des Trois Freres"
+    },
+    {
+      "id": "wv-122",
+      "name": "Cafe des Deux Moulins",
+      "category": "eat",
+      "description": "A popular destination for those who love the film Le fabuleaux destin d'Amelie Poulain, yet some locals still come here. Interior preserves the movie set. Great for lunch.",
+      "duration": "2h",
+      "location": "15, rue Lepic"
+    },
+    {
+      "id": "wv-123",
+      "name": "La Petaudiere",
+      "category": "eat",
+      "description": "Piano bar. Tasty food, nice ambience, and excellent good piano music (prepare some coins for the pianist).",
+      "duration": "2h",
+      "location": "rue Poulbot"
+    },
+    {
+      "id": "wv-124",
+      "name": "La Taverne de Montmartre",
+      "category": "eat",
+      "description": "Small restaurant with a nice rustic decoration, just below the artist's square, place du Tertre. Relaxing place, not overloaded with tourists. Excellent fondue offered for €17 per person (Oct 2008), including a salami sa",
+      "duration": "2h",
+      "location": "25, rue Gabrielle"
+    },
+    {
+      "id": "wv-125",
+      "name": "Markotte",
+      "category": "eat",
+      "description": "Organic sandwiches, salads and soups",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "At the St Ouen Flea market"
+    },
+    {
+      "id": "wv-126",
+      "name": "Le Basilic",
+      "category": "eat",
+      "description": "Very nice atmosphere and service. Great food, and good selection of wines.",
+      "estimatedCost": 7,
+      "duration": "2h",
+      "location": "33, rue Lepic"
+    },
+    {
+      "id": "wv-127",
+      "name": "Le Refuge des Fondues",
+      "category": "eat",
+      "description": "Fondue restaurant for young people: menu for €17, including wine served in a baby bottle, appetizers, the fondue itself (cheese or meat), and dessert.",
+      "duration": "2h",
+      "location": "17, rue des Trois Frères"
+    },
+    {
+      "id": "wv-128",
+      "name": "Musée Grévin",
+      "category": "see",
+      "description": "The Musée Grévin is a waxwork museum with some 500 characters arranged in scenes from the history of France and modern life.",
+      "duration": "2h",
+      "location": "10, boul Montmartre"
+    },
+    {
+      "id": "wv-129",
+      "name": "Musée Gustave Moreau",
+      "category": "see",
+      "description": "The house of the symbolist painter has now become a museum to his life and work.",
+      "estimatedCost": 4,
+      "duration": "2h",
+      "location": "14, rue de la Rochefoucauld"
+    },
+    {
+      "id": "wv-130",
+      "name": "Opéra Garnier",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "place de l'Opéra"
+    },
+    {
+      "id": "wv-131",
+      "name": "Colorful basketball court",
+      "category": "see",
+      "description": "An unusually colorful court in the middle of buildings.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-132",
+      "name": "les Grands Boulevards",
+      "category": "do",
+      "description": "Go shopping at the grands magasins (department stores).",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-133",
+      "name": "Olympia",
+      "category": "do",
+      "description": "A music hall, which houses concerts for an older crowd. Be sure to tip the usher €2 or so.",
+      "duration": "2h",
+      "location": "28, boul des Capucines"
+    },
+    {
+      "id": "wv-134",
+      "name": "Théâtre Édouard VII",
+      "category": "do",
+      "description": "French theatre, for those with command of the language.",
+      "estimatedCost": 20,
+      "duration": "2h",
+      "location": "10 place Édouard VII"
+    },
+    {
+      "id": "wv-135",
+      "name": "Galeries Lafayette",
+      "category": "buy",
+      "description": "Founded in 1894, and is the flagship store of the department store chain. The gourmet section is a Paris institution that takes up an entire floor, featuring (among many other things) several competing vendors of deluxe ",
+      "duration": "2h",
+      "location": "40, boul Haussmann"
+    },
+    {
+      "id": "wv-136",
+      "name": "Printemps",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "64, boul Haussmann"
+    },
+    {
+      "id": "wv-137",
+      "name": "Bouillon Chartier",
+      "category": "eat",
+      "description": "Since 1896. Menu changes regularly. Historic building and interior. Classically dressed servers. Satisfying, cheap food. Traditional, representative French cooking; don't expect innovative, haute cuisine. Usually the lin",
+      "estimatedCost": 17,
+      "duration": "2h",
+      "location": "7, rue du Faubourg Montmartre"
+    },
+    {
+      "id": "wv-138",
+      "name": "La Marmite",
+      "category": "eat",
+      "description": "Nice sunny place for having lunch.",
+      "duration": "2h",
+      "location": "2, boul de Clichy"
+    },
+    {
+      "id": "wv-139",
+      "name": "L'Opéra Restaurant",
+      "category": "eat",
+      "description": "A modern restaurant designed by Odile Decq opened in the 19th century Opéra Garnier and convenient to Galeries Lafayette or Printemps.",
+      "estimatedCost": 60,
+      "duration": "2h",
+      "location": "place Jacques Rouché"
+    },
+    {
+      "id": "wv-140",
+      "name": "Pizzeria Da Carmine",
+      "category": "eat",
+      "description": "Good (real) Italian restaurant/pizzeria. Does not accept credit cards.",
+      "duration": "2h",
+      "location": "61, rue des Martyrs"
+    },
+    {
+      "id": "wv-141",
+      "name": "Pizza Marzano",
+      "category": "eat",
+      "description": "UK travellers will be familiar with the above-average pizza / pasta menu, speedy table service and very reasonable prices. This outlet has a large al fresco area for the warmer months.",
+      "duration": "2h",
+      "location": "30, boul des Italiens"
+    },
+    {
+      "id": "wv-142",
+      "name": "Le Roi du Pot-au-Feu",
+      "category": "eat",
+      "description": "The menu is very short, but the meals are big and good. The best pot-au-feu in the world. Very nice, typical Parisian atmosphere.",
+      "estimatedCost": 35,
+      "duration": "2h",
+      "location": "34, rue Vignon"
+    },
+    {
+      "id": "wv-143",
+      "name": "Juste",
+      "category": "eat",
+      "description": "Super fresh, simply served and cheap seafood by a fish monger / restaurateur. Takeout, Outdoor Seating. Arrive at noon to avoid lines. Review the menu on-line before arriving to order quickly at the counter. Raw oysters,",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "48 Rue Laffitte"
+    },
+    {
+      "id": "wv-144",
+      "name": "Les Catacombes de Paris",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "1 place Denfert-Rochereau"
+    },
+    {
+      "id": "wv-145",
+      "name": "Cimetière de Montparnasse",
+      "category": "see",
+      "description": "The burial place of existentialist philosopher Jean-Paul Sartre, feminist Simone de Beauvoir (both of whom lived nearby); musician Serge Gainsbourg; artist Man Ray; the poets Charles Baudelaire, Guy de Maupassant, Charle",
+      "duration": "2h",
+      "location": "3, boul Edgar-Quinet"
+    },
+    {
+      "id": "wv-146",
+      "name": "Cité Internationale Universitaire de Paris",
+      "category": "see",
+      "description": "The C.I.U.P. is a student quarter established in 1925, providing homes for about 10,000 students, scientists, and artists from 120 countries. It has 40 houses attributed to individual nations. The individual houses organ",
+      "duration": "2h",
+      "location": "RER B Cité Universitaire,"
+    },
+    {
+      "id": "wv-147",
+      "name": "Fondation Henri-Cartier-Bresson",
+      "category": "see",
+      "description": "The foundation opened its doors in May 2003. It preserves Henri Cartier-Bresson and Martine Franck’s archives. Exhibition of photographs, paintings, sculptings, and illustrations.",
+      "estimatedCost": 6,
+      "duration": "2h",
+      "location": "2, Impasse Lebouis"
+    },
+    {
+      "id": "wv-148",
+      "name": "Lion of Belfort",
+      "category": "see",
+      "description": "This is a bronze replica in smaller scale of a monument created by Bartholdi, the sculptor of the Statue of Liberty, in order to commemorate Denfert-Rochereau, who defended the city of Belfort in the Franco-Prussian war ",
+      "duration": "2h",
+      "location": "Place Denfert-Rochereau"
+    },
+    {
+      "id": "wv-149",
+      "name": "Observatoire",
+      "category": "see",
+      "description": "The observatory was erected by Claude Perrault from 1667 to 1672 by order of Colbert. The building is oriented to the four cardinal directions. It is crossed in the centre by the Paris meridian (2° 20′ 14″ east of Greenw",
+      "duration": "2h",
+      "location": "61, av de l'Observatoire, entrance: 77, av Denfert-Rochereau"
+    },
+    {
+      "id": "wv-150",
+      "name": "Parc Montsouris",
+      "category": "see",
+      "description": "Considered one of the most colourful Parisian parks, a local favourite, the Parc Montsouris was opened in 1878, having been designed by Alphand for Baron Haussmann. A large man-made lake and waterfalls are surrounded by ",
+      "duration": "2h",
+      "location": "boul Jourdan"
+    },
+    {
+      "id": "wv-151",
+      "name": "Port-Royal Abbey",
+      "category": "see",
+      "description": "Famous people who stayed here include Marie de Rohan, intriguer during the Fronde; Jeanne Baptiste d'Albert de Luynes, future mistress of a duke of Savoy; Marie Angélique de Fontanges, mistress of Louis XIV, died here gi",
+      "duration": "2h",
+      "location": "123, boul de Port-Royal"
+    },
+    {
+      "id": "wv-152",
+      "name": "Barrière d’Enfer",
+      "category": "see",
+      "description": "The two pavilions were built in 1784 to 1787 by the French architect Claude-Nicolas Ledoux, who erected many similar toll houses at the entrances to the city.",
+      "duration": "2h",
+      "location": "Place Denfert-Rochereau"
+    },
+    {
+      "id": "wv-153",
+      "name": "Cartier Foundation for Contemporary Art",
+      "category": "see",
+      "description": "A museum of contemporary art. It was founded in 1984 by the well-known jewel and watch manufacturer, Cartier. In 1994 it moved to the new building erected on plans of the architect Jean Nouvel.",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "261 boul Raspail"
+    },
+    {
+      "id": "wv-154",
+      "name": "The Liberation of Paris, General Leclerc Museum, Jean Moulin Museum",
+      "category": "see",
+      "description": "Museum documenting Paris at war.",
+      "duration": "2h",
+      "location": "4 Avenue du Colonel Henri Rol-Tanguy"
+    },
+    {
+      "id": "wv-155",
+      "name": "L'Amuse Bouche",
+      "category": "eat",
+      "description": "The cheese soufflés (soufflé au fromage) and Soufflé au Grand Marnier are highly recommended.",
+      "estimatedCost": 35,
+      "duration": "2h",
+      "location": "186, rue du Château"
+    },
+    {
+      "id": "wv-156",
+      "name": "L'Assiette",
+      "category": "eat",
+      "description": "Reservation recommended.",
+      "estimatedCost": 35,
+      "duration": "2h",
+      "location": "181, rue du Château"
+    },
+    {
+      "id": "wv-157",
+      "name": "Le Bis du Severo",
+      "category": "eat",
+      "description": "eat in Paris",
+      "estimatedCost": 25,
+      "duration": "2h",
+      "location": "16, rue des Plantes"
+    },
+    {
+      "id": "wv-158",
+      "name": "Bistot du Dôme",
+      "category": "eat",
+      "description": "Seafood.",
+      "estimatedCost": 50,
+      "duration": "2h",
+      "location": "1, rue Delambre"
+    },
+    {
+      "id": "wv-159",
+      "name": "La Cagouille",
+      "category": "eat",
+      "description": "eat in Paris",
+      "estimatedCost": 38,
+      "duration": "2h",
+      "location": "10, place Constantin-Brancusi"
+    },
+    {
+      "id": "wv-160",
+      "name": "La Cantine du Troquet",
+      "category": "eat",
+      "description": "eat in Paris",
+      "estimatedCost": 30,
+      "duration": "2h",
+      "location": "101, rue de l'Ouest"
+    },
+    {
+      "id": "wv-161",
+      "name": "La Cerisaie",
+      "category": "eat",
+      "description": "Reservation recommended.",
+      "estimatedCost": 32,
+      "duration": "2h",
+      "location": "60, boul E. Quniet"
+    },
+    {
+      "id": "wv-162",
+      "name": "La Coupole",
+      "category": "eat",
+      "description": "The famous Art Deco brasserie, convenient for a quick meal before or after a train journey to or from Montparnasse station.",
+      "estimatedCost": 35,
+      "duration": "2h",
+      "location": "102, boul du Montparnasse"
+    },
+    {
+      "id": "wv-163",
+      "name": "Le Dôme",
+      "category": "eat",
+      "description": "eat in Paris",
+      "estimatedCost": 75,
+      "duration": "2h",
+      "location": "108, boul Montparnasse"
+    },
+    {
+      "id": "wv-164",
+      "name": "Le Duc",
+      "category": "eat",
+      "description": "eat in Paris",
+      "estimatedCost": 49,
+      "duration": "2h",
+      "location": "243, boul Raspail"
+    },
+    {
+      "id": "wv-165",
+      "name": "Les Grillades de Buenos Aires",
+      "category": "eat",
+      "description": "Small and intimate Argentinian restaurant. Amazing steaks. Everything about the food is wonderful.",
+      "estimatedCost": 28,
+      "duration": "2h",
+      "location": "54, rue de Montparnasse"
+    },
+    {
+      "id": "wv-166",
+      "name": "Le Moulin Vert",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-167",
+      "name": "Le Zeyer",
+      "category": "eat",
+      "description": "Famous Art Deco-style brasserie.",
+      "estimatedCost": 20,
+      "duration": "2h",
+      "location": "Place d'Alesia"
+    },
+    {
+      "id": "wv-168",
+      "name": "Grande Arche de la Defense",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "1 Le Parvis de La Défense"
+    },
+    {
+      "id": "wv-169",
+      "name": "Centre des nouvelles industries et technologies",
+      "category": "see",
+      "description": "The largest unsupported concrete span enclosed space in the world. Houses shops and offices, ESSEC Business School campus and a Hilton hotel.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-170",
+      "name": "Musée de La Défense",
+      "category": "see",
+      "description": "The museum presents the history of the development of La Défense, with many plans and scale models.",
+      "duration": "2h",
+      "location": "15, place de La Défense"
+    },
+    {
+      "id": "wv-171",
+      "name": "Notre-Dame de Pentecôte",
+      "category": "see",
+      "description": "This unusual church building was erected in 2001 and designed by Franck Hammoutène.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-172",
+      "name": "Forteresse du Mont-Valérien",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-173",
+      "name": "Tours Aillaud",
+      "category": "see",
+      "description": "South-west from the Grande Arche you can find these tall cylindrical concrete residential towers, painted in various colours. Representing a 1970s urbanistic experiment, the 18 towers remain controversial and unique, and",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-174",
+      "name": "Parc André Malraux",
+      "category": "see",
+      "description": "The expansive, calm park around a lake extends westwards behind the Tours Aillaud, and is to La Défense what Central Park is to Downtown Manhattan. You can take spectacular pictures of the skyline juxtaposed against the ",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-175",
+      "name": "Nanterre Cathedral",
+      "category": "see",
+      "description": "Built in the 1920s, it is no match for the Notre Dame de Paris in either historical importance or architectural detailing, but it can be an interesting destination for those interested in sacral architecture.",
+      "duration": "2h",
+      "location": "28 Rue de l'Église"
+    },
+    {
+      "id": "wv-176",
+      "name": "Paris La Défense Arena",
+      "category": "see",
+      "description": "A domed stadium near the Grande Arche. It opened in October 2017, and its main tenant is the rugby union club Racing 92. The facility can host everything from court sports to concerts, with configurations ranging from 10",
+      "duration": "2h",
+      "location": "99 Jardin de l'Arche"
+    },
+    {
+      "id": "wv-177",
+      "name": "Pavillon des Indes",
+      "category": "see",
+      "description": "The wooden Indian pavilion was moved from Paris to Courbevoie following the Universal Exhibition of 1878, and remains a curiosity amidst the much more modern architecture of the commune.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-178",
+      "name": "Théâtre des Hauts-de-Seine",
+      "category": "see",
+      "description": "A 19th-century theatre building.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-179",
+      "name": "Public swimming pool and ice rink",
+      "category": "do",
+      "description": "do in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-180",
+      "name": "Forêt domaniale de la Malmaison",
+      "category": "do",
+      "description": "Little known forest, comparable with the Bois de Boulogne on the other side of the Seine",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-181",
+      "name": "Golf de Paris",
+      "category": "do",
+      "description": "do in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-182",
+      "name": "Centre Sportif de l'Ile de Puteaux",
+      "category": "do",
+      "description": "do in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-183",
+      "name": "Jardins de l'Eau Retrouvée",
+      "category": "do",
+      "description": "Parc with fountains and large childrens playground",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-184",
+      "name": "Les 4 Temps",
+      "category": "buy",
+      "description": "The Quatre Temps shopping mall, which when constructed was the largest shopping centre in Europe, has numerous big name and small stores, several cinemas (showing French and subtitled foreign movies) as well as a large s",
+      "duration": "2h",
+      "location": "15 Le Parvis de La Défense"
+    },
+    {
+      "id": "wv-185",
+      "name": "Côté Parvis",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "2, pl de la Défense"
+    },
+    {
+      "id": "wv-186",
+      "name": "Quinte & Sens",
+      "category": "eat",
+      "description": "Under the direction of chef Jean-Paul Corbillet, the Quinte & Sens offers modern cuisine, including two-course \"power lunches\" for €29.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-187",
+      "name": "Panthéon",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Place du Panthéon"
+    },
+    {
+      "id": "wv-188",
+      "name": "Jardin des Plantes",
+      "category": "see",
+      "description": "The Paris Botanical Garden, founded as the royal medicinal garden in 1626 by King Louis XIII's doctor, contains over 10,000 species. The grounds also include a small zoo known as La Ménagerie, and the Muséum National d'H",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-189",
+      "name": "Arènes de Lutèce",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "47, rue Monge et rue de Navarre"
+    },
+    {
+      "id": "wv-190",
+      "name": "Musée Curie",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "11, rue Pierre et Marie Curie"
+    },
+    {
+      "id": "wv-191",
+      "name": "Musée de l'Institut du Monde Arabe",
+      "category": "see",
+      "description": "The building has a freely accessible rooftop which allows for a beautiful bird's-eye view of the northern half of Paris.",
+      "duration": "2h",
+      "location": "1, rue des Fossés-St Bernard"
+    },
+    {
+      "id": "wv-192",
+      "name": "Musée National Du Moyen Âge",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "6, place Paul Painlevé"
+    },
+    {
+      "id": "wv-193",
+      "name": "Eglise Saint-Étienne-du-Mont",
+      "category": "see",
+      "description": "St. Geneviève was responsible for saving Paris from the Huns in 451 and her shrine in the church has been a popular place of pilgrimage ever since. The church as it stands dates from between 1492 and 1626 and is a mix of",
+      "duration": "2h",
+      "location": "pl Ste Geneviève"
+    },
+    {
+      "id": "wv-194",
+      "name": "Eglise Saint-Julien-le-Pauvre",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "rue Saint-Julien-le-Pauvre"
+    },
+    {
+      "id": "wv-195",
+      "name": "Eglise Saint-Médard",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "rue Mouffetard"
+    },
+    {
+      "id": "wv-196",
+      "name": "Eglise Saint Nicolas du Chardonnet",
+      "category": "see",
+      "description": "A controversial church serving as de facto headquarters of the arch-traditionalist Society of Saint Pius X, who occupied the church in 1977 and have ignored subsequent eviction orders.",
+      "duration": "2h",
+      "location": "23, rue des Bernardins"
+    },
+    {
+      "id": "wv-197",
+      "name": "Grande Mosquée de Paris",
+      "category": "see",
+      "description": "Established in 1926, it was meant to show appreciation for Muslim help in fighting the Germans. The café serves excellent mint tea and North African food.",
+      "duration": "2h",
+      "location": "2 bis, place du puits de l'Ermite"
+    },
+    {
+      "id": "wv-198",
+      "name": "Église Saint-Jacques-du-Haut-Pas",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-199",
+      "name": "l'Epée de Bois",
+      "category": "buy",
+      "description": "The name of the store and the street it's on both translate to the \"wooden sword\", and you find those here along with any number of wooden toys for children ages 1 to 10. They also have books and games.",
+      "duration": "2h",
+      "location": "12, rue de l'Epée de Bois"
+    },
+    {
+      "id": "wv-200",
+      "name": "La Fontaine aux Vins",
+      "category": "buy",
+      "description": "One of several wine shops along the lower part of the street. The wines are of high quality, but barely more pricey than the ones you'll find in the grocery store. They offer tastings outside on the street, and delivery ",
+      "duration": "2h",
+      "location": "107 rue Mouffetard"
+    },
+    {
+      "id": "wv-201",
+      "name": "Gepetto & Vélos",
+      "category": "buy",
+      "description": "OK, so if you are just staying for a day or two it makes no sense whatever to buy a bike, but if you are going to be around for a while having your own might just feel better than renting one from the RATP. If so, you co",
+      "duration": "2h",
+      "location": "46, rue Daubenton"
+    },
+    {
+      "id": "wv-202",
+      "name": "Shakespeare and Co.",
+      "category": "buy",
+      "description": "Probably one of the most eccentric bookstores you will ever visit, this must-see was established in 1951 by George Whitman. Three rambling floors literally crammed with books, both new and (mainly) second-hand. The beddi",
+      "duration": "2h",
+      "location": "37, rue de la Bûcherie"
+    },
+    {
+      "id": "wv-203",
+      "name": "Le Grenier de Notre Dame",
+      "category": "eat",
+      "description": "A vegetarian restaurant with a great selection including a number of vegan items, the Grenier is, as the name suggests, just around the corner from the cathedral. The English-speaking staff is super friendly.",
+      "estimatedCost": 12,
+      "duration": "2h",
+      "location": "18, rue de la Bûcherie"
+    },
+    {
+      "id": "wv-204",
+      "name": "Jardin des Pâtes",
+      "category": "eat",
+      "description": "The range of pasta dishes is just fantastic at this cute little restaurant tucked away near the Jardin des Plantes. Although some meat dishes are served there is a huge range of choice for vegetarians as well.",
+      "estimatedCost": 12,
+      "duration": "2h",
+      "location": "4, rue Lacépède"
+    },
+    {
+      "id": "wv-205",
+      "name": "Ambiance De L'Inde",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-206",
+      "name": "Chez Ernest",
+      "category": "eat",
+      "description": "Very nice little restaurant in a small side-street. Typical and less typical French food.",
+      "duration": "2h",
+      "location": "31, rue de la Parcheminerie"
+    },
+    {
+      "id": "wv-207",
+      "name": "Kootchi",
+      "category": "eat",
+      "description": "Afghan cuisine, small and cosy, food is not too spicy, good value for money.",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "40, rue du Cardinal Lemoine"
+    },
+    {
+      "id": "wv-208",
+      "name": "Le Petit Prince de Paris",
+      "category": "eat",
+      "description": "A notably Parisian restaurant experience, but with friendly and warm service. Traditional French food (try the duck with feathers) and deliciously complicated sauces. Relaxed and uncrowded, but reserve in the morning for",
+      "estimatedCost": 16,
+      "duration": "2h",
+      "location": "12, rue de Lanneau"
+    },
+    {
+      "id": "wv-209",
+      "name": "Le Volcan",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-210",
+      "name": "Bibimpap",
+      "category": "eat",
+      "description": "Korean restaurant.",
+      "estimatedCost": 25,
+      "duration": "2h",
+      "location": "32, boul de l'Hôpital"
+    },
+    {
+      "id": "wv-211",
+      "name": "Coco de Mer",
+      "category": "eat",
+      "description": "Specialities from the Seychelles.",
+      "estimatedCost": 30,
+      "duration": "2h",
+      "location": "34, boul St Marcel"
+    },
+    {
+      "id": "wv-212",
+      "name": "Dans les Landes",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-213",
+      "name": "Le Petit Pontoise",
+      "category": "eat",
+      "description": "Nice restaurant with a homey feel, on a quiet street. Popular enough to have an \"also\" section next door. Expatriate Americans mingle with native Parisians and a few tourists. The food is of the local French standard (i.",
+      "estimatedCost": 18,
+      "duration": "2h",
+      "location": "9, rue de Pontoise"
+    },
+    {
+      "id": "wv-214",
+      "name": "La Tour d'Argent",
+      "category": "eat",
+      "description": "For those with fat wallets la Tour d'Argent is a must-do. One of the oldest restaurants in Paris, on the Seine, it is famous for its duck recipes.",
+      "duration": "2h",
+      "location": "15-17, quai de la Tournelle"
+    },
+    {
+      "id": "wv-215",
+      "name": "Cimetière du Père Lachaise",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "main entrance: boul de Ménilmontant"
+    },
+    {
+      "id": "wv-216",
+      "name": "Le Lion Indomptable",
+      "category": "eat",
+      "description": "A small place that serves excellent Cameroonian and Senegalese food. The chef/waiter is a character and will keep you entertained.",
+      "estimatedCost": 15,
+      "duration": "2h",
+      "location": "86, rue Réunion"
+    },
+    {
+      "id": "wv-217",
+      "name": "Lou Pascalou",
+      "category": "eat",
+      "description": "Well hidden but worth seeking out, this unassuming restaurant serves happily inexpensive good food.",
+      "duration": "2h",
+      "location": "14, rue des Panoyaux"
+    },
+    {
+      "id": "wv-218",
+      "name": "Colonne Vendôme",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-219",
+      "name": "La Conciergerie",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-220",
+      "name": "Église Saint-Eustache",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-221",
+      "name": "Jardin des Tuileries",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-222",
+      "name": "Le Palais Royal",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-223",
+      "name": "Saint-Germain l'Auxerrois",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "2 place du Louvre"
+    },
+    {
+      "id": "wv-224",
+      "name": "Sainte-Chapelle",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "4 blvd du Palais"
+    },
+    {
+      "id": "wv-225",
+      "name": "La Samaritaine",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "19, rue de la Monnaie"
+    },
+    {
+      "id": "wv-226",
+      "name": "Musée du Louvre",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "Place du Carrousel"
+    },
+    {
+      "id": "wv-227",
+      "name": "L'Orangerie",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-228",
+      "name": "Jeu de Paume",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-229",
+      "name": "Musée des Arts décoratifs",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "107, rue de Rivoli"
+    },
+    {
+      "id": "wv-230",
+      "name": "Musée en Herbe",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "21, rue Hérold"
+    },
+    {
+      "id": "wv-231",
+      "name": "Bourse de commerce - Pinault Collection",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "2 rue de Viarmes"
+    },
+    {
+      "id": "wv-232",
+      "name": "Comédie Francaise",
+      "category": "do",
+      "description": "The theatre is one of the rare state theatres in France. The company's primary venue is the Salle Richelieu. It was enlarged and modified in the 1800s, then rebuilt in 1900 after a severe fire. The played repertoires sum",
+      "duration": "2h",
+      "location": "1 Place Colette"
+    },
+    {
+      "id": "wv-233",
+      "name": "Ô Chateau, Paris Wine Tasting",
+      "category": "do",
+      "description": "Discover French wines with a native French sommelier. Informative, relaxing, and fun. In English in a beautiful Parisian loft.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-234",
+      "name": "Antoine",
+      "category": "buy",
+      "description": "This shop sells stylish umbrellas and old-style canes, meant to last a lifetime. Also fancy hats, scarfs and gloves.",
+      "duration": "2h",
+      "location": "10, av de l’opéra"
+    },
+    {
+      "id": "wv-235",
+      "name": "Carrefour Express Paris Saint Honoré",
+      "category": "buy",
+      "description": "A small version of the French Carrefour supermarket chain has the appearance of a neighbourhood shop, with stalls filled with fresh fruit and vegetables on its shopfront, and is about the only place to get reasonably-pri",
+      "duration": "2h",
+      "location": "205, rue saint Honoré"
+    },
+    {
+      "id": "wv-236",
+      "name": "Le Carrousel du Louvre",
+      "category": "buy",
+      "description": "A diverse underground shopping precinct adjoining the Louvre Museum. Open daily including Sundays. There is also a direct access into the Louvre.",
+      "duration": "2h",
+      "location": "99 Rue de Rivoli"
+    },
+    {
+      "id": "wv-237",
+      "name": "Forum les Halles",
+      "category": "buy",
+      "description": "In the late 1960s what was Paris's primary farmers' market moved out to the suburbs to be replaced by a park above ground, and a sprawling underground shopping centre below. The interior design is strikingly period (thin",
+      "duration": "2h",
+      "location": "101 Rue Berger"
+    },
+    {
+      "id": "wv-238",
+      "name": "Jean-Paul Hévin",
+      "category": "buy",
+      "description": "The chocolatier is known for his excellent hand made chocolates especially the \"praliné croquant\".",
+      "duration": "2h",
+      "location": "231, rue Saint-Honoré"
+    },
+    {
+      "id": "wv-239",
+      "name": "Librairie Galignani",
+      "category": "buy",
+      "description": "British and American bookshop, specialising in fine arts.",
+      "duration": "2h",
+      "location": "224, rue Rivoli"
+    },
+    {
+      "id": "wv-240",
+      "name": "Minuit Moins 7",
+      "category": "buy",
+      "description": "The \"cordonnerie\" repairs shoes and leather with the best materials.",
+      "duration": "2h",
+      "location": "10, Passage Véro Dodat"
+    },
+    {
+      "id": "wv-241",
+      "name": "Place Vendôme",
+      "category": "buy",
+      "description": "High-end jewelry and watch boutiques on the place created by Napoleon I.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-242",
+      "name": "Lorenz Bäumer",
+      "category": "buy",
+      "description": "On her wedding day Princess Charlène de Monaco wore a Lorenz Bäumer tiara. This new jewellery-maker fashions novel forms combined with classical influences.",
+      "duration": "2h",
+      "location": "19, place Vendôme"
+    },
+    {
+      "id": "wv-243",
+      "name": "Van Cleef & Arpels",
+      "category": "buy",
+      "description": "Princess Caroline de Monaco got her wedding ornament at this traditional shop, open since 1906.",
+      "duration": "2h",
+      "location": "22-24, place Vendôme"
+    },
+    {
+      "id": "wv-244",
+      "name": "Patek Philippe Salons",
+      "category": "buy",
+      "description": "The Swiss luxury watch manufacturer, founded in 1851, is known for precise mechanics.",
+      "duration": "2h",
+      "location": "10, place Vendôme"
+    },
+    {
+      "id": "wv-245",
+      "name": "W.H. Smith",
+      "category": "buy",
+      "description": "The largest English-language bookshop in Paris carries many of the newest releases.",
+      "duration": "2h",
+      "location": "248, rue de Rivoli"
+    },
+    {
+      "id": "wv-246",
+      "name": "Filakia, Petit Café d'Athènes",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "9 Rue Mandar"
+    },
+    {
+      "id": "wv-247",
+      "name": "L'Express Bar",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "23 Rue du Roule"
+    },
+    {
+      "id": "wv-248",
+      "name": "Yi Ping",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "42 Rue Sainte-Anne"
+    },
+    {
+      "id": "wv-249",
+      "name": "Hokkaido",
+      "category": "eat",
+      "description": "Japanese cuisine",
+      "duration": "2h",
+      "location": "14 Rue Chabanais"
+    },
+    {
+      "id": "wv-250",
+      "name": "Restaurant KOSS",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "19 Rue Godot de Mauroy"
+    },
+    {
+      "id": "wv-251",
+      "name": "Pizza Nelly.",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "19 Rue Duphot"
+    },
+    {
+      "id": "wv-252",
+      "name": "Lou pasta",
+      "category": "eat",
+      "description": "Italian cuisine",
+      "duration": "2h",
+      "location": "49 Pass. Choiseul"
+    },
+    {
+      "id": "wv-253",
+      "name": "Little Seoul Restaurant",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "19 Pass. Choiseul"
+    },
+    {
+      "id": "wv-254",
+      "name": "Lemoni Café",
+      "category": "eat",
+      "description": "Small plates, also for take-away.",
+      "duration": "2h",
+      "location": "5, rue Hérold"
+    },
+    {
+      "id": "wv-255",
+      "name": "Chez Denise",
+      "category": "eat",
+      "description": "Small, owner-operated bistro with traditional French country food in a nearly rustic setting. As such it's not exactly veggie-friendly.",
+      "estimatedCost": 10,
+      "duration": "2h",
+      "location": "5, rue Prouvaires"
+    },
+    {
+      "id": "wv-256",
+      "name": "À la Cloche des Halles",
+      "category": "eat",
+      "description": "The bell no longer rings, but the brasserie-restaurant still has the flair from the old little bars from the good old times named \"troquets\".",
+      "duration": "2h",
+      "location": "28 Rue Coquillière"
+    },
+    {
+      "id": "wv-257",
+      "name": "La Robe et le Palais",
+      "category": "eat",
+      "description": "Small restaurant serving mostly tasty Basque food. Fantastic choice of wines.",
+      "duration": "2h",
+      "location": "13, rue des Lavandieres Sainte Opportune"
+    },
+    {
+      "id": "wv-258",
+      "name": "Café Marly",
+      "category": "eat",
+      "description": "Part of the Grand Louvre redevelopment. Café Marly was opened in 1994 and is on the balcony on the northern terrace of the Cour Napoléon. Patrons can enjoy direct views of the Louvre Pyramid while sitting back in comfort",
+      "duration": "2h",
+      "location": "93, rue de Rivoli / cour Napoléon du Louvre"
+    },
+    {
+      "id": "wv-259",
+      "name": "Macéo",
+      "category": "eat",
+      "description": "What was once just a great wine bar with decent food has become a must-visit restaurant with the addition of star chef Thierry Bourbonnais. Second-empire atmosphere with fantastic food.",
+      "estimatedCost": 13,
+      "duration": "2h",
+      "location": "15, rue des Petits Champs"
+    },
+    {
+      "id": "wv-260",
+      "name": "Mystery Cuisine",
+      "category": "eat",
+      "description": "The restaurant serves fusion cuisine inspired by French Vietnamese meals in an atmosphere perfect for couples.",
+      "duration": "2h",
+      "location": "37, rue de Montpensier"
+    },
+    {
+      "id": "wv-261",
+      "name": "Les Archives Nationales",
+      "category": "see",
+      "description": "The Archives Nationales have one of the largest and most important archival collections in the world, a testimony to the very ancient nature of the French state which has been in existence for more than twelve centuries ",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-262",
+      "name": "Musée d'Art et d'Histoire du Judaïsme",
+      "category": "see",
+      "description": "The largest French museum of Jewish art and history",
+      "duration": "2h",
+      "location": "71, rue du Temple"
+    },
+    {
+      "id": "wv-263",
+      "name": "Musée Carnavalet",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "23, rue Madame de Sévigné"
+    },
+    {
+      "id": "wv-264",
+      "name": "Musée Cognacq-Jay",
+      "category": "see",
+      "description": "The Cognacq-Jay museum houses the collection of 18th-century art amassed by Ernest Cognacq, founder of La Samaritaine department stores, and his wife Marie-Louise Jaÿ.",
+      "estimatedCost": 6,
+      "duration": "2h",
+      "location": "8 rue Elzévir"
+    },
+    {
+      "id": "wv-265",
+      "name": "Musée des Arts et Métiers",
+      "category": "see",
+      "description": "An industrial design museum in Paris that houses the collection of the Conservatoire National des Arts et Métiers (National Conservatory of Arts and Industry), which was founded in 1794 as a repository for the preservati",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "60, rue Réaumur"
+    },
+    {
+      "id": "wv-266",
+      "name": "Musée Picasso",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "5, rue de Thorigny"
+    },
+    {
+      "id": "wv-267",
+      "name": "Musée de la Serrure",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "1, rue de la Perle"
+    },
+    {
+      "id": "wv-268",
+      "name": "Foundation Henri Cartier-Bresson",
+      "category": "see",
+      "description": "The Foundation of Henri Cartier-Bresson is a private foundation for public use and for the memories and conservation of the photographer Henri Cartier Bresson and his wife Martine Franck. There are permanent displays and",
+      "estimatedCost": 9,
+      "duration": "2h",
+      "location": "79 rue des Archives"
+    },
+    {
+      "id": "wv-269",
+      "name": "Institut Tessin",
+      "category": "see",
+      "description": "Swedish cultural institute and museum",
+      "duration": "2h",
+      "location": "11 rue Payenne"
+    },
+    {
+      "id": "wv-270",
+      "name": "Au Réparateur de Bicyclettes",
+      "category": "buy",
+      "description": "If you would rather have a funkier bike than the ones you can rent from the RATP you would do a lot worse than checking out this little bicycle repair shop which also offers a wide range of new and used bikes. Their spec",
+      "duration": "2h",
+      "location": "44, boul de Sébastopol"
+    },
+    {
+      "id": "wv-271",
+      "name": "Marché du Temple",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-272",
+      "name": "Camille",
+      "category": "eat",
+      "description": "Fantastic fresh French food. It is worth the wait.",
+      "estimatedCost": 40,
+      "duration": "2h",
+      "location": "24, rue des Francs-Bourgeois"
+    },
+    {
+      "id": "wv-273",
+      "name": "Chez Janou",
+      "category": "eat",
+      "description": "Chez Janou has such a pretty location that it's worth an evening visit just for that. But the food and atmosphere are also amazing. Vegetarians be warned, the tortellini is not the token veggie dish; there isn't one.",
+      "estimatedCost": 18,
+      "duration": "2h",
+      "location": "2, Rue Roger Verlhomme"
+    },
+    {
+      "id": "wv-274",
+      "name": "Page 35",
+      "category": "eat",
+      "description": "The name apparently refers to some section of some newspaper or another apparently with social listings. The carte features fantastic crêpe opportunities making this a must for lunch or lingering over a carafe or two of ",
+      "estimatedCost": 8,
+      "duration": "2h",
+      "location": "4, rue du Parc Royal"
+    },
+    {
+      "id": "wv-275",
+      "name": "Le Petit Marché",
+      "category": "eat",
+      "description": "This is one of those charming little Parisian bistros which is off on its own a little. The wait staff couldn't possibly be friendlier so this is a good place to bring people to show them how nice Parisian dining can be.",
+      "duration": "2h",
+      "location": "9, rue de Béarn"
+    },
+    {
+      "id": "wv-276",
+      "name": "Le Potager du Marais",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "22 rue Rambuteau"
+    },
+    {
+      "id": "wv-277",
+      "name": "Palais de Chaillot",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "{{station"
+    },
+    {
+      "id": "wv-278",
+      "name": "Musée Marmottan",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "2 rue Louis-Boilly, 16th"
+    },
+    {
+      "id": "wv-280",
+      "name": "Palais de Tokyo",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "13, avenue du Président Wilson"
+    },
+    {
+      "id": "wv-281",
+      "name": "Musée d'Art Moderne de la Ville de Paris",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "11 avenue du Président Wilson"
+    },
+    {
+      "id": "wv-282",
+      "name": "Musée Dapper",
+      "category": "see",
+      "description": "This small museum hosts high quality African art exhibitions. It also features an interesting bookshop and cafe.",
+      "estimatedCost": 6,
+      "duration": "2h",
+      "location": "35 bis, rue Paul Valéry"
+    },
+    {
+      "id": "wv-283",
+      "name": "Fondation Louis Vuitton",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "8, avenue de Mahatma Gandhi"
+    },
+    {
+      "id": "wv-284",
+      "name": "Musée Yves Saint Laurent",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "5 avenue Marceau"
+    },
+    {
+      "id": "wv-285",
+      "name": "Musée Nationale de la Marine",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "17 place du Trocadéro"
+    },
+    {
+      "id": "wv-286",
+      "name": "Musée de l'Homme",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "17 Place du Trocadero"
+    },
+    {
+      "id": "wv-287",
+      "name": "Cité de l'architecture & du patrimoine",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "1 place du Trocadéro"
+    },
+    {
+      "id": "wv-288",
+      "name": "Guimet Museum",
+      "category": "see",
+      "description": "Has one of the largest collections abroad of Asian art.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-289",
+      "name": "Jardin d'Acclimatation",
+      "category": "see",
+      "description": "The northwest corner of the Bois de Boulogne is occupied by the oldest operating amusement park in the world, the Jardin d'Acclimatation, which is mainly known for offering a wide range of amusements which are appropriat",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-290",
+      "name": "Jardins du Trocadéro",
+      "category": "see",
+      "description": "Tourists cross this park with the large fountain on the way to the Place du Trocadéro viewpoint to the Eiffel Tower.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-291",
+      "name": "Villa La Roche",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "10 Square du Docteur Blanche"
+    },
+    {
+      "id": "wv-292",
+      "name": "Villa Jeanneret",
+      "category": "see",
+      "description": "see in Paris",
+      "duration": "2h",
+      "location": "8 Square du Docteur Blanche"
+    },
+    {
+      "id": "wv-293",
+      "name": "Immeuble Molitor",
+      "category": "see",
+      "description": "An 8-storey block of flats, built in 1932–1934.",
+      "duration": "2h",
+      "location": "24 rue Nungessor & Coli"
+    },
+    {
+      "id": "wv-294",
+      "name": "Castel Béranger",
+      "category": "see",
+      "description": "Castel Béranger is an apartment building that was the first entirely art nouveau building in Paris, insulted at the time as \"Castel Derangé\". Its richly decorated facade won a city competition in 1898. It contains 36 apa",
+      "duration": "2h",
+      "location": "14 rue de la Fontaine"
+    },
+    {
+      "id": "wv-295",
+      "name": "Hôtel Guimard",
+      "category": "see",
+      "description": "Guimard's own home, built in 1909-12. It is less decorated than Castel Béranger, but still beautifully shaped. Privately owned and not open to the public.",
+      "duration": "2h",
+      "location": "122 Avenue Mozart"
+    },
+    {
+      "id": "wv-296",
+      "name": "Hôtel Mezzara",
+      "category": "see",
+      "description": "House designed by Guimard in 1910-1 for Paul Mezzara, the owner and designer of a lace and embroidery manufacturer. As of October 2025, under renovation to become a museum dedicated to Guimard, expected to open in 2027-8",
+      "duration": "2h",
+      "location": "60 rue Jean de la Fontaine"
+    },
+    {
+      "id": "wv-297",
+      "name": "Bois de Boulogne",
+      "category": "do",
+      "description": "A park along the western edge of the 16ème arrondissement of Paris, near the suburb of Boulogne-Billancourt. The Bois de Boulogne has an area of {{km2",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-298",
+      "name": "Swim at Piscine Molitor",
+      "category": "do",
+      "description": "A stunning classical swimming pool complex. The pool is known for its Art Deco designs and the popular introduction of the bikini by Louis Réard on 5 July 1946. The character Pi Patel in the novel/movie Life of Pi was na",
+      "duration": "2h",
+      "location": "13 rue Nungesser Et Coli"
+    },
+    {
+      "id": "wv-299",
+      "name": "French Open",
+      "category": "do",
+      "description": "The second of each year's four Grand Slam tennis tournaments is held over two weeks in late May and early June at Stade Roland Garros in the Bois de Boulogne. The venue is open for tours year-round whenever tournaments a",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-300",
+      "name": "Paris Saint-Germain",
+      "category": "do",
+      "description": "PSG play soccer in the top-tier Ligue 1. They often win it and qualify for European tournaments. Parc des Princes stadium (capacity 48,000) is south side of Bois de Boulogne. The club name derives from St-Germain-en-Laye",
+      "duration": "2h",
+      "location": "Parc des Princes, 24 Rue du Commandant Guilbaud"
+    },
+    {
+      "id": "wv-301",
+      "name": "Stade Français",
+      "category": "do",
+      "description": "Rugby club in the Top 14, and a perennial title contender. Stade's traditional home ground of Stade Jean-Bouin, across the street from Parc des Princes, reopened in 2013 after a major renovation. Ticket information is av",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-302",
+      "name": "Horse racing",
+      "category": "do",
+      "description": "Some of the world's best thoroughbred racing can be seen at two venues in the Bois de Boulogne.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-303",
+      "name": "Hippodrome de Longchamp",
+      "category": "do",
+      "description": "Used exclusively for flat racing, the venue hosts many of France's top races, including the internationally famous Prix de l'Arc de Triomphe on the first weekend in October.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-304",
+      "name": "Hippodrome d'Auteuil",
+      "category": "do",
+      "description": "Used exclusively for steeplechase racing, and hosts many top-quality races in that discipline. Its flagship event is the Grand Steeple-Chase de Paris.",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-305",
+      "name": "Rue de Passy",
+      "category": "buy",
+      "description": "Lined with high-end clothes and homewares shops",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-306",
+      "name": "Passy Plaza",
+      "category": "buy",
+      "description": "buy in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-307",
+      "name": "Centre Commercial des Belles Feuilles",
+      "category": "buy",
+      "description": "This shopping centre features a vast Casino supermarket and a number of smaller shops, and is very useful for self-caterers. Several other supermarkets are located nearby.",
+      "duration": "2h",
+      "location": "14 Rue des Sablons"
+    },
+    {
+      "id": "wv-308",
+      "name": "Carette",
+      "category": "eat",
+      "description": "This Pâtisserie and Salon de thé also has great food. The salads are amazing, and there is delicious cakes for dessert.",
+      "estimatedCost": 15,
+      "duration": "2h",
+      "location": "4. Place du Trocadéro"
+    },
+    {
+      "id": "wv-309",
+      "name": "La Gare Chaussée De La Muette",
+      "category": "eat",
+      "description": "eat in Paris",
+      "duration": "2h",
+      "location": "Paris"
+    },
+    {
+      "id": "wv-310",
+      "name": "Le Malakoff",
+      "category": "eat",
+      "description": "Just take the menu of the day",
+      "duration": "2h",
+      "location": "6 place du Trocadéro"
+    },
+    {
+      "id": "wv-311",
+      "name": "Le Coq",
+      "category": "eat",
+      "description": "A hip and trendy modern brasserie where the 16th arrondissement's posh population meets",
+      "duration": "2h",
+      "location": "2 place du Trocadéro"
+    },
+    {
+      "id": "wv-312",
+      "name": "Café Brassac",
+      "category": "eat",
+      "description": "Very nice cafe with good lunch and dinner. Lots of people go their for business lunch",
+      "duration": "2h",
+      "location": "37, ave. Kléber"
+    },
+    {
+      "id": "wv-313",
+      "name": "L'Astrance",
+      "category": "eat",
+      "description": "3 Michelin stars. Considered one of the best restaurants of Paris. Do not go there, if you are hungry and want to get full.",
+      "duration": "2h",
+      "location": "4 rue Beethoven"
+    }
+  ],
+  "cultural": [
+    {
+      "category": "Etiquette",
+      "tip": "Always greet with 'Bonjour' when entering any shop or restaurant.",
+      "importance": "high"
+    },
+    {
+      "category": "Dining",
+      "tip": "Lunch is typically 12-2 PM. Many restaurants close between meals.",
+      "importance": "medium"
+    },
+    {
+      "category": "Dress",
+      "tip": "Parisians dress smartly. Avoid athleisure in nicer restaurants.",
+      "importance": "low"
+    },
+    {
+      "category": "Language",
+      "tip": "Try basic French phrases ('merci', 's'il vous plaît'). Locals genuinely appreciate the effort.",
+      "importance": "medium"
+    },
+    {
+      "category": "Safety",
+      "tip": "Watch for pickpockets on the Métro and at tourist sites. Keep valuables in front pockets.",
+      "importance": "high"
     }
   ]
 }

@@ -83,7 +83,12 @@ function extractDestination(text: string): { origin?: string; destination?: stri
 
 function matchCity(text: string): string | undefined {
   const lower = text.toLowerCase().trim();
-  return CITY_ALIASES[lower];
+  if (CITY_ALIASES[lower]) return CITY_ALIASES[lower];
+  // Accept any multi-char word as a city (capitalize each word)
+  if (lower.length >= 3 && /^[a-z\s]+$/.test(lower)) {
+    return lower.replace(/\b\w/g, (c) => c.toUpperCase());
+  }
+  return undefined;
 }
 
 function extractDuration(text: string): number | undefined {
@@ -166,8 +171,11 @@ const VALID_ACTIVITIES = [
   "nightlife", "shopping", "sightseeing", "adventure", "culture",
 ];
 
-const GROQ_EXTRACTION_PROMPT = `You are a travel intent extractor. Extract structured data from the user's travel query.
+function buildGroqPrompt(): string {
+  const today = new Date().toISOString().split("T")[0];
+  return `You are a travel intent extractor. Extract structured data from the user's travel query.
 Return ONLY valid JSON — no markdown, no explanation, no extra keys.
+Today's date is ${today}. Use this as the reference for all relative dates (e.g. "next month", "in April" means the upcoming April).
 
 Schema:
 {
@@ -177,8 +185,9 @@ Schema:
   "budget": number | null,   // total budget in USD as integer, null if not mentioned
   "travelers": number,       // number of people (default 1; "couple"/"two of us"=2, "family"=4)
   "activities": string[],    // subset of: ["temples","food tours","hiking","museums","beaches","nightlife","shopping","sightseeing","adventure","culture"]
-  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" } | null  // null if not mentioned; "in April" → use 15th as start
+  "dates": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" } | null  // null if not mentioned; use today's year for dates without an explicit year
 }`;
+}
 
 export async function parseIntentWithGroq(query: string): Promise<TravelIntent> {
 
@@ -191,7 +200,7 @@ export async function parseIntentWithGroq(query: string): Promise<TravelIntent> 
     const completion = await client.chat.completions.create({
       model: "llama-3.1-8b-instant",
       messages: [
-        { role: "system", content: GROQ_EXTRACTION_PROMPT },
+        { role: "system", content: buildGroqPrompt() },
         { role: "user", content: query },
       ],
       temperature: 0,

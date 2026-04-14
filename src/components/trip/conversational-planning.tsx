@@ -8,6 +8,7 @@ interface ConversationalPlanningProps {
   onSearch: (finalQuery: string) => void;
   onNewTrip: () => void;
   onShowSaved: () => void;
+  onShowProfile: () => void;
   error: string | null;
 }
 
@@ -17,7 +18,7 @@ interface ChatMessage {
   chips?: string[];
 }
 
-export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved, error }: ConversationalPlanningProps) {
+export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved, onShowProfile, error }: ConversationalPlanningProps) {
   const [currentQuery, setCurrentQuery] = useState(query);
   const [inputValue, setInputValue] = useState("");
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -54,25 +55,49 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
     const trimmed = inputValue.trim();
     if (!trimmed) return;
 
-    // Append user message
+    // Capture old intent before updating
+    const oldIntent = parseIntent(currentQuery);
+
+    // Append user message to cumulative query
     const updatedQuery = `${currentQuery}, ${trimmed}`;
     setCurrentQuery(updatedQuery);
     setMessages((prev) => [...prev, { role: "user", content: trimmed }]);
     setInputValue("");
 
-    // Parse updated intent and generate AI response
-    const updatedIntent = parseIntent(updatedQuery);
-    const newDest = updatedIntent.destination !== "Unknown" ? updatedIntent.destination : destination;
+    // Parse updated intent and show what changed
+    const newIntent = parseIntent(updatedQuery);
+    const newDest = newIntent.destination !== "Unknown" ? newIntent.destination : destination;
 
     setTimeout(() => {
-      let response = `Got it! I've updated your preferences. `;
-      if (updatedIntent.budget) response += `Budget set to $${updatedIntent.budget}. `;
-      if (updatedIntent.activities.length > 0) response += `Interests: ${updatedIntent.activities.join(", ")}. `;
-      response += `\n\nYour trip to **${newDest}** is looking great. Hit **"Search Now"** when you're ready, or keep refining!`;
+      const changes: string[] = [];
+
+      // Detect new activities
+      const addedActivities = newIntent.activities.filter((a) => !oldIntent.activities.includes(a));
+      if (addedActivities.length > 0) changes.push(`Added **${addedActivities.join(", ")}** to your interests`);
+
+      // Detect budget change
+      if (newIntent.budget && newIntent.budget !== oldIntent.budget) changes.push(`Budget updated to **$${newIntent.budget.toLocaleString()}**`);
+
+      // Detect duration change
+      if (newIntent.duration && newIntent.duration !== oldIntent.duration) changes.push(`Duration set to **${newIntent.duration} nights**`);
+
+      // Detect travelers change
+      if (newIntent.travelers !== oldIntent.travelers) changes.push(`Travelers updated to **${newIntent.travelers}**`);
+
+      // Detect destination change
+      if (newIntent.destination !== oldIntent.destination && newIntent.destination !== "Unknown") changes.push(`Destination changed to **${newIntent.destination}**`);
+
+      let response: string;
+      if (changes.length > 0) {
+        response = `Got it! Here's what I updated:\n\n${changes.map((c) => `• ${c}`).join("\n")}\n\nYour trip to **${newDest}** is shaping up nicely. Hit **"Search Now"** when you're ready!`;
+      } else {
+        // Treat the input as a general preference keyword — it'll be in the cumulative query sent to the API
+        response = `Noted — I'll factor "${trimmed}" into your trip search.\n\nAll your preferences for **${newDest}** will be used when building your trip brief. Hit **"Search Now"** when ready!`;
+      }
 
       setMessages((prev) => [
         ...prev,
-        { role: "ai", content: response, chips: ["More budget options", "Add hotel preference", "Search Now"] },
+        { role: "ai", content: response, chips: ["Add more details", "Change budget", "Search Now"] },
       ]);
     }, 500);
   };
@@ -107,25 +132,11 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
             className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "saved" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
             <span className="material-symbols-outlined">bookmark</span><span>Saved Trips</span>
           </button>
-          {[
-            { id: "profile", icon: "person", label: "Profile" },
-            { id: "prefs", icon: "tune", label: "Preferences" },
-          ].map((item) => (
-            <button key={item.id} onClick={() => setActiveNav(item.id)}
-              className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === item.id ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}
-              aria-current={activeNav === item.id ? "page" : undefined}>
-              <span className="material-symbols-outlined">{item.icon}</span><span>{item.label}</span>
-            </button>
-          ))}
+          <button onClick={onShowProfile}
+            className={`flex items-center gap-3 px-4 py-3 w-full text-left rounded-r-full transition-colors ${activeNav === "profile" ? "text-[#002542] font-bold bg-white" : "text-[#43474d] hover:bg-white/50"}`}>
+            <span className="material-symbols-outlined">person</span><span>Profile</span>
+          </button>
         </nav>
-        <div className="px-4 pt-4 border-t border-[#c3c6ce]/15 space-y-1">
-          <button className="flex items-center gap-3 px-4 py-2 text-[#43474d] text-sm hover:text-[#002542] w-full text-left" aria-label="Help">
-            <span className="material-symbols-outlined text-sm">help</span><span>Help</span>
-          </button>
-          <button className="flex items-center gap-3 px-4 py-2 text-[#43474d] text-sm hover:text-[#002542] w-full text-left" aria-label="Logout">
-            <span className="material-symbols-outlined text-sm">logout</span><span>Logout</span>
-          </button>
-        </div>
       </aside>
 
       {/* Main Content */}
@@ -147,12 +158,9 @@ export function ConversationalPlanning({ query, onSearch, onNewTrip, onShowSaved
               <span className="material-symbols-outlined text-sm">search</span>
               Search Now
             </button>
-            <button className="p-2 text-[#43474d] hover:text-[#002542] transition-colors" aria-label="Settings">
-              <span className="material-symbols-outlined">settings</span>
-            </button>
-            <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#e6e8ea] premium-gradient flex items-center justify-center text-white">
+            <button onClick={onShowProfile} className="w-10 h-10 rounded-full overflow-hidden border-2 border-[#e6e8ea] premium-gradient flex items-center justify-center text-white cursor-pointer hover:scale-105 transition-transform" aria-label="Profile">
               <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>person</span>
-            </div>
+            </button>
           </div>
         </header>
 

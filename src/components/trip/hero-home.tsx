@@ -5,13 +5,21 @@ import { useState, useRef } from "react";
 interface HeroHomeProps {
   onSubmit: (query: string) => void;
   onShowSaved: () => void;
+  onShowProfile: () => void;
   error: string | null;
 }
 
-export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
+export function HeroHome({ onSubmit, onShowSaved, onShowProfile, error }: HeroHomeProps) {
   const [query, setQuery] = useState("");
   const [isListening, setIsListening] = useState(false);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const [voiceError, setVoiceError] = useState<string | null>(null);
+
+  const wsRef = useRef<WebSocket | null>(null);
+  const audioCtxRef = useRef<AudioContext | null>(null);
+  const streamRef = useRef<MediaStream | null>(null);
+  const processorRef = useRef<ScriptProcessorNode | null>(null);
+  // Accumulate final (non-partial) transcript segments
+  const finalTranscriptRef = useRef<string>("");
 
   const handleSubmit = () => {
     const trimmed = query.trim();
@@ -19,22 +27,109 @@ export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
     onSubmit(trimmed);
   };
 
-  const toggleVoice = () => {
-    if (!("webkitSpeechRecognition" in window || "SpeechRecognition" in window)) return;
-    if (isListening) { recognitionRef.current?.stop(); setIsListening(false); return; }
-    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const recognition = new SR();
-    recognition.continuous = false;
-    recognition.interimResults = true;
-    recognition.lang = "en-US";
-    recognition.onresult = (e: SpeechRecognitionEvent) => {
-      setQuery(Array.from(e.results).map((r) => r[0].transcript).join(""));
-    };
-    recognition.onend = () => setIsListening(false);
-    recognition.onerror = () => setIsListening(false);
-    recognitionRef.current = recognition;
-    recognition.start();
-    setIsListening(true);
+  const stopRecording = () => {
+    processorRef.current?.disconnect();
+    audioCtxRef.current?.close();
+    streamRef.current?.getTracks().forEach((t) => t.stop());
+    wsRef.current?.close();
+    processorRef.current = null;
+    audioCtxRef.current = null;
+    streamRef.current = null;
+    wsRef.current = null;
+    setIsListening(false);
+  };
+
+  const toggleVoice = async () => {
+    if (isListening) {
+      stopRecording();
+      return;
+    }
+
+    setVoiceError(null);
+    finalTranscriptRef.current = "";
+
+    try {
+      // 1. Get a short-lived JWT from our server (API key stays server-side)
+      const tokenRes = await fetch("/api/speech-token", { method: "POST" });
+      if (!tokenRes.ok) throw new Error("Failed to get speech token");
+      const { token } = await tokenRes.json();
+
+      // 2. Open WebSocket to Speechmatics real-time API
+      const ws = new WebSocket(`wss://eu2.rt.speechmatics.com/v2?jwt=${token}`);
+      wsRef.current = ws;
+
+      ws.onopen = () => {
+        ws.send(
+          JSON.stringify({
+            message: "StartRecognition",
+            audio_format: { type: "raw", encoding: "pcm_f32le", sample_rate: 16000 },
+            transcription_config: { language: "en", enable_partials: true },
+          })
+        );
+      };
+
+      ws.onmessage = (event) => {
+        const msg = JSON.parse(event.data as string);
+
+        if (msg.message === "RecognitionStarted") {
+          setIsListening(true);
+        }
+
+        // Partial results — show live preview
+        if (msg.message === "AddPartialTranscript") {
+          const partial = (msg.results as Array<{ alternatives?: Array<{ content: string }> }> ?? [])
+            .map((r) => r.alternatives?.[0]?.content ?? "")
+            .join(" ")
+            .trim();
+          setQuery(finalTranscriptRef.current + (partial ? " " + partial : ""));
+        }
+
+        // Final confirmed segment — append to permanent transcript
+        if (msg.message === "AddTranscript") {
+          const segment = (msg.results as Array<{ alternatives?: Array<{ content: string }> }> ?? [])
+            .map((r) => r.alternatives?.[0]?.content ?? "")
+            .join(" ")
+            .trim();
+          if (segment) {
+            finalTranscriptRef.current = (finalTranscriptRef.current + " " + segment).trim();
+            setQuery(finalTranscriptRef.current);
+          }
+        }
+      };
+
+      ws.onerror = () => {
+        setVoiceError("Speechmatics connection error. Please try again.");
+        stopRecording();
+      };
+
+      ws.onclose = () => setIsListening(false);
+
+      // 3. Capture microphone at 16 kHz and stream raw PCM Float32 to the WebSocket
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      streamRef.current = stream;
+
+      const audioCtx = new AudioContext({ sampleRate: 16000 });
+      audioCtxRef.current = audioCtx;
+
+      const source = audioCtx.createMediaStreamSource(stream);
+      // ScriptProcessor gives us raw Float32 PCM chunks — ideal for Speechmatics pcm_f32le
+      const processor = audioCtx.createScriptProcessor(4096, 1, 1);
+      processorRef.current = processor;
+
+      processor.onaudioprocess = (e) => {
+        if (ws.readyState === WebSocket.OPEN) {
+          const pcm = e.inputBuffer.getChannelData(0);
+          // Send a copy so the buffer doesn't get recycled before the send completes
+          ws.send(new Float32Array(pcm).buffer);
+        }
+      };
+
+      source.connect(processor);
+      processor.connect(audioCtx.destination);
+    } catch (err) {
+      setVoiceError(err instanceof Error ? err.message : "Microphone access denied");
+      setIsListening(false);
+    }
   };
 
   const examples = [
@@ -53,12 +148,10 @@ export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
         <nav className="hidden md:flex space-x-10">
           <a className="font-bold text-[#002542] hover:text-[#006a61] transition-colors" href="#">New Trip</a>
           <button className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" onClick={onShowSaved}>Saved Trips</button>
-          <a className="text-[#43474d] font-medium hover:text-[#006a61] transition-colors" href="#">Preferences</a>
         </nav>
-        <div className="flex items-center gap-6">
-          <span className="material-symbols-outlined text-2xl cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">account_circle</span>
-          <span className="material-symbols-outlined text-2xl cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">settings</span>
-        </div>
+        <button onClick={onShowProfile} className="flex items-center gap-2 cursor-pointer text-[#002542] hover:text-[#006a61] transition-colors">
+          <span className="material-symbols-outlined text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>account_circle</span>
+        </button>
       </header>
 
       <main>
@@ -217,6 +310,13 @@ export function HeroHome({ onSubmit, onShowSaved, error }: HeroHomeProps) {
             </button>
           </div>
         </section>
+
+        {/* Voice Error Toast */}
+        {voiceError && (
+          <div className="fixed bottom-20 left-1/2 -translate-x-1/2 bg-red-50 text-red-700 px-6 py-3 rounded-xl shadow-lg text-sm z-50">
+            {voiceError}
+          </div>
+        )}
 
         {/* Error Toast */}
         {error && (

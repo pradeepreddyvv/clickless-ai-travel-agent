@@ -459,6 +459,3138 @@
       "price": 745,
       "currency": "USD",
       "source": "Duffel"
+  "city": "Tokyo",
+  "seededAt": "2026-04-14T05:15:10.317Z",
+  "weather90Days": [
+    {
+      "date": "2026-04-14",
+      "tempHighF": 70,
+      "tempLowF": 56,
+      "condition": "Partly cloudy",
+      "humidity": 88,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-15",
+      "tempHighF": 66,
+      "tempLowF": 54,
+      "condition": "Rain",
+      "humidity": 87,
+      "rainChance": 35
+    },
+    {
+      "date": "2026-04-16",
+      "tempHighF": 73,
+      "tempLowF": 51,
+      "condition": "Rain",
+      "humidity": 76,
+      "rainChance": 17
+    },
+    {
+      "date": "2026-04-17",
+      "tempHighF": 64,
+      "tempLowF": 49,
+      "condition": "Partly cloudy",
+      "humidity": 62,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-18",
+      "tempHighF": 69,
+      "tempLowF": 52,
+      "condition": "Partly cloudy",
+      "humidity": 67,
+      "rainChance": 1
+    },
+    {
+      "date": "2026-04-19",
+      "tempHighF": 76,
+      "tempLowF": 54,
+      "condition": "Partly cloudy",
+      "humidity": 62,
+      "rainChance": 2
+    },
+    {
+      "date": "2026-04-20",
+      "tempHighF": 72,
+      "tempLowF": 51,
+      "condition": "Partly cloudy",
+      "humidity": 66,
+      "rainChance": 0
+    },
+    {
+      "date": "2026-04-21",
+      "tempHighF": 77,
+      "tempLowF": 56,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 2
+    },
+    {
+      "date": "2026-04-22",
+      "tempHighF": 71,
+      "tempLowF": 61,
+      "condition": "Partly cloudy",
+      "humidity": 44,
+      "rainChance": 5
+    },
+    {
+      "date": "2026-04-23",
+      "tempHighF": 64,
+      "tempLowF": 56,
+      "condition": "Drizzle",
+      "humidity": 80,
+      "rainChance": 18
+    },
+    {
+      "date": "2026-04-24",
+      "tempHighF": 57,
+      "tempLowF": 48,
+      "condition": "Drizzle",
+      "humidity": 77,
+      "rainChance": 44
+    },
+    {
+      "date": "2026-04-25",
+      "tempHighF": 62,
+      "tempLowF": 47,
+      "condition": "Partly cloudy",
+      "humidity": 49,
+      "rainChance": 23
+    },
+    {
+      "date": "2026-04-26",
+      "tempHighF": 64,
+      "tempLowF": 51,
+      "condition": "Partly cloudy",
+      "humidity": 49,
+      "rainChance": 25
+    },
+    {
+      "date": "2026-04-27",
+      "tempHighF": 69,
+      "tempLowF": 57,
+      "condition": "Partly cloudy",
+      "humidity": 60,
+      "rainChance": 25
+    },
+    {
+      "date": "2026-04-28",
+      "tempHighF": 69,
+      "tempLowF": 60,
+      "condition": "Drizzle",
+      "humidity": 65,
+      "rainChance": 29
+    },
+    {
+      "date": "2026-04-29",
+      "tempHighF": 71,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 56,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-04-30",
+      "tempHighF": 71,
+      "tempLowF": 50,
+      "condition": "Partly cloudy",
+      "humidity": 54,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-01",
+      "tempHighF": 74,
+      "tempLowF": 52,
+      "condition": "Partly cloudy",
+      "humidity": 69,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-02",
+      "tempHighF": 66,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 84,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-03",
+      "tempHighF": 73,
+      "tempLowF": 56,
+      "condition": "Partly cloudy",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-04",
+      "tempHighF": 72,
+      "tempLowF": 55,
+      "condition": "Drizzle",
+      "humidity": 83,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-05",
+      "tempHighF": 71,
+      "tempLowF": 52,
+      "condition": "Partly cloudy",
+      "humidity": 66,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-06",
+      "tempHighF": 62,
+      "tempLowF": 56,
+      "condition": "Rain",
+      "humidity": 84,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-07",
+      "tempHighF": 70,
+      "tempLowF": 55,
+      "condition": "Drizzle",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-08",
+      "tempHighF": 70,
+      "tempLowF": 57,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-09",
+      "tempHighF": 71,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 74,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-10",
+      "tempHighF": 72,
+      "tempLowF": 62,
+      "condition": "Rain",
+      "humidity": 89,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-11",
+      "tempHighF": 76,
+      "tempLowF": 61,
+      "condition": "Drizzle",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-12",
+      "tempHighF": 68,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 85,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-13",
+      "tempHighF": 74,
+      "tempLowF": 58,
+      "condition": "Partly cloudy",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-14",
+      "tempHighF": 75,
+      "tempLowF": 60,
+      "condition": "Partly cloudy",
+      "humidity": 75,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-15",
+      "tempHighF": 77,
+      "tempLowF": 60,
+      "condition": "Partly cloudy",
+      "humidity": 75,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-16",
+      "tempHighF": 79,
+      "tempLowF": 63,
+      "condition": "Partly cloudy",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-17",
+      "tempHighF": 74,
+      "tempLowF": 66,
+      "condition": "Rain",
+      "humidity": 87,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-18",
+      "tempHighF": 81,
+      "tempLowF": 72,
+      "condition": "Drizzle",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-19",
+      "tempHighF": 72,
+      "tempLowF": 62,
+      "condition": "Drizzle",
+      "humidity": 86,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-20",
+      "tempHighF": 84,
+      "tempLowF": 60,
+      "condition": "Partly cloudy",
+      "humidity": 76,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-21",
+      "tempHighF": 83,
+      "tempLowF": 67,
+      "condition": "Partly cloudy",
+      "humidity": 81,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-22",
+      "tempHighF": 80,
+      "tempLowF": 64,
+      "condition": "Rain",
+      "humidity": 80,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-23",
+      "tempHighF": 73,
+      "tempLowF": 61,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-24",
+      "tempHighF": 70,
+      "tempLowF": 59,
+      "condition": "Drizzle",
+      "humidity": 71,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-25",
+      "tempHighF": 78,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-26",
+      "tempHighF": 68,
+      "tempLowF": 61,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-27",
+      "tempHighF": 68,
+      "tempLowF": 58,
+      "condition": "Drizzle",
+      "humidity": 77,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-28",
+      "tempHighF": 74,
+      "tempLowF": 59,
+      "condition": "Rain",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-29",
+      "tempHighF": 73,
+      "tempLowF": 59,
+      "condition": "Rain",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-30",
+      "tempHighF": 64,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 84,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-05-31",
+      "tempHighF": 63,
+      "tempLowF": 58,
+      "condition": "Rain",
+      "humidity": 78,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-01",
+      "tempHighF": 73,
+      "tempLowF": 58,
+      "condition": "Drizzle",
+      "humidity": 78,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-02",
+      "tempHighF": 74,
+      "tempLowF": 59,
+      "condition": "Drizzle",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-03",
+      "tempHighF": 68,
+      "tempLowF": 64,
+      "condition": "Rain",
+      "humidity": 93,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-04",
+      "tempHighF": 80,
+      "tempLowF": 61,
+      "condition": "Rain",
+      "humidity": 81,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-05",
+      "tempHighF": 78,
+      "tempLowF": 64,
+      "condition": "Drizzle",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-06",
+      "tempHighF": 81,
+      "tempLowF": 63,
+      "condition": "Partly cloudy",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-07",
+      "tempHighF": 82,
+      "tempLowF": 68,
+      "condition": "Partly cloudy",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-08",
+      "tempHighF": 80,
+      "tempLowF": 67,
+      "condition": "Drizzle",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-09",
+      "tempHighF": 78,
+      "tempLowF": 67,
+      "condition": "Rain",
+      "humidity": 77,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-10",
+      "tempHighF": 72,
+      "tempLowF": 65,
+      "condition": "Rain",
+      "humidity": 93,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-11",
+      "tempHighF": 76,
+      "tempLowF": 66,
+      "condition": "Rain",
+      "humidity": 91,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-12",
+      "tempHighF": 81,
+      "tempLowF": 68,
+      "condition": "Drizzle",
+      "humidity": 76,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-13",
+      "tempHighF": 77,
+      "tempLowF": 67,
+      "condition": "Partly cloudy",
+      "humidity": 78,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-14",
+      "tempHighF": 77,
+      "tempLowF": 68,
+      "condition": "Rain",
+      "humidity": 83,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-15",
+      "tempHighF": 85,
+      "tempLowF": 73,
+      "condition": "Rain",
+      "humidity": 85,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-16",
+      "tempHighF": 87,
+      "tempLowF": 74,
+      "condition": "Rain",
+      "humidity": 84,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-17",
+      "tempHighF": 92,
+      "tempLowF": 74,
+      "condition": "Clear sky",
+      "humidity": 79,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-18",
+      "tempHighF": 91,
+      "tempLowF": 75,
+      "condition": "Partly cloudy",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-19",
+      "tempHighF": 90,
+      "tempLowF": 74,
+      "condition": "Partly cloudy",
+      "humidity": 76,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-20",
+      "tempHighF": 87,
+      "tempLowF": 74,
+      "condition": "Drizzle",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-21",
+      "tempHighF": 89,
+      "tempLowF": 72,
+      "condition": "Partly cloudy",
+      "humidity": 68,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-22",
+      "tempHighF": 92,
+      "tempLowF": 74,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-23",
+      "tempHighF": 91,
+      "tempLowF": 78,
+      "condition": "Partly cloudy",
+      "humidity": 68,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-24",
+      "tempHighF": 84,
+      "tempLowF": 77,
+      "condition": "Drizzle",
+      "humidity": 80,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-25",
+      "tempHighF": 84,
+      "tempLowF": 75,
+      "condition": "Rain",
+      "humidity": 87,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-26",
+      "tempHighF": 88,
+      "tempLowF": 76,
+      "condition": "Rain",
+      "humidity": 83,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-27",
+      "tempHighF": 88,
+      "tempLowF": 75,
+      "condition": "Drizzle",
+      "humidity": 79,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-28",
+      "tempHighF": 90,
+      "tempLowF": 74,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-29",
+      "tempHighF": 91,
+      "tempLowF": 74,
+      "condition": "Drizzle",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-06-30",
+      "tempHighF": 95,
+      "tempLowF": 76,
+      "condition": "Partly cloudy",
+      "humidity": 63,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-01",
+      "tempHighF": 93,
+      "tempLowF": 78,
+      "condition": "Drizzle",
+      "humidity": 72,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-02",
+      "tempHighF": 89,
+      "tempLowF": 78,
+      "condition": "Rain",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-03",
+      "tempHighF": 91,
+      "tempLowF": 76,
+      "condition": "Rain",
+      "humidity": 76,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-04",
+      "tempHighF": 95,
+      "tempLowF": 76,
+      "condition": "Partly cloudy",
+      "humidity": 68,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-05",
+      "tempHighF": 96,
+      "tempLowF": 78,
+      "condition": "Drizzle",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-06",
+      "tempHighF": 97,
+      "tempLowF": 77,
+      "condition": "Drizzle",
+      "humidity": 67,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-07",
+      "tempHighF": 99,
+      "tempLowF": 81,
+      "condition": "Drizzle",
+      "humidity": 62,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-08",
+      "tempHighF": 96,
+      "tempLowF": 81,
+      "condition": "Partly cloudy",
+      "humidity": 64,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-09",
+      "tempHighF": 96,
+      "tempLowF": 81,
+      "condition": "Clear sky",
+      "humidity": 65,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-10",
+      "tempHighF": 96,
+      "tempLowF": 73,
+      "condition": "Rain",
+      "humidity": 73,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-11",
+      "tempHighF": 78,
+      "tempLowF": 70,
+      "condition": "Drizzle",
+      "humidity": 82,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-12",
+      "tempHighF": 79,
+      "tempLowF": 68,
+      "condition": "Drizzle",
+      "humidity": 78,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-13",
+      "tempHighF": 87,
+      "tempLowF": 70,
+      "condition": "Drizzle",
+      "humidity": 80,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-14",
+      "tempHighF": 85,
+      "tempLowF": 74,
+      "condition": "Rain",
+      "humidity": 85,
+      "rainChance": 20
+    },
+    {
+      "date": "2026-07-15",
+      "tempHighF": 82,
+      "tempLowF": 76,
+      "condition": "Rain",
+      "humidity": 87,
+      "rainChance": 20
+    }
+  ],
+  "activities": [
+    {
+      "id": "a1",
+      "name": "Senso-ji Temple Visit",
+      "category": "temples",
+      "description": "Tokyo's oldest temple (645 AD) in Asakusa. Walk through Kaminarimon (Thunder Gate) and browse Nakamise shopping street.",
+      "estimatedCost": 0,
+      "duration": "2h",
+      "location": "Asakusa"
+    },
+    {
+      "id": "a2",
+      "name": "Meiji Shrine Walk",
+      "category": "temples",
+      "description": "Serene Shinto shrine in a 170-acre forest. Dedicated to Emperor Meiji and Empress Shoken.",
+      "estimatedCost": 0,
+      "duration": "1.5h",
+      "location": "Harajuku"
+    },
+    {
+      "id": "a3",
+      "name": "Tsukiji Outer Market Food Tour",
+      "category": "food tours",
+      "description": "Sample fresh sushi, tamagoyaki, matcha desserts, and street food. Over 400 stalls and shops.",
+      "estimatedCost": 45,
+      "duration": "3h",
+      "location": "Tsukiji"
+    },
+    {
+      "id": "a4",
+      "name": "Akihabara District Exploration",
+      "category": "shopping",
+      "description": "Electric Town — electronics, anime, manga, and gaming paradise. Visit multi-story arcades.",
+      "estimatedCost": 20,
+      "duration": "2h",
+      "location": "Akihabara"
+    },
+    {
+      "id": "a5",
+      "name": "Shibuya Crossing & Hachiko",
+      "category": "sightseeing",
+      "description": "World's busiest pedestrian crossing. Visit the Hachiko statue and Shibuya Sky observation deck ($18).",
+      "estimatedCost": 0,
+      "duration": "1h",
+      "location": "Shibuya"
+    },
+    {
+      "id": "a6",
+      "name": "Ramen Tasting in Shinjuku",
+      "category": "food tours",
+      "description": "Visit Tokyo Ramen Street in the station basement. Try Fuunji (tsukemen) or Ichiran (tonkotsu).",
+      "estimatedCost": 15,
+      "duration": "1.5h",
+      "location": "Shinjuku"
+    },
+    {
+      "id": "a7",
+      "name": "teamLab Planets Tokyo",
+      "category": "culture",
+      "description": "Immersive digital art museum — walk barefoot through water installations and interactive light shows.",
+      "estimatedCost": 25,
+      "duration": "2h",
+      "location": "Toyosu"
+    },
+    {
+      "id": "a8",
+      "name": "Shinjuku Gyoen National Garden",
+      "category": "sightseeing",
+      "description": "Beautiful garden with 1,000+ cherry trees. Peak sakura season in early-to-mid April.",
+      "estimatedCost": 5,
+      "duration": "1.5h",
+      "location": "Shinjuku"
+    },
+    {
+      "id": "a9",
+      "name": "Izakaya Hopping in Yurakucho",
+      "category": "food tours",
+      "description": "Explore tiny bars and eateries under the JR train tracks. Yakitori, beer, and atmosphere.",
+      "estimatedCost": 30,
+      "duration": "2h",
+      "location": "Yurakucho"
+    },
+    {
+      "id": "a10",
+      "name": "Harajuku & Takeshita Street",
+      "category": "shopping",
+      "description": "Youth fashion capital. Colorful crepes, kawaii shops, and Omotesando luxury boutiques.",
+      "estimatedCost": 15,
+      "duration": "2h",
+      "location": "Harajuku"
+    },
+    {
+      "id": "wv-11",
+      "name": "Kaminarimon",
+      "category": "see",
+      "description": "Up first, it features a much-photographed giant lantern and statues of guardian gods Raijin (god of thunder) and Fūjin (god of wind). First built in 942, the gate has been destroyed numerous times and the current incarna",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-12",
+      "name": "Hōzōmon",
+      "category": "see",
+      "description": "At the end of the arcade, it is the main gate, notable for a giant straw sandal (waraji) hung up on one side. This gate too is guarded by ferocious guardian gods. Rebuilt 1964.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-13",
+      "name": "Kannondō",
+      "category": "see",
+      "description": "Behind the gate, the main hall of the temple is perennially busy with a steady stream of worshippers wafting incense over themselves and trooping up the steps to pray and donate. According to legend, the hall was first b",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-14",
+      "name": "Gojūnotō",
+      "category": "see",
+      "description": "It reputedly contains some of the ashes of the Buddha. Rebuilt 1973.",
+      "duration": "2h",
+      "location": "to the west"
+    },
+    {
+      "id": "wv-15",
+      "name": "Asakusa Jinja",
+      "category": "see",
+      "description": "To the east behind the temple is this Shinto shrine devoted to protecting the Buddhist temple in a typically Japanese arrangement. The fairly plain shrine is not much to look at, but is notable as the focal point of the ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-16",
+      "name": "Chingodō Shrine",
+      "category": "see",
+      "description": "If you turn left before the Hōzōmon gate and head west for a few hundred meters, this quiet shrine is on your left. The shrine is dedicated to the Japanese raccoon god tanuki, notably primarily for its big flask of sake ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-17",
+      "name": "Dembō-in Temple",
+      "category": "see",
+      "description": "This temple next to Sensō-ji, to which it belongs, has a spectacular Japanese garden. While generally closed to the public, it opens for exhibitions most years from roughly mid-March to early May. Other than the small ga",
+      "estimatedCost": 300,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-18",
+      "name": "Sanja Matsuri",
+      "category": "do",
+      "description": "Organized at Asakusa Jinja yearly on the third weekend in May, this is Tokyo's largest festival (matsuri) and attracts up to 2 million spectators. The main event is a procession known as Daigyōretsu, when traditional per",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-19",
+      "name": "Asakusa Samba Carnival",
+      "category": "do",
+      "description": "Held on the last Saturday of August. The street parade, which features thousands of participants from all over Japan, is held in the afternoon around Sensō-ji, and there are some stage shows in the evening. The event sta",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-20",
+      "name": "Hanayashiki",
+      "category": "do",
+      "description": "The oldest amusement park in Japan. Next to the Sensō-ji temple grounds is this small and somewhat lackluster carnival complex with rides, booths, and games. The neighborhood theatre specializes in showing classic Japane",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-21",
+      "name": "Nakamise",
+      "category": "buy",
+      "description": "This busy covered shopping arcade leads from the Kaminarimon gate to the temple, selling all sorts of Buddhist paraphernalia as well as assorted tourist kitsch. This is one of the best places in Tokyo to buy souvenirs (t",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-22",
+      "name": "Kagetsudo",
+      "category": "eat",
+      "description": "This place has been making \"melon pan\" since 1945, and they haven't changed the decoration. It is a buttery and milky small cake with a crispy sweet crust.",
+      "estimatedCost": 200,
+      "duration": "2h",
+      "location": "Asakusa 1-18-11"
+    },
+    {
+      "id": "wv-23",
+      "name": "Naruto Taiyaki",
+      "category": "eat",
+      "description": "Freshly grilled taiyaki, a traditional sweet waffle in the shape of a lucky fish, with your choice of red bean, sweet potato or custard filling.",
+      "estimatedCost": 350,
+      "duration": "2h",
+      "location": "Asakusa 1-28-1"
+    },
+    {
+      "id": "wv-24",
+      "name": "Nishiyama Sweets",
+      "category": "eat",
+      "description": "After an exhausting day visiting the temples, grab some hot steamed dumplings outside, or step inside for traditional desserts such as oshiruko (grilled rice cake in a sweet-bean porridge) or cream an-mitsu (gelatin cube",
+      "duration": "2h",
+      "location": "Kaminarimon 2-19-10"
+    },
+    {
+      "id": "wv-25",
+      "name": "Sansada",
+      "category": "eat",
+      "description": "Over 150 years of history. Try their tempura and soba set! Or the fresh deep fried flour/batter at the front of the restaurant. You can smell them from a mile away, because they use sesame oil.",
+      "duration": "2h",
+      "location": "Asakusa 1-2-2"
+    },
+    {
+      "id": "wv-26",
+      "name": "Aoi-Marushin",
+      "category": "eat",
+      "description": "Good tempura in a convenient location, with fifty years of history behind it.",
+      "duration": "2h",
+      "location": "1-4-4 Asakusa"
+    },
+    {
+      "id": "wv-27",
+      "name": "Benizuru",
+      "category": "eat",
+      "description": "Ludicrously fluffy pancakes served in wobbly stacks of three, with a selection of sweet and savoury toppings. Extremely popular among the Instagram crowd, the only way to get a guaranteed seat is to queue up in person be",
+      "estimatedCost": 1200,
+      "duration": "2h",
+      "location": "Nishiasakusa 2-1-11"
+    },
+    {
+      "id": "wv-28",
+      "name": "Daikokuya",
+      "category": "eat",
+      "description": "One of Tokyo's most famous tempura restaurants, opened in 1887. Be prepared for extremely long queues during meal times. An English menu is available on request.",
+      "estimatedCost": 2000,
+      "duration": "2h",
+      "location": "1-38-10 Asakusa"
+    },
+    {
+      "id": "wv-29",
+      "name": "Komagata Dozeu",
+      "category": "eat",
+      "description": "Another local institution, Komagata has been serving up loach hotpot (dojō nabe) for over 200 years. Small, bony and slimy, loach was the working man's alternative to eel, then as now an expensive luxury. It's a bit of a",
+      "estimatedCost": 2000,
+      "duration": "2h",
+      "location": "1-7-12 Asakusa"
+    },
+    {
+      "id": "wv-30",
+      "name": "Torijin",
+      "category": "eat",
+      "description": "Lurking in the dingy/atmospheric \"mole alley\" under Tobu Asakusa station, this friendly joint serves up yakitori grilled chicken skewers and, incongruously, a limited menu of Italian favorites. Try the tsukimi tsukune, a",
+      "estimatedCost": 1500,
+      "duration": "2h",
+      "location": "1-1-12 Asakusa"
+    },
+    {
+      "id": "wv-31",
+      "name": "Tonkatsu Tōyama",
+      "category": "eat",
+      "description": "Classic tonkatsu pork cutlets deep-fried to perfection, with your choice of fatty rōsu or leaner hire. Limited but extremely popular lunch menu (expect to queue for up to an hour), dinner menu has more options like katsu",
+      "estimatedCost": 1200,
+      "duration": "2h",
+      "location": "1-6-8 Hanakawado"
+    },
+    {
+      "id": "wv-32",
+      "name": "Amitatsu",
+      "category": "eat",
+      "description": "One of the longer-running operators, with set meals of sashimi and tempura and daily departures sailing a loop from Asakusa to [[Tokyo/Odaiba",
+      "estimatedCost": 13000,
+      "duration": "2h",
+      "location": "Departures from Asakusa's Azumabashi pier"
+    },
+    {
+      "id": "wv-33",
+      "name": "Sushi Isshin",
+      "category": "eat",
+      "description": "This tiny 8-seater restaurant has had a Michelin star for 13 years running thanks to its uncompromisingly old-school Edo-style sushi, prepared with seasonal seafood and akasu red vinegar made from sake lees. Reserve well",
+      "estimatedCost": 15000,
+      "duration": "2h",
+      "location": "4-11-3 Asakusa"
+    },
+    {
+      "id": "wv-34",
+      "name": "Koishikawa Kōrakuen",
+      "category": "see",
+      "description": "Laid out in the 17th century, this splendid traditional garden boasts a large collection of trees and flowering plants that provide touches of beauty all year round. Winding paths, wooded hills, ponds teeming with ducks ",
+      "estimatedCost": 300,
+      "duration": "2h",
+      "location": "1-6-6 Kōraku"
+    },
+    {
+      "id": "wv-35",
+      "name": "Rikugien",
+      "category": "see",
+      "description": "A classical Japanese park with ponds, hills and teahouses, that was built in 1695 by Yanagisawa Yoshiyasu, a Tokugawa daimyo. It's a popular cherry blossom spot in spring and is lit up at night at this time.",
+      "estimatedCost": 300,
+      "duration": "2h",
+      "location": "Hon-Magome 6-16-3"
+    },
+    {
+      "id": "wv-36",
+      "name": "Koishikawa Botanical Garden of the University of Tokyo",
+      "category": "see",
+      "description": "Not one of the great gardens of Japan and sometimes a bit shabby, but a pleasant stroll with interesting trees, a medicinal herb garden and several ponds. Not to be confused with Koishikawa Korakuen.",
+      "duration": "2h",
+      "location": "Hakusan 3-7-1"
+    },
+    {
+      "id": "wv-37",
+      "name": "Nezu Jinja",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-38",
+      "name": "Gokoku-ji",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-39",
+      "name": "Denzū-in",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-40",
+      "name": "St. Mary's Cathedral",
+      "category": "see",
+      "description": "Seat of the Roman Catholic Archdiocese of Tokyo. Designed by the famous architect Tange Kenzō, this ultramodern church was built in the 1960s to replace an older structure that was destroyed during the war.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-41",
+      "name": "Bunkyo Civic Center",
+      "category": "see",
+      "description": "The lavish government building for the Bunkyo ward of Tokyo, once described in the Japan Times as \"a colossal Pez candy dispenser.\" A free observation deck on the 25th floor, jutting out of the top like the Starship Ente",
+      "duration": "2h",
+      "location": "Korakuen station of the Marunouchi line"
+    },
+    {
+      "id": "wv-42",
+      "name": "Ochanomizu Station",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "next to {{marker"
+    },
+    {
+      "id": "wv-43",
+      "name": "Yushima Seido",
+      "category": "see",
+      "description": "A temple of Confucius.",
+      "duration": "2h",
+      "location": "Ochanomizu station of the Marunouchi line"
+    },
+    {
+      "id": "wv-44",
+      "name": "Tokyo Dome City",
+      "category": "do",
+      "description": "An attractions complex featuring a large indoor stadium, an amusement park, bowling alley, off-track betting center, and the LaQua shopping mall/spa (see [[#Buy",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-45",
+      "name": "Tokyo Dome",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-46",
+      "name": "Baseball Hall of Fame and Museum",
+      "category": "do",
+      "description": "do in Tokyo",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "1-3-61, Kōraku"
+    },
+    {
+      "id": "wv-47",
+      "name": "Spa LaQua",
+      "category": "do",
+      "description": "One of Tokyo's largest spa complexes, using water pumped from 1,700m below Tokyo. Outdoor pools, saunas, beauty salons, restaurants and more across 5 floors. No tattoos or children under 5. Children under 17 can only ent",
+      "estimatedCost": 3230,
+      "duration": "2h",
+      "location": "Within the LaQua shopping mall"
+    },
+    {
+      "id": "wv-48",
+      "name": "La Qua",
+      "category": "buy",
+      "description": "La Qua is a new shopping mall with some attractions attached. It opened in 2003, replacing a section of the amusement park at Tokyo Dome City. There are boutiques, a grocery store, restaurants, a hairdresser, massage sal",
+      "duration": "2h",
+      "location": "Connected to Korakuen station"
+    },
+    {
+      "id": "wv-49",
+      "name": "Seijo Ishii",
+      "category": "buy",
+      "description": "The supermarket chain has a store in La Qua, with many imported foods and wines. Many frozen products are sold in restaurant packs.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-50",
+      "name": "Fire House",
+      "category": "eat",
+      "description": "A popular hamburger restaurant decorated with American memorabilia.",
+      "duration": "2h",
+      "location": "Hongo 4-5-10"
+    },
+    {
+      "id": "wv-51",
+      "name": "Hantei",
+      "category": "eat",
+      "description": "Serves kushiage (deep fried skewered food) in a rare old wooden building.",
+      "duration": "2h",
+      "location": "Nezu 2-12-15"
+    },
+    {
+      "id": "wv-52",
+      "name": "Komatsuan",
+      "category": "eat",
+      "description": "Obsessively perfectionist handmade soba noodles for connoisseurs, made using only buckwheat from a certain village in Hokkaido and rolled on the thighs of virgins &mdash; or at least that's what you'd expect from the pri",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "Komagome 3-3-21"
+    },
+    {
+      "id": "wv-53",
+      "name": "Tokyo International Forum",
+      "category": "see",
+      "description": "A massive, modern exhibition centre used for concerts, conventions and the like. On weekdays there are usually several food wagons selling boxed lunches, but aside from this there may not be much of interest to the casua",
+      "duration": "2h",
+      "location": "located in front of Yurakuchō station"
+    },
+    {
+      "id": "wv-54",
+      "name": "mAAch ecute Kanda Manseibashi",
+      "category": "see",
+      "description": "A historic train station that's been converted into a shopping mall. Besides interesting shops and cafes, there's also a library and history exhibits about the station, including a large diorama showing the area around t",
+      "duration": "2h",
+      "location": "Kanda-Sudachō 1-25-4"
+    },
+    {
+      "id": "wv-55",
+      "name": "National Diet Building",
+      "category": "see",
+      "description": "Housing Japan's bicameral legislature, it was built in the 1920s. The most recognizable symbol of the Japanese government, it was built from Japanese building materials, features a pyramidal roof and is surrounded with g",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-56",
+      "name": "Imperial Palace",
+      "category": "see",
+      "description": "Surrounded by a series of moats and high walls, the site of the former Edo Castle has been the official residence of the Japanese imperial family since 1868. Reputedly the most expensive square kilometre in the world, wh",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-57",
+      "name": "Imperial Palace East Garden",
+      "category": "see",
+      "description": "Kept in impeccable shape, the gardens of the Imperial Palace are particularly beautiful during the March and April plum and cherry blossom seasons. During the Edo period, this was the heart of the Shogun's castle, and yo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-58",
+      "name": "Kitanomaru Park",
+      "category": "see",
+      "description": "Connected to the East Gardens on the north side is this park. Offering much of the same, it is a convenient way to get to Yasukuni Shrine. The park also houses the Nippon Budōkan (日本武道館), which regularly stages martial a",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-59",
+      "name": "Chidoriga-fuchi Moat",
+      "category": "see",
+      "description": "One of, if not the most prominent cherry blossom site in Tokyo, and attracts throngs of people in its March-to-April peak season. It is located just across the street from Yasukuni-shrine. Rowboats are also available for",
+      "duration": "2h",
+      "location": "on the northwest side of the Imperial gardens grounds"
+    },
+    {
+      "id": "wv-60",
+      "name": "Yūshūkan War Memorial Museum",
+      "category": "see",
+      "description": "An odd collection of military paraphernalia (including human torpedoes and letters from kamikaze pilots) and one-sided (allegedly revisionist according to the Chinese, Koreans and other Asian countries except Taiwan) des",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "adjacent to Yasukuni Shrine"
+    },
+    {
+      "id": "wv-61",
+      "name": "Holy Resurrection Cathedral",
+      "category": "see",
+      "description": "A beautifully-restored 1800s-vintage Russian Orthodox cathedral located near Ochanomizu Station on the Chuo Line. Use the Hijiribashi exit. The Hijiribashi bridge by the exit is one of the better looking bridges in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-62",
+      "name": "Kanda Shrine",
+      "category": "see",
+      "description": "This shrine has a history dating back to the 8th century and had been highly regarded under the Edo shogunate. The current red-pillared structure has been rebuilt after being completely destroyed in the 1923 Great Kanto ",
+      "duration": "2h",
+      "location": "A block north across the river from Ochanomizu station"
+    },
+    {
+      "id": "wv-63",
+      "name": "Hie Shrine",
+      "category": "see",
+      "description": "Another prominent shrine in Tokyo. Located atop a little hill at the edge of the area. Reached by a steep flight of stairs under a veritable tunnel of orange torii, the shrine grounds are an oasis of tranquility in the m",
+      "duration": "2h",
+      "location": "on the opposite side of the Imperial garden; a five-minute walk from Kokkai-gijidō-mae station on the Metro Chiyoda line"
+    },
+    {
+      "id": "wv-64",
+      "name": "Yasukuni Shrine",
+      "category": "see",
+      "description": "A controversial shrine to Japan's war dead, housing the souls of some 2.5 million people killed in Japan's wars &mdash; including convicted war criminals executed by the Allies. A favorite haunt of right-wing groups in b",
+      "duration": "2h",
+      "location": "3-1-1 Kudan-kita"
+    },
+    {
+      "id": "wv-65",
+      "name": "Tokyo National Museum of Modern Art",
+      "category": "see",
+      "description": "With a modest permanent collection on display and regularly changing exhibitions, MOMAT is a nice place to kill a couple of hours after you've seen the Imperial Palace across the road. Entry to the nearby Crafts Gallery ",
+      "estimatedCost": 420,
+      "duration": "2h",
+      "location": "3-1 Kitanomaru-kōen"
+    },
+    {
+      "id": "wv-66",
+      "name": "Idemitsu Museum of Arts",
+      "category": "see",
+      "description": "Has a noteworthy collection centering on Japanese traditional arts.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "On the 9th floor of the Imperial Theatre building"
+    },
+    {
+      "id": "wv-67",
+      "name": "National Theatre of Japan",
+      "category": "do",
+      "description": "For those interested in theatre arts, the Kokuritsu Gekijyo holds performances in traditional arts ranging from Kabuki, Noh drama, Bunraku puppet theatre, etc. You may want to check the schedule and make a reservation be",
+      "duration": "2h",
+      "location": "walking distance from either Hanzomon or Nagatacho stations of the Metro Hanzomon lines et. al."
+    },
+    {
+      "id": "wv-68",
+      "name": "Bic Camera",
+      "category": "buy",
+      "description": "A huge, six-floor electronics store in front of JR Yurakucho Station, selling everything from household appliances to contact lenses. There is even a small movie theater on the 7th and 8th floors showing lesser-known Jap",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-69",
+      "name": "Maruzen bookshop",
+      "category": "buy",
+      "description": "It may be your best bet to look for English books in Tokyo, including a \"Books on Japan\" section. If you don't find what you are looking for here, you probably won't have much luck looking elsewhere.",
+      "duration": "2h",
+      "location": "1-4F Oazo building in front of Tokyo Station"
+    },
+    {
+      "id": "wv-70",
+      "name": "KITTE",
+      "category": "buy",
+      "description": "The former Japan Post headquarters have been renovated into a trendy building with many shops and restaurants. The top roof is an open garden giving an amazing view on Tokyo Station, perfect for watching bullet trains co",
+      "duration": "2h",
+      "location": "2-7-2 Marunouchi"
+    },
+    {
+      "id": "wv-71",
+      "name": "Meiji Shrine",
+      "category": "see",
+      "description": "Tokyo's grandest Shinto shrine, built in 1920 to commemorate the late Emperor Meiji, who oversaw Japan's rapid industrialization and rise to major world power status in the 19th and early 20th centuries. Like all of Japa",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-72",
+      "name": "Yoyogi Park",
+      "category": "see",
+      "description": "In springtime, Yoyogi Park is full of cherry blossoms and people partying under the trees. Due to massive littering, park administration has designed trash collection points. The later evening gets, the more intoxicated ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-73",
+      "name": "Tōgō Jinja",
+      "category": "see",
+      "description": "This shrine was established for Admiral Tōgō Heihachirō, after his victory at the naval battle of Tsushima in 1905.",
+      "duration": "2h",
+      "location": "1-5-3 Jingumae"
+    },
+    {
+      "id": "wv-75",
+      "name": "VIRGO",
+      "category": "do",
+      "description": "Actresses and models sometimes use this salon.",
+      "duration": "2h",
+      "location": "2-32-3 Jingumae"
+    },
+    {
+      "id": "wv-76",
+      "name": "Harajuku-SoLaDo",
+      "category": "buy",
+      "description": "Shopping center in Harajuku with 11 clothes shops.",
+      "duration": "2h",
+      "location": "1-8-2 Jingumae"
+    },
+    {
+      "id": "wv-77",
+      "name": "Kiddy Land",
+      "category": "buy",
+      "description": "A huge toy store on Omote-sandō, near the entrance to Cat Street.",
+      "duration": "2h",
+      "location": "6-1-9 Jingumae"
+    },
+    {
+      "id": "wv-78",
+      "name": "Laforet Harajuku",
+      "category": "buy",
+      "description": "A large shopping mall owned by the same company that runs Omotesando Hills, but targeting a decidedly younger audience. In summer and winter, they have big sales.",
+      "duration": "2h",
+      "location": "1-11-6 Jingumae"
+    },
+    {
+      "id": "wv-79",
+      "name": "Omotesando Hills",
+      "category": "buy",
+      "description": "Designed by Tadao Ando and built by Mori Building of Roppongi Hills fame, this is a super-chic shopping mall that caters to those \"independent, style-conscious urbanites\" (to quote the site) who couldn't possibly wear an",
+      "duration": "2h",
+      "location": "4-12-10 Jingumae"
+    },
+    {
+      "id": "wv-80",
+      "name": "Oriental Bazaar",
+      "category": "buy",
+      "description": "A kitschy Tokyo institution for tourists and expats alike, with four floors of shopping stocking everything from kamikaze T-shirts to foreigner-sized kimono. Still, this is definitely the easiest way to get your souvenir",
+      "duration": "2h",
+      "location": "5-9-8 Jingumae"
+    },
+    {
+      "id": "wv-81",
+      "name": "YM Square",
+      "category": "buy",
+      "description": "Known for its two big used clothes shops: Kinji and Hanjiro.",
+      "duration": "2h",
+      "location": "4-31-10 Jingumae"
+    },
+    {
+      "id": "wv-82",
+      "name": "Tokyu Plaza Harajuku Harakado",
+      "category": "buy",
+      "description": "It is a shopping complex located in Harajuku. It features a bathhouse underground.",
+      "duration": "2h",
+      "location": "6 Chome−31−21, Jingumae"
+    },
+    {
+      "id": "wv-83",
+      "name": "Tenya",
+      "category": "eat",
+      "description": "This fast-food tempura chain has an outlet on Meiji-dori just to the north of the Meiji-dori/Omote-sandō intersection.",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-84",
+      "name": "Kebab Box J",
+      "category": "eat",
+      "description": "Whereas most doner kebabs in Tokyo are served out of a van, Kebab Box J's store is firmly attached to the ground. Friendly staff wear cowboy hats.",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "1-8-8 Jingumae"
+    },
+    {
+      "id": "wv-85",
+      "name": "Kyushu Jangara",
+      "category": "eat",
+      "description": "One of the best-known [[Japan#Noodles",
+      "duration": "2h",
+      "location": "1-13-21 Jingumae"
+    },
+    {
+      "id": "wv-86",
+      "name": "Sakuratei",
+      "category": "eat",
+      "description": "A great Okonomiyaki restaurant where many local artists work.",
+      "estimatedCost": 1300,
+      "duration": "2h",
+      "location": "go down Takeshita street and make a left after the hair salon 2010 sign. It is behind the red Design Festa Art Gallery"
+    },
+    {
+      "id": "wv-87",
+      "name": "Arms Burger",
+      "category": "eat",
+      "description": "This small, Americana-inspired eatery is nestled right off the main footpath, and serves lots of Western food, including a wide burger selection (try the avocado burger!) Also serves fries, chili dogs, and other non-Japa",
+      "duration": "2h",
+      "location": "just outside of Yoyogi Park, near the dog park entrance"
+    },
+    {
+      "id": "wv-88",
+      "name": "JS Burgers Cafe",
+      "category": "eat",
+      "description": "Clean, bright, upmarket burger chain. A set meal of burger, fries and a drink costs around &yen;1200. The thick chilli sauce is recommended.",
+      "duration": "2h",
+      "location": "6-6-2 2F Jingumae"
+    },
+    {
+      "id": "wv-89",
+      "name": "Eggs N' Things",
+      "category": "eat",
+      "description": "American-style all-day breakfast joint from Hawaii. Eggs served every way imaginable - pancakes, Eggs Benedict, with sausage, etc. Wildly popular at lunchtime, with lines backing down the street, so go early or late (pos",
+      "duration": "2h",
+      "location": "30-2, Jingumae 4-chome"
+    },
+    {
+      "id": "wv-90",
+      "name": "R/O-426",
+      "category": "eat",
+      "description": "Small burger and beer joint with the kitchen housed inside a small, Airstream trailer. Outdoor patio seating just above a small walkway where you can watch wannabe models and photographers capture bright-eyed moments in ",
+      "duration": "2h",
+      "location": "Jingumae 4-26-18"
+    },
+    {
+      "id": "wv-91",
+      "name": "Cafe Studio",
+      "category": "eat",
+      "description": "This restaurant/cafe often holds events including guest speakers and live shows. The hamburger menu is popular.",
+      "duration": "2h",
+      "location": "4-31-10 Jingumae"
+    },
+    {
+      "id": "wv-92",
+      "name": "Fonda de la Madrugada",
+      "category": "eat",
+      "description": "Located in a cavernous basement, Fonda de la Madrugada is regarded as one of the best Mexican restaurants in Tokyo. Menu in English, Spanish and Japanese.",
+      "estimatedCost": 5000,
+      "duration": "2h",
+      "location": "2-33-12 Jingumae"
+    },
+    {
+      "id": "wv-93",
+      "name": "Tokyo Skytree",
+      "category": "see",
+      "description": "Completed in 2012, Tokyo Skytree stands tall over the old Sumida ward as the newest symbol of Tokyo and the world's tallest self-supporting tower at 634 m. It is the primary location from which digital television broadca",
+      "estimatedCost": 2400,
+      "duration": "2h",
+      "location": "1-1-2 Oshiage"
+    },
+    {
+      "id": "wv-94",
+      "name": "Edo-Tokyo Museum",
+      "category": "see",
+      "description": "This bizarre multi-story edifice suspended in midair and bearing not a small resemblance to a Star Wars Imperial Walker (meant to be a replica of an old raised warehouse) covers the history of the metropolis, starting fr",
+      "estimatedCost": 1300,
+      "duration": "2h",
+      "location": "1-4-1 Yokoami"
+    },
+    {
+      "id": "wv-95",
+      "name": "Japanese Sword Museum",
+      "category": "see",
+      "description": "Display of all types of Japanese art swords and fittings, some of them centuries old. Beautiful view from balcony on 3rd floor over Kyū Yasuda Garden. Quite hefty entrance fee, but a must see for anyone interested in Jap",
+      "estimatedCost": 1500,
+      "duration": "2h",
+      "location": "1-12-9, Yokoami"
+    },
+    {
+      "id": "wv-96",
+      "name": "Paulownia Wood Furniture Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "4-1-3 Ryogoku"
+    },
+    {
+      "id": "wv-97",
+      "name": "Ryogoku Fireworks Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "2-10-8 Ryogoku"
+    },
+    {
+      "id": "wv-98",
+      "name": "Sumo Museum",
+      "category": "see",
+      "description": "A small, quirky museum tucked inside the arena's first floor, dedicated to the history of sumo, particularly artifacts and ceremonial clothing – unfortunately, almost entirely in Japanese only. The collection rotates sev",
+      "duration": "2h",
+      "location": "first floor of the Ryogoku Kokugikan"
+    },
+    {
+      "id": "wv-99",
+      "name": "Sumo Photo Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "3-13-2 Ryogoku"
+    },
+    {
+      "id": "wv-100",
+      "name": "Tabi Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "1-9-3 Midori"
+    },
+    {
+      "id": "wv-101",
+      "name": "Tobacco and Salt Museum",
+      "category": "see",
+      "description": "This peculiar institution owes its existence to Japan's government monopoly on these two substances. The website advises that \"dangerous substances are not permitted within the museum\". They have map-guides of the museum",
+      "estimatedCost": 100,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-102",
+      "name": "Tobu Museum",
+      "category": "see",
+      "description": "A museum of railways and buses, operated by Tobu Railway. At the museum, visitors can also see trains running through Higashi Mukojima Station, which is located directly above the museum.",
+      "estimatedCost": 210,
+      "duration": "2h",
+      "location": "4-28-16 Higashi-Mukojima"
+    },
+    {
+      "id": "wv-103",
+      "name": "Ryōgoku Kokugikan",
+      "category": "do",
+      "description": "The largest sumo arena in Japan with a capacity for 10,000 spectators, this is where grand tournaments or basho are held in January, May and September, starting on the second Sunday of the month. These tournaments last f",
+      "estimatedCost": 3600,
+      "duration": "2h",
+      "location": "1-3-28 Yokoami"
+    },
+    {
+      "id": "wv-104",
+      "name": "Tokyo Solamachi",
+      "category": "buy",
+      "description": "Tokyo's largest commercial complex, with over 300 shops and restaurants, plus an aquarium and a planetarium, at the base of Tokyo Skytree.",
+      "duration": "2h",
+      "location": "1 Chome-1-2 Oshiage"
+    },
+    {
+      "id": "wv-105",
+      "name": "Chanko Tomoegata",
+      "category": "eat",
+      "description": "One of Tokyo's oldest chanko joints, operating for over 100 years, specializing in a slightly unusual miso-flavored soup. Lunch sets at &yen;840/1260 weekdays/weekends are just about the cheapest chanko you'll find anywh",
+      "duration": "2h",
+      "location": "2-17-6 Ryōgoku"
+    },
+    {
+      "id": "wv-106",
+      "name": "Tokyo Tower",
+      "category": "see",
+      "description": "This was a newly re-industrialized Japan's 1958 answer to 's Eiffel Tower &mdash; a bit more modern-looking and 9 m taller. Entry to the Main Observatory (150m) is &yen;820, while ascending to the Special Observatory (25",
+      "duration": "2h",
+      "location": "the nearest station is Akabanebashi (5-min walk) although Hamamatsucho and Daimon are accessible through several lines and only slightly farther away"
+    },
+    {
+      "id": "wv-107",
+      "name": "Zōjō-ji Temple",
+      "category": "see",
+      "description": "This grand old temple is the headquarters of the Jōdo-shū sect and houses the graves of 6 of the Tokugawa shoguns, but is a little off the beaten track and is rarely visited by tourists. Particularly beautiful around che",
+      "duration": "2h",
+      "location": "Shibakoen 4-7-35"
+    },
+    {
+      "id": "wv-108",
+      "name": "Sengaku-ji",
+      "category": "see",
+      "description": "A temple most famous as the resting place of the 47 Rōnin, a famous group of samurai who banded together to avenge their unfairly slain master. Having obtained the head of the offender, they brought it to this very templ",
+      "duration": "2h",
+      "location": "Takanawa 2-11-1"
+    },
+    {
+      "id": "wv-109",
+      "name": "Institute for Nature Study",
+      "category": "see",
+      "description": "A 200,000 sq m nature preserve in the heart of the city, with birds and waterfowl, insects and marine life.",
+      "estimatedCost": 300,
+      "duration": "2h",
+      "location": "5-21-5 Shirokanedai"
+    },
+    {
+      "id": "wv-110",
+      "name": "Rainbow Bridge",
+      "category": "see",
+      "description": "Completed in 1993, this gateway to Odaiba is among the most beautiful modern bridges in Japan. Decorated with 444 lights, which change according to the seasons. Can be crossed by bus or metro.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-111",
+      "name": "Tokyo Metropolitan Teien Art Museum",
+      "category": "see",
+      "description": "Art museum housed in a classic Art Deco style structure, connected to a small park with Japanese and Western gardens and outdoor sculptures.",
+      "duration": "2h",
+      "location": "five minutes from the East exit of Meguro Station on Yamanote line"
+    },
+    {
+      "id": "wv-112",
+      "name": "Nezu Museum",
+      "category": "see",
+      "description": "Showcases the private art collection of Nezu Kaichirō with many pieces from the Edo period.",
+      "duration": "2h",
+      "location": "6-5-1 Minamiaoyama"
+    },
+    {
+      "id": "wv-113",
+      "name": "Taro Okamoto Memorial Museum",
+      "category": "see",
+      "description": "Former studio and house of Okamoto Taro. Unfinished works and paintings are shown. He made numerous masterpieces such as \"Tower of the Sun\" at the Expo 1970 and \"Myth of the Future\" mural now exhibited in .",
+      "duration": "2h",
+      "location": "6-1-19 Minamiaoyama"
+    },
+    {
+      "id": "wv-114",
+      "name": "TEPIA",
+      "category": "see",
+      "description": "Science museum showcasing new technologies, robots, home automation. Explanations are in Japanese but playing with the objects is still fun for kids and adults.",
+      "duration": "2h",
+      "location": "2 Chome-8-44 Kitaaoyama"
+    },
+    {
+      "id": "wv-115",
+      "name": "Aquapark shinagawa",
+      "category": "see",
+      "description": "A popular aquarium with exhibits that combine dolphin shows and technology. The tunnel tank includes manta rays, green sawfish, and the only dwarf sawfish on display in the world.",
+      "duration": "2h",
+      "location": "two minutes walk from Takanawa exit of Shinagawa station"
+    },
+    {
+      "id": "wv-116",
+      "name": "Japan Traditional Crafts Aoyama Square",
+      "category": "see",
+      "description": "Gallery and shop for handicraft products from all over Japan.",
+      "duration": "2h",
+      "location": "8-1-22 Akasaka"
+    },
+    {
+      "id": "wv-117",
+      "name": "Mori Building Digital Art Museum: teamLab Borderless",
+      "category": "see",
+      "description": "Art museum with immersive art exhibits.",
+      "estimatedCost": 3600,
+      "duration": "2h",
+      "location": "Azabudai Hills Garden Plaza B B1 5-9, Toranomon, Minato-ku,"
+    },
+    {
+      "id": "wv-118",
+      "name": "Tokyo Cruise",
+      "category": "do",
+      "description": "Plies the Sumida River and Tokyo Bay between Hamamatsucho, Odaiba, [[Tokyo/Asakusa",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-119",
+      "name": "Tokyo Island",
+      "category": "buy",
+      "description": "Antenna shop of Izu Isands and Ogasawara Islands.",
+      "duration": "2h",
+      "location": "1-12-2 Kaigan"
+    },
+    {
+      "id": "wv-120",
+      "name": "Azabu-Jūban",
+      "category": "buy",
+      "description": "A quieter commercial district to the southeast of Roppongi Hills, and a good place to spend a lazier afternoon browsing through shops and enjoying the local cafés. The surrounding residential area is popular among profes",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-121",
+      "name": "Japan Sake and Shōchū Information Center",
+      "category": "buy",
+      "description": "This four-story complex run by the Central Brewers' Union sells anything and everything related to sake, including cups, glasses, books, hydrometers and, of course, the nectar itself. \\315/515 gets you a taste of 3/5 sak",
+      "duration": "2h",
+      "location": "1-1-21 Nishi-Shinbashi"
+    },
+    {
+      "id": "wv-122",
+      "name": "Daiei",
+      "category": "eat",
+      "description": "Two floors of food, drinks and more.",
+      "duration": "2h",
+      "location": "Azabujuban 2-5-9"
+    },
+    {
+      "id": "wv-123",
+      "name": "Kua'aina",
+      "category": "eat",
+      "description": "Hawaiian hamburgers, order-at-the counter from a picture menu with English.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "Minami-Aoyama 1-10-4"
+    },
+    {
+      "id": "wv-124",
+      "name": "Worldstar Cafe",
+      "category": "eat",
+      "description": "Popular with business people or singles during lunchtime. Meal sets are ¥980–1200, comes w/ main, salad, drink; main being spaghetti, etc. Useful for a late night spot to hang around, since they're open until 06:00.",
+      "duration": "2h",
+      "location": "5-1-3 Roppongi, B1F Goto Bldg"
+    },
+    {
+      "id": "wv-125",
+      "name": "Gonpachi",
+      "category": "eat",
+      "description": "This lively and popular izakaya, with a spectacular spacious interior and high-profile location, has served luminaries such as George W. Bush and former Prime Minister Koizumi, and was the model for the battle scene in [",
+      "duration": "2h",
+      "location": "Nishi-Azabu 1-13-11"
+    },
+    {
+      "id": "wv-126",
+      "name": "Sarashina",
+      "category": "eat",
+      "description": "One of the most famous restaurants for soba (buckwheat noodle). Try the various noodles they have, for instance egg noodles, with different colors. Their factory is still across the road despite sky-rocketing real estate",
+      "estimatedCost": 2000,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-127",
+      "name": "Tony Roma's",
+      "category": "eat",
+      "description": "Step out of Japan and into the United States; the bilingual staff and English-only menu might make you forget you are in Tokyo. The restaurant features their trademark ribs, worth the price which starts at ¥1880. The Tex",
+      "duration": "2h",
+      "location": "5-4-20 Roppongi"
+    },
+    {
+      "id": "wv-128",
+      "name": "Kushinobō",
+      "category": "eat",
+      "description": "for kushiage (deep-fried skewers).",
+      "estimatedCost": 5000,
+      "duration": "2h",
+      "location": "Roppongi Hills West Walk 5F"
+    },
+    {
+      "id": "wv-129",
+      "name": "Nodaiwa",
+      "category": "eat",
+      "description": "Perhaps the best spot in Japan to be served unagi, or freshwater eel. Famous for always using naturally grown eels, never farmed ones. In the business for more than 200 years, Nodaiwa remains as popular as ever.",
+      "estimatedCost": 4000,
+      "duration": "2h",
+      "location": "1-5-4 Higashi-Azabu"
+    },
+    {
+      "id": "wv-130",
+      "name": "Anniversaire Cafe",
+      "category": "eat",
+      "description": "This is a fashonable cafe of Paris style. You can enjoy elegant mood with seeing a row of houses and street of Omotesando. You can also choose fish or meat for lunch. Has another branch at Minato Mirai in Yokohama.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-131",
+      "name": "Daigo",
+      "category": "eat",
+      "description": "Exquisite vegetarian or vegan \"shojin ryori\" cuisine. This is the traditional Buddhist spin on kaiseki. Gracefully served by attentive kimono-clad staff. Small private dining rooms look out onto Japanese gardens. Very ex",
+      "estimatedCost": 10000,
+      "duration": "2h",
+      "location": "Atago 2 chome 3-1, Atago Green Hills Forest Tower, 2F, Atago"
+    },
+    {
+      "id": "wv-132",
+      "name": "Narisawa",
+      "category": "eat",
+      "description": "Ranked among the world's best restaurants and with two Michelin stars. Expect a blend of classical French techniques with the finest Japanese ingredients. Narisawa also has a commitment to sustainability, which expresses",
+      "estimatedCost": 20000,
+      "duration": "2h",
+      "location": "2-6-15 Minamiaoyama"
+    },
+    {
+      "id": "wv-133",
+      "name": "Ristorante da Nino",
+      "category": "eat",
+      "description": "Within easy walking distance from both Tokyo Midtown and Roppongi crossing, owner chef Antonino Lentini offers fine and fresh Sicilian dishes. Good wine selection.",
+      "estimatedCost": 1400,
+      "duration": "2h",
+      "location": "Grande Maison Nogizaka 1F, 1-15-19 Minami Aoyama"
+    },
+    {
+      "id": "wv-134",
+      "name": "Fire Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-135",
+      "name": "Hanazono Shrine",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-137",
+      "name": "Shinjuku-sanchōme and related red-light districts to the east of the station",
+      "category": "see",
+      "description": "It is perfectly safe to walk around here during the day and marvel at the photo billboards of various male and female escorts on offer as well as the live gangster-types acting shady. While it probably shouldn't be done ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-138",
+      "name": "Shinjuku Southern Terrace",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-139",
+      "name": "Tokyo Metropolitan Government Center",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-140",
+      "name": "Tokyo Opera City",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-141",
+      "name": "Tokyo Toy Museum",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-142",
+      "name": "Suga Shrine",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-143",
+      "name": "Japan National Stadium",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-144",
+      "name": "Meiji Jingu Stadium",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-145",
+      "name": "Karaokekan",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-146",
+      "name": "Club on the Park Spa",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Park Hyatt Tokyo Hotel, 3-7-1-2 Nishi Shinjuku"
+    },
+    {
+      "id": "wv-147",
+      "name": "Shinjuku Piccadilly",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-148",
+      "name": "Wald 9",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-149",
+      "name": "Cinem@rt Shinjuku",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-150",
+      "name": "Isetan",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-151",
+      "name": "Keio",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-152",
+      "name": "Lumine",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-153",
+      "name": "Marui",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-154",
+      "name": "Mylord",
+      "category": "buy",
+      "description": "Cloths department store run by Odakyu, targeted at younger age group.",
+      "duration": "2h",
+      "location": "Shinjuku Station"
+    },
+    {
+      "id": "wv-155",
+      "name": "Odakyu",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-156",
+      "name": "Takashimaya",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-157",
+      "name": "Hands",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-158",
+      "name": "Bookoff",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-159",
+      "name": "Books Kinokuniya",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-160",
+      "name": "Book 1st",
+      "category": "buy",
+      "description": "The largest bookstore on the west side is hidden underground. Navigation inside may be a pain for its unusual layout. English books are in the C3 area.",
+      "duration": "2h",
+      "location": "1-7-3 Nishi-shinjuku"
+    },
+    {
+      "id": "wv-162",
+      "name": "Yodobashi Camera",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-163",
+      "name": "Don Quijote Kabukicho store",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-164",
+      "name": "Don Quijote Southeast Exit store",
+      "category": "buy",
+      "description": "Newer branch near the station.",
+      "duration": "2h",
+      "location": "3-36-16 Shinjuku"
+    },
+    {
+      "id": "wv-165",
+      "name": "Disk Union",
+      "category": "buy",
+      "description": "You can get music, movies, and music books. Another branch at Shinjuku 3-17-5 specialize in specific genres or used goods. Great for music enthusiasts.",
+      "duration": "2h",
+      "location": "Shinjuku 3-34-1"
+    },
+    {
+      "id": "wv-166",
+      "name": "HMV",
+      "category": "buy",
+      "description": "HMV is one of the bigger record stores in Japan with a good selection of music and movies. Another store at Shinjuku Alta 6F.",
+      "duration": "2h",
+      "location": "Basement floor of Lumine Est"
+    },
+    {
+      "id": "wv-167",
+      "name": "Tower Records",
+      "category": "buy",
+      "description": "Tower Records is one of the biggest record stores in Japan. They have any CD or DVD you can imagine, and if not, you can probably order or reserve it.",
+      "duration": "2h",
+      "location": "Shinjuku 3-37-1"
+    },
+    {
+      "id": "wv-168",
+      "name": "Nishi-Shinjuku 7-chome",
+      "category": "buy",
+      "description": "Packed with music shops specializing in various genres such as punk and heavy metal. Many sell nothing but bootlegs and collectibles.",
+      "duration": "2h",
+      "location": "northwest of JR Shinjuku station"
+    },
+    {
+      "id": "wv-169",
+      "name": "West Exit Square Event Space",
+      "category": "buy",
+      "description": "buy in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-170",
+      "name": "Pasutakan",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-171",
+      "name": "Khao San",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-172",
+      "name": "Blumare",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-173",
+      "name": "Suzuya",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-174",
+      "name": "Martiniburger",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-175",
+      "name": "Acacia Shinjuku",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-176",
+      "name": "Botejyu",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-177",
+      "name": "Juttoku",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-178",
+      "name": "Kappō Nakajima",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-179",
+      "name": "Hokkaido",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-180",
+      "name": "Yanbaru",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-181",
+      "name": "Bosphorus Hasan",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-182",
+      "name": "Din Tai Fung",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-183",
+      "name": "Nabezo",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-184",
+      "name": "Onegiya Shinjuku ten",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-185",
+      "name": "Zauo",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-186",
+      "name": "Torafugu-Tei",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-187",
+      "name": "Carrot Tower",
+      "category": "see",
+      "description": "This is the tallest building in Setagaya and contains a free observation deck on the 26th floor and Gamefreak Co. on the 22nd floor.",
+      "duration": "2h",
+      "location": "太子堂 4 chome 1-1"
+    },
+    {
+      "id": "wv-188",
+      "name": "Gotokuji Temple",
+      "category": "see",
+      "description": "The origin of the maneki-neko or beckoning-cat statuettes that bring good fortune to Japanese merchants the world over.",
+      "duration": "2h",
+      "location": "Gōtokuji 2 chome 24-7"
+    },
+    {
+      "id": "wv-189",
+      "name": "Hanegi Park",
+      "category": "see",
+      "description": "A public park, where kids can play freely with the Play Park facility.",
+      "duration": "2h",
+      "location": "Daita 4 chome 38-52"
+    },
+    {
+      "id": "wv-190",
+      "name": "Kinuta Park",
+      "category": "see",
+      "description": "A public park with a museum of modern art.",
+      "duration": "2h",
+      "location": "Kinuta-koen 1-1"
+    },
+    {
+      "id": "wv-191",
+      "name": "Komazawa Olympic Park",
+      "category": "see",
+      "description": "A large public park, built for the 1964 Tokyo Olympics.",
+      "duration": "2h",
+      "location": "Komazawa koen 1"
+    },
+    {
+      "id": "wv-192",
+      "name": "Machiko Hasegawa Museum",
+      "category": "see",
+      "description": "Art museum dedicated to the works of Machiko Hasegawa, creator of Sazae-san, one of Japan's longest running comic strips and cartoons. Showcases include original drawings, clay dolls, and paintings.",
+      "estimatedCost": 600,
+      "duration": "2h",
+      "location": "1-30-6 Sakurashinmachi"
+    },
+    {
+      "id": "wv-193",
+      "name": "Setagaya Art Museum",
+      "category": "see",
+      "description": "Houses works by artists from the Primitivist School, such as Henri Rousseau.",
+      "estimatedCost": 200,
+      "duration": "2h",
+      "location": "1-2 Kinutakoen"
+    },
+    {
+      "id": "wv-194",
+      "name": "Tamagawadaishi",
+      "category": "see",
+      "description": "A Buddhist temple, and a branch of [[Kawasaki#See",
+      "duration": "2h",
+      "location": "4 Chome-13-3 Seta"
+    },
+    {
+      "id": "wv-195",
+      "name": "Todoroki ravine",
+      "category": "see",
+      "description": "A natural canyon nestled in urban surroundings. With a small river and lush vegetation, it offers a pleasant natural environment.",
+      "duration": "2h",
+      "location": "take the Tokyu Oimachi line to Todoroki Station."
+    },
+    {
+      "id": "wv-196",
+      "name": "Setagaya Park",
+      "category": "see",
+      "description": "A public park with a pool, tennis courts, baseball grounds and so on. There is a mini steam train and a retired full-size steam locomotive for children to play on.",
+      "duration": "2h",
+      "location": "Ikejiri 1-5-27"
+    },
+    {
+      "id": "wv-197",
+      "name": "Saitama's Apartment",
+      "category": "see",
+      "description": "Real-life inspiration for the house where Saitama from the One Punch Man manga lived.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-198",
+      "name": "Tollywood",
+      "category": "do",
+      "description": "This small theater (46 seats) specializes in independent short films, mostly Japanese. The films aren't dubbed or subtitled of course, but they're so offbeat and often bizarre that you're sure to have a good time anyway.",
+      "duration": "2h",
+      "location": "Daizawa 5-32-5 2F"
+    },
+    {
+      "id": "wv-199",
+      "name": "Okuraland",
+      "category": "do",
+      "description": "Here you can go bowling or practice your golf swing. There are also batting cages.",
+      "duration": "2h",
+      "location": "Sakura 3-24-1"
+    },
+    {
+      "id": "wv-200",
+      "name": "Kuhonbutsu River Green Street",
+      "category": "do",
+      "description": "Take a date, canine friend, or both for an afternoon stroll from Jiyugaoka to Kuhonbutsu. Lined with cherry trees (wonderful in spring), benches, shops and sidewalk cafes.",
+      "duration": "2h",
+      "location": "Near Jiyūgaoka Sta. South Exit"
+    },
+    {
+      "id": "wv-201",
+      "name": "Setagaya Boro-Ichi",
+      "category": "buy",
+      "description": "A flea market that's held on the 15th and 16th of December and January each year. It's been drawing shoppers from all over Tokyo since it started in 1578. The main attraction is used clothing (such as kimono) and antique",
+      "duration": "2h",
+      "location": "Take the Setagaya line to Setagaya or Kamimachi and follow the crowds"
+    },
+    {
+      "id": "wv-202",
+      "name": "Tamagawa-Takashimaya S.C.",
+      "category": "buy",
+      "description": "The original anchor, now renovated to keep up with its reputation as a fashion center, is home to many of the same international brand name boutiques you'd find in Ginza, Omotesandou, or Roppongi Hills. Many of its annex",
+      "duration": "2h",
+      "location": "west of Futako-Tamagawa Sta. along Tamagawa-dori"
+    },
+    {
+      "id": "wv-203",
+      "name": "Futako-Tamagawa Rise",
+      "category": "buy",
+      "description": "A complex of shopping centers and offices on the eastern end of the station. Rakuten Corporation has their headquarters right outside the station. Also has a bridge connected to a park.",
+      "duration": "2h",
+      "location": "Connected to and east of Futako-Tamagawa Sta."
+    },
+    {
+      "id": "wv-204",
+      "name": "La Befana",
+      "category": "eat",
+      "description": "Good pizza from wood-fired stone oven, something you will be missing if you are staying for a long time in Japan. The lunch menu is excellent.",
+      "duration": "2h",
+      "location": "5-31-3 Daita"
+    },
+    {
+      "id": "wv-205",
+      "name": "Setagaya",
+      "category": "eat",
+      "description": "A famous ramen restaurant. Also has a branch at Haneda Airport Terminal 3.",
+      "duration": "2h",
+      "location": "Nozawa 2-1-2 1F"
+    },
+    {
+      "id": "wv-206",
+      "name": "Shiro-Hige’s Cream Puff Factory",
+      "category": "eat",
+      "description": "Bakery specializing in adorable Totoro-shaped [http://www.shiro-hige.net/cream_puffs/ cream puffs], cookies and cakes.",
+      "estimatedCost": 600,
+      "duration": "2h",
+      "location": "5-3-1 Setagaya-Daita"
+    },
+    {
+      "id": "wv-207",
+      "name": "Sunday Brunch",
+      "category": "eat",
+      "description": "The French toast is very tasty.",
+      "duration": "2h",
+      "location": "Kitazawa 2-29-2 2F"
+    },
+    {
+      "id": "wv-208",
+      "name": "Village Vanguard Diner",
+      "category": "eat",
+      "description": "Hamburger shop that has many kinds of very delicious hamburgers. Run by Village Vanguard, a chain of variety & bookstores.",
+      "estimatedCost": 660,
+      "duration": "2h",
+      "location": "Daita 6-3-1"
+    },
+    {
+      "id": "wv-209",
+      "name": "Universal Bakes",
+      "category": "eat",
+      "description": "Vegan bakery selling coffee, bread and doughnuts.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-210",
+      "name": "Botero",
+      "category": "eat",
+      "description": "Regular holiday is Tuesday.",
+      "duration": "2h",
+      "location": "Komazawa 1-17-17"
+    },
+    {
+      "id": "wv-211",
+      "name": "Patisserie Naoki",
+      "category": "eat",
+      "description": "eat in Tokyo",
+      "duration": "2h",
+      "location": "Komazawa 1-4-12 1F"
+    },
+    {
+      "id": "wv-213",
+      "name": "Moti",
+      "category": "eat",
+      "description": "Moderately priced Indian food with a great view. Vegetarian options.",
+      "duration": "2h",
+      "location": "Dogwood Plaza 7F"
+    },
+    {
+      "id": "wv-214",
+      "name": "Starbucks",
+      "category": "eat",
+      "description": "While its ubiquity usually negates any need of mentioning, this particular location somewhat breaks from typical cookie-cutter mold through its unique seating arrangement and indoor garden setting.",
+      "duration": "2h",
+      "location": "Dogwood Plaza 1F"
+    },
+    {
+      "id": "wv-215",
+      "name": "Jiyugaoka Burger",
+      "category": "eat",
+      "description": "Domestically-sourced, organic and thick burgers in a lush balcony setting.",
+      "estimatedCost": 1100,
+      "duration": "2h",
+      "location": "Jiyugaoka 1-3-15 4F, Meguro-ku"
+    },
+    {
+      "id": "wv-216",
+      "name": "Jiyugaoka Sweets Forest",
+      "category": "eat",
+      "description": "Cheerfully themed modern food park of sorts that brings together all kinds of kawaii-inspired sweets in one place.",
+      "duration": "2h",
+      "location": "Midorigaoka 2-25-7, Meguro-ku"
+    },
+    {
+      "id": "wv-217",
+      "name": "Kochoo",
+      "category": "eat",
+      "description": "Specializes in sundubu, a Korean stew which actually has roots in Los Angeles. All-you-can-eat banchan, which is common practice in Korea but rare in Japan!",
+      "duration": "2h",
+      "location": "Okusawa 6-22-12"
+    },
+    {
+      "id": "wv-218",
+      "name": "Ushi Tora",
+      "category": "eat",
+      "description": "Two bars. One with tables & chairs, allows tobacco smoking, and accepts a credit card. One space over, a standing bar with more beers on tap, is non-smoking, and takes only cash.",
+      "duration": "2h",
+      "location": "Kitazawa 2-9-3 2F"
+    },
+    {
+      "id": "wv-219",
+      "name": "Roppongi Crossing",
+      "category": "see",
+      "description": "The heart of Roppongi is this big intersection of Roppongi-dōri (六本木通り), under the elevated highway, and Gaien-higashi-dōri (外苑東通り). If meeting someone in Roppongi, outside hot pink Cafe Almond (カフェアマンド) is the place to ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-220",
+      "name": "National Art Center",
+      "category": "see",
+      "description": "see in Tokyo",
+      "duration": "2h",
+      "location": "7-22-2 Roppongi"
+    },
+    {
+      "id": "wv-221",
+      "name": "Sumitomo Collection",
+      "category": "see",
+      "description": "Since the 19th century, the Sumitomo family has collected art objects, such as bronzes, ustensils and paintings, mostly from Japan and China.",
+      "estimatedCost": 520,
+      "duration": "2h",
+      "location": "1-5-1 Roppongi"
+    },
+    {
+      "id": "wv-222",
+      "name": "Roppongi Hills",
+      "category": "see",
+      "description": "Roppongi Hills is an expansive shopping and entertainment complex, sleek and modern. It opened with much fanfare and remains popular. It has a number of attractions centered around the 53-story Mori Tower.",
+      "duration": "2h",
+      "location": "6-10-1 Roppongi"
+    },
+    {
+      "id": "wv-223",
+      "name": "Mohri Garden",
+      "category": "see",
+      "description": "In 2003, thousands of small Japanese killifish were liberated into this small park's pond after living in [[Space",
+      "duration": "2h",
+      "location": "Roppongi Hills, Hillside"
+    },
+    {
+      "id": "wv-224",
+      "name": "Mori Art Museum",
+      "category": "see",
+      "description": "This impressive art gallery hosts special exhibitions. The museum ticket includes admission to Tokyo City View. The [http://www.roppongihills.com/museum/ Mori Arts Center Gallery] adjacent to the Mori Art Museum requires",
+      "estimatedCost": 1500,
+      "duration": "2h",
+      "location": "Mori Tower, 53F"
+    },
+    {
+      "id": "wv-225",
+      "name": "Tokyo City View",
+      "category": "see",
+      "description": "This viewing deck gives you a 360º view of the city from 250 meters above sea level. Ticket includes admission to the Mori Art Museum.",
+      "duration": "2h",
+      "location": "Mori Tower, 52F"
+    },
+    {
+      "id": "wv-226",
+      "name": "Tokyo city model",
+      "category": "see",
+      "description": "A photo-realistic model of downtown Tokyo, with every real-life building photographed and its photo glued onto its 1:1000 scale model. Can be seen by appointment.",
+      "duration": "2h",
+      "location": "in the Mori Tower"
+    },
+    {
+      "id": "wv-227",
+      "name": "Amuse Musical Theater",
+      "category": "do",
+      "description": "Musicals in the theater where Blue Man Group did 1400 performances.",
+      "duration": "2h",
+      "location": "Roppongi 5-11-12"
+    },
+    {
+      "id": "wv-228",
+      "name": "Karaoke-kan",
+      "category": "do",
+      "description": "do in Tokyo",
+      "estimatedCost": 640,
+      "duration": "2h",
+      "location": "Roppongi 5-1-6"
+    },
+    {
+      "id": "wv-229",
+      "name": "Nagomi Spa and Fitness",
+      "category": "do",
+      "description": "do in Tokyo",
+      "duration": "2h",
+      "location": "Grand Hyatt Tokyo Hotel, 6-10-3 Roppongi"
+    },
+    {
+      "id": "wv-230",
+      "name": "TV Asahi",
+      "category": "do",
+      "description": "Headquarters of the television network that created Doraemon. Visit the mini-museum, complete with full-size models of the Doraemon world and of other popular Japanese TV shows.",
+      "duration": "2h",
+      "location": "Roppongi 6-9-1"
+    },
+    {
+      "id": "wv-231",
+      "name": "Toho Cinemas",
+      "category": "do",
+      "description": "If you are going to put down the going rate of nearly ¥1800 for a movie in Tokyo, this is the place to do it. Only ¥1000 every 1st and 14th of the month for normal screens. The nine-screen cinema has futuristic decor, TH",
+      "duration": "2h",
+      "location": "Roppongi Hills Keyakizaka"
+    },
+    {
+      "id": "wv-232",
+      "name": "Roppongi Art Night",
+      "category": "do",
+      "description": "Modern art invades the whole area from afternoon to the next morning. Many interactive exhibits, fun for kids too.",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-233",
+      "name": "Roppongi Hills Bon Odori & Azabujuban Noryo Festival",
+      "category": "do",
+      "description": "Locals dance around drums in Japanese yukata dress in the Arena part of Roppongi Hills, expect Doraemon to make a surprise appearance to the delight of the kids. Continue your walk to the adjacent Azabujuban main street ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-234",
+      "name": "Don Quixote",
+      "category": "buy",
+      "description": "Discount store, 5 floors of everything you can think of and some things you probably can't, including clothing, electronics, sex toys, costumes and Japanese souvenirs. Second floor sells drinks and food, with a large sel",
+      "duration": "2h",
+      "location": "Roppongi 3-14-10"
+    },
+    {
+      "id": "wv-235",
+      "name": "Fujisoba",
+      "category": "eat",
+      "description": "Small buckwheat noodle place. Healthy and popular with budget-conscious office workers.",
+      "estimatedCost": 600,
+      "duration": "2h",
+      "location": "Roppongi 7-14-10"
+    },
+    {
+      "id": "wv-236",
+      "name": "Ippudo",
+      "category": "eat",
+      "description": "A chain, but one of the best ramens in the area.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-237",
+      "name": "TETSU",
+      "category": "eat",
+      "description": "Dip cold noodles into tasty thick hot soup, this is tsukemen! Free soup refill. If your soup gets cold, ask for the spectacular soup heating iron.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "Roppongi Hills, Metro Hat B2F"
+    },
+    {
+      "id": "wv-238",
+      "name": "Go!Go!Curry",
+      "category": "eat",
+      "description": "Japanese-style curry rice.",
+      "estimatedCost": 800,
+      "duration": "2h",
+      "location": "Corner of the Roppongi crossing, on the right of the Softbank store, downstairs"
+    },
+    {
+      "id": "wv-239",
+      "name": "Tsurutontan",
+      "category": "eat",
+      "description": "Huge delicious udon noodles. If you are very hungry, ask for twice or triple serving, it is free! Great udon, comfy atmosphere, but expect to wait 20 minutes before getting a seat.",
+      "estimatedCost": 1500,
+      "duration": "2h",
+      "location": "Roppongi 3-14-12"
+    },
+    {
+      "id": "wv-240",
+      "name": "Bangkok",
+      "category": "eat",
+      "description": "A lunchtime legend. Pad thai special on Thursdays (¥980) is divine.",
+      "duration": "2h",
+      "location": "3-8-8, Woo Bldg, 2F"
+    },
+    {
+      "id": "wv-241",
+      "name": "yelo",
+      "category": "eat",
+      "description": "Not really hungry? Go for shaved ice with toppings like you've never seen before. Try the tiramisu, watermelon or organic carrot mascarpone.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "Roppongi 5-2-11"
+    },
+    {
+      "id": "wv-242",
+      "name": "Atelier de Joel Robuchon",
+      "category": "eat",
+      "description": "The first overseas venture of the eponymous -based Michelin-starred chef. Each dish is a work of art almost as breathtaking as the price tag, as courses cost ¥2900–12,800 &mdash; still a steal by Tokyo gourmet standards.",
+      "duration": "2h",
+      "location": "Roppongi Hills Hillside 2F, 6-10-1 Roppongi"
+    },
+    {
+      "id": "wv-243",
+      "name": "Fukuzushi",
+      "category": "eat",
+      "description": "Sushi place. Set menus are available, and their ¥3000 lunch set is excellent. Dress code: No sleeveless for men.",
+      "estimatedCost": 10000,
+      "duration": "2h",
+      "location": "5-7-8, Roppongi"
+    },
+    {
+      "id": "wv-244",
+      "name": "Roku Roku",
+      "category": "eat",
+      "description": "This complex of six restaurants on the sixth floor is a good choice if price is not an issue. You can choose between sushi, steak, Japanese and Chinese, and will be looking at upwards of ¥5000 per head on the bill.",
+      "duration": "2h",
+      "location": "Grand Hyatt 6F, Roppongi Hills"
+    },
+    {
+      "id": "wv-245",
+      "name": "Sushi Saito",
+      "category": "eat",
+      "description": "Described as somewhat of a hidden gem, this three Michelin star restaurant run by renowned \"sushi maestro\" Takashi Saito. With just eight seats, reservations should be made early.",
+      "duration": "2h",
+      "location": "In first floor of ARK Hills South Tower"
+    },
+    {
+      "id": "wv-246",
+      "name": "Fuji TV Building",
+      "category": "see",
+      "description": "An Odaiba landmark which looks like it's built of tinkertoys. The studio tour is of limited interest unless you speak Japanese and/or are familiar with Fuji's programming, but you can visit the second-highest story for f",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "2-4 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-247",
+      "name": "Giant Gundam robot",
+      "category": "see",
+      "description": "An impressive 1:1 scale robot from the [[:Wikipedia:Gundam",
+      "duration": "2h",
+      "location": "in front of DiverCity Tokyo Plaza mall"
+    },
+    {
+      "id": "wv-248",
+      "name": "Miraikan",
+      "category": "see",
+      "description": "Japan's National Museum of Emerging Science and Innovation, created by Japan's Science and Technology Agency. As the name indicates new technologies like robots, space modules etc. are presented here as well as demonstra",
+      "estimatedCost": 600,
+      "duration": "2h",
+      "location": "2-41 Aomi, Koto-ku"
+    },
+    {
+      "id": "wv-249",
+      "name": "Museum of Maritime Science",
+      "category": "see",
+      "description": "It was a six-story museum shaped like a full-sized ocean liner. Being the oldest significant building on Odaiba, demolition of the main building started in February 2024. Now only Sōya, the first polar explorer ship for ",
+      "duration": "2h",
+      "location": "3-1 Higashi-Yashio, Koto-ku"
+    },
+    {
+      "id": "wv-250",
+      "name": "Odaiba Statue of Liberty",
+      "category": "see",
+      "description": "Small scale replica of the Statue of Liberty from New York City given to Japan to commemorate its ties with France. It is set against a backdrop of the Tokyo Tower, Tokyo Bay, and the Rainbow Bridge.",
+      "duration": "2h",
+      "location": "1-4 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-251",
+      "name": "Tokyo Trick Art Museum",
+      "category": "see",
+      "description": "(Trick Art) .",
+      "duration": "2h",
+      "location": ", Seaside Mall 4F."
+    },
+    {
+      "id": "wv-252",
+      "name": "Odaiba Marine Park",
+      "category": "do",
+      "description": "Features one of two beaches in mainland Tokyo, but swimming is forbidden and not recommended anyway as the water is rather polluted. Along the beach runs a boardwalk dotted with couples, as this is considered the most ro",
+      "duration": "2h",
+      "location": "1-4 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-253",
+      "name": "Shiokaze Park",
+      "category": "do",
+      "description": "Next to Nikkō and Le Meridien hotels this park is the largest in the area. The southern corner, close to the ventilation tower of the highway, features a barbecue place highly popular during the warmer season. Barbecue e",
+      "duration": "2h",
+      "location": "1-2 Higashi-Yashio, Shinagawa-ku"
+    },
+    {
+      "id": "wv-254",
+      "name": "Joypolis",
+      "category": "do",
+      "description": "A giant game center and amusement arcade.",
+      "duration": "2h",
+      "location": "1-6-1 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-255",
+      "name": "Immersive Fort Tokyo",
+      "category": "do",
+      "description": "World's first theme park on immersive experiences. Opened in March 2024.",
+      "duration": "2h",
+      "location": "1-3-15 Aomi"
+    },
+    {
+      "id": "wv-256",
+      "name": "Decks Tokyo Beach",
+      "category": "buy",
+      "description": "Features the Sega Joypolis gaming center (10:00-23:00), retro-themed arcade, a 1960s-style store, gift shops, 2nd-hand western clothing stores, fine home accessories.",
+      "duration": "2h",
+      "location": "1-6-1 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-257",
+      "name": "Aqua City Odaiba",
+      "category": "buy",
+      "description": "Fashion for all ages, goods, etc. Restaurants in 4th, 5th, and 6th floors and a food court in the 1st floor. There is also a Toys'R'Us (including baby foods and goods, and children can touch and play with the toys there!",
+      "duration": "2h",
+      "location": "1-7-1 Daiba, Minato-ku"
+    },
+    {
+      "id": "wv-258",
+      "name": "Wanza Ariake Bay Mall",
+      "category": "buy",
+      "description": "Restaurants and a few shops north of the Tokyo Big Sight exhibition center.",
+      "duration": "2h",
+      "location": "3-1 Ariake, Koto-ku"
+    },
+    {
+      "id": "wv-259",
+      "name": "Tokyo National Museum",
+      "category": "see",
+      "description": "[[File:JR logo (east).svg",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "13-9 Ueno-kōen, Taitō-ku"
+    },
+    {
+      "id": "wv-260",
+      "name": "National Museum of Western Art",
+      "category": "see",
+      "description": "Houses an extensive collection of Western art, including the original of Rodin's famous The Thinker. It is listed as a [[UNESCO World Heritage List",
+      "estimatedCost": 420,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-261",
+      "name": "National Museum of Nature and Science",
+      "category": "see",
+      "description": "It focuses on the living world, with life-sized representations of practically every life form the earth has ever seen, from the blue whale (outside the old building) to hundreds of exotic insects. There are also section",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-262",
+      "name": "Shitamachi Museum",
+      "category": "see",
+      "description": "A small museum that offers a glimpse into life in the area in the early 20th century, with re-created houses and stores, and cultural artifacts. Closed for renovation until March 2025.",
+      "duration": "2h",
+      "location": "near the southeast corner of Shinobazu Pond, in Ueno Park"
+    },
+    {
+      "id": "wv-263",
+      "name": "Saigō Takamori Statue",
+      "category": "see",
+      "description": "Near the main entrance to the park from JR station stands an unassuming statue of a pudgy man walking his dog. This is Saigō Takamori, a famous samurai general best known for leading the doomed Satsuma Rebellion against ",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-264",
+      "name": "Ueno Zoo",
+      "category": "see",
+      "description": "Has over 300 animals, mostly in cramped, depressing conditions. Japan's last pandas, which had been the main attractions at the zoo, departed for China in January 2026.",
+      "estimatedCost": 600,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-265",
+      "name": "Shinobazu Pond",
+      "category": "see",
+      "description": "Full of lotus flowers and waterfowl and has the picturesque little Bentendō Hall shrine, dedicated to the goddess Benzaiten, in the middle. Outside the main entrance of the temple is a statue of Ugajin, a Japanese folk g",
+      "duration": "2h",
+      "location": "adjacent to Ueno Park"
+    },
+    {
+      "id": "wv-266",
+      "name": "Former Iwasaki Family House and garden",
+      "category": "see",
+      "description": "Not a major tourist attraction, but an interesting bit of history. The house was built in the Meiji era in the style of an American or British mansion. In WWII the fire raids consumed most of the houses behind the mansio",
+      "duration": "2h",
+      "location": "1-3-45, Ikenohata"
+    },
+    {
+      "id": "wv-267",
+      "name": "Ameyoko",
+      "category": "buy",
+      "description": "A packed shopping bazaar full of stalls selling almost anything you can imagine. It runs roughly south of Ueno station along the inside of the JR Yamanote line tracks to Okachimachi station. If you are looking for a more",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-268",
+      "name": "Okina An",
+      "category": "eat",
+      "description": "One of the most authentic soba places in Tokyo. The owner keeps the place clean but has not renovated anything since the Showa era. Note the cash register from the 1960s and the museum-worth tea hearth. Try negiseiro, wh",
+      "estimatedCost": 750,
+      "duration": "2h",
+      "location": "two minutes from Ueno station"
+    },
+    {
+      "id": "wv-269",
+      "name": "Yayoiken",
+      "category": "eat",
+      "description": "Cheap and cheerful grills served on a hot teppan iron plate, with all the rice you can eat. Plastic food models plus a coupon machine with pictures make ordering easy.",
+      "estimatedCost": 350,
+      "duration": "2h",
+      "location": "Higashi-Ueno 3-37-9"
+    },
+    {
+      "id": "wv-270",
+      "name": "Juraku",
+      "category": "eat",
+      "description": "An affordable restaurant popular for families. Serves omelettes, hamburg steaks among other Western and some Japanese dishes. No credit cards accepted.",
+      "estimatedCost": 1000,
+      "duration": "2h",
+      "location": "6-11-11, Ueno"
+    },
+    {
+      "id": "wv-271",
+      "name": "Ueno Yabusoba",
+      "category": "eat",
+      "description": "Another traditional soba place.",
+      "estimatedCost": 740,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-272",
+      "name": "Yoshinoya",
+      "category": "eat",
+      "description": "A popular beef rice bowl chain.",
+      "estimatedCost": 380,
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-273",
+      "name": "Izuei",
+      "category": "eat",
+      "description": "Opened circa 1750, an authentic eel place.",
+      "estimatedCost": 2100,
+      "duration": "2h",
+      "location": "2-12-22, Ueno"
+    },
+    {
+      "id": "wv-274",
+      "name": "Ueno Seiyōken",
+      "category": "eat",
+      "description": "Opened in 1877, this was one of the first Western restaurants in Japan, serving French cuisine befitting its stature.",
+      "estimatedCost": 2400,
+      "duration": "2h",
+      "location": "in the Ueno Park grounds"
+    },
+    {
+      "id": "wv-275",
+      "name": "Asakura Museum of Sculpture",
+      "category": "see",
+      "description": "[[File:Gold Star (with border).svg",
+      "estimatedCost": 500,
+      "duration": "2h",
+      "location": "7-16-10 Yanaka"
+    },
+    {
+      "id": "wv-276",
+      "name": "SCAI The Bathhouse",
+      "category": "see",
+      "description": "A small gallery showing the work of contemporary artists, the building is a former sento, or bathhouse.",
+      "duration": "2h",
+      "location": "Kashiwayu-Ato 6-1-23 Yanaka"
+    },
+    {
+      "id": "wv-277",
+      "name": "Shitamachi Museum Annex",
+      "category": "see",
+      "description": "Many buildings scattered around the Yanaka district survived the bombings of World War II, including this former sake store built in 1910. Characteristic of Meiji-era architecture, the building now houses a small museum ",
+      "duration": "2h",
+      "location": "2-10-6 Ueno-Sakuragi"
+    },
+    {
+      "id": "wv-278",
+      "name": "Jōkan-ji",
+      "category": "see",
+      "description": "Arguably the most visible reminder of the tragedy of the lives of the prostitutes who lived and worked in Yoshiwara. This is where many of the prostitutes were buried when they died, as the brothels would just unceremoni",
+      "duration": "2h",
+      "location": "2-1-12 Minamisenju, Arakawa City"
+    },
+    {
+      "id": "wv-279",
+      "name": "Iwasaki's Ganso Shokuhin Sample-ya",
+      "category": "do",
+      "description": "Make your own replica food or sample food (sampuru) out of wax. This shop, in Tokyo's Kappabashi restaurant supply district, offers onsite workshops and at-home DIY kits to make food from wax. Workshops are usually condu",
+      "duration": "2h",
+      "location": "3-7-6 Nishi Asakusa"
+    },
+    {
+      "id": "wv-280",
+      "name": "Kappabashi",
+      "category": "buy",
+      "description": "A more offbeat shopping option, it is best reached from Tawaramachi station on the Ginza line. This is Tokyo's restaurant wholesale district, which sells plastic food, metal spatulas, deep fryers and an immense variety o",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-281",
+      "name": "Dengama",
+      "category": "buy",
+      "description": "A particularly good boutique specializing in handmade Japanese pottery. The discount racks outside are downright cheap at several hundred yen a pop, but more expensive items on the second floor may run into tens of thous",
+      "duration": "2h",
+      "location": "at the corner of Kappabashi-dori and Asakusa-dori"
+    },
+    {
+      "id": "wv-282",
+      "name": "Kiwa Seisakusho",
+      "category": "buy",
+      "description": "5 floors of plastic baubles of all shapes and sizes. Three shops in Asakusabashi alone, the largest near exits A4 and A2 of the metro.",
+      "duration": "2h",
+      "location": "Asakusabashi 2-1-10"
+    },
+    {
+      "id": "wv-283",
+      "name": "Chaho Kanekichi-en",
+      "category": "buy",
+      "description": "An old-school tea shop near the entrance to Yanaka Ginza, just follow the smell of roasting tea. They prepare their own blends, which are uniformly excellent: try the slightly bitter Snow Plum (雪の梅 Yuki-no-Ume, &yen;600 ",
+      "duration": "2h",
+      "location": "Yanaka 3-11-10"
+    },
+    {
+      "id": "wv-284",
+      "name": "Gotō no Ame",
+      "category": "buy",
+      "description": "A traditional Japanese candy (ame) shop at the very end of Yanaka Ginza, everything sold here is made on premises and quite cheap (&yen;100+).",
+      "duration": "2h",
+      "location": "Tokyo"
+    },
+    {
+      "id": "wv-285",
+      "name": "Aoi Marushin",
+      "category": "eat",
+      "description": "Tempura, Tempura, Tempura. Aoi Marushin is the largest tempura restaurant in Tokyo!",
+      "duration": "2h",
+      "location": "1-4-4 Asakusa"
+    },
+    {
+      "id": "wv-286",
+      "name": "Bentenyama Miyakozushi Souhonten",
+      "category": "eat",
+      "description": "This is a very small, very expensive sushi restaurant in Taito. If you are a sushi buff this is that place for you, with fantastic sushi and great ambiance.",
+      "duration": "2h",
+      "location": "2-1-16 Asakusa"
+    },
+    {
+      "id": "wv-287",
+      "name": "Zakuro",
+      "category": "eat",
+      "description": "Located in the heart of the traditional Yanaka neighborhood, this Persian/Turkish restaurant goes all-out on the \"dining experience\": you sit on the carpeted floor, they make you wear middle-eastern garb, and dessert inc",
+      "duration": "2h",
+      "location": "3-14-13 Nishi-Nippori"
+    },
+    {
+      "id": "wv-288",
+      "name": "Cigars & Cafe LWAN",
+      "category": "eat",
+      "description": "A cigar bar that serves coffee, alcoholic drinks, and desserts. There is a large cigar selection, in particular from the Dominican Republic.",
+      "duration": "2h",
+      "location": "Matsugaya 1-11-3"
+    }
+  ],
+  "cultural": [
+    {
+      "category": "Etiquette",
+      "tip": "Bow when greeting. A slight bow is fine for tourists.",
+      "importance": "high"
+    },
+    {
+      "category": "Dining",
+      "tip": "Never tip at restaurants — it can be considered rude.",
+      "importance": "high"
+    },
+    {
+      "category": "Transport",
+      "tip": "Keep quiet on trains. Phone calls are frowned upon.",
+      "importance": "medium"
+    },
+    {
+      "category": "Temples",
+      "tip": "Remove shoes before entering temple buildings.",
+      "importance": "high"
+    },
+    {
+      "category": "Customs",
+      "tip": "Don't eat or drink while walking in public.",
+      "importance": "medium"
+    },
+    {
+      "category": "Cash",
+      "tip": "Many smaller shops and restaurants are cash-only. 7-Eleven ATMs accept foreign cards.",
+      "importance": "high"
+    },
+    {
+      "category": "Trash",
+      "tip": "Public trash cans are rare. Carry your garbage until you find one at a convenience store.",
+      "importance": "medium"
     }
   ]
 }

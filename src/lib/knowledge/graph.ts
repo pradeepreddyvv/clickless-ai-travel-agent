@@ -62,8 +62,9 @@ export function buildKnowledgeGraph(
     edges.push({ from: "intent", to: `hotel:${bestHotel.id}`, relation: "recommends" });
   }
 
-  // Link activities -> itinerary days
-  const relevantActivities = activities.slice(0, nights * 2 + 2);
+  // Link activities -> itinerary days (pick most relevant, cap at nights*2+2)
+  const activityCap = nights * 2 + 2;
+  const relevantActivities = pickRelevantActivities(activities, intent.activities, activityCap);
   relevantActivities.forEach((a, i) => {
     const day = Math.floor(i / 2) + 1;
     edges.push({ from: `day:${day}`, to: `activity:${a.id}`, relation: "includes" });
@@ -90,6 +91,36 @@ export function buildKnowledgeGraph(
     edges,
     derived: { itinerary, packingList, budget },
   };
+}
+
+function pickRelevantActivities(
+  activities: ActivityOption[],
+  interests: string[],
+  cap: number
+): ActivityOption[] {
+  if (activities.length <= cap) return activities;
+
+  const score = (a: ActivityOption): number => {
+    let s = 0;
+    const text = `${a.name} ${a.category} ${a.description}`.toLowerCase();
+    // +3 for each user interest that matches name/category/description
+    for (const interest of interests) {
+      if (text.includes(interest.toLowerCase())) s += 3;
+    }
+    // +2 if category directly matches an interest
+    for (const interest of interests) {
+      if (a.category.toLowerCase().includes(interest.toLowerCase())) s += 2;
+    }
+    // slight boost for activities with a real description and cost
+    if (a.description && a.description.length > 30) s += 1;
+    if (a.estimatedCost && a.estimatedCost > 0) s += 1;
+    return s;
+  };
+
+  // Sort by score descending, keep original order as tiebreaker
+  const scored = activities.map((a, i) => ({ a, s: score(a), i }));
+  scored.sort((x, y) => y.s - x.s || x.i - y.i);
+  return scored.slice(0, cap).sort((x, y) => x.i - y.i).map((x) => x.a);
 }
 
 function buildItinerary(
