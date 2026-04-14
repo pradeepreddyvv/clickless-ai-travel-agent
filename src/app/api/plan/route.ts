@@ -38,10 +38,7 @@ export async function POST(req: NextRequest) {
     // 3. Extraction/normalization
     const normalized = normalizePayload({
       flights: rawFlights,
-      hotels: rawHotels,
-      weather: rawWeather,
-      cultural: rawCultural,
-      activities: rawActivities,
+      hotels: rawHotels
     });
 
     // 4. Knowledge graph
