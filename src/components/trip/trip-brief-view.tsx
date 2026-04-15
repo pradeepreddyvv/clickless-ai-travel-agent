@@ -20,6 +20,8 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, on
   const [activeNav, setActiveNav] = useState("new-trip");
   const [packedItems, setPackedItems] = useState<Set<string>>(new Set());
   const [showAllTips, setShowAllTips] = useState(false);
+  const [showAllHotels, setShowAllHotels] = useState(false);
+  const [showAllFlights, setShowAllFlights] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const budgetRef = useRef<HTMLDivElement>(null);
 
@@ -538,7 +540,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, on
             <div className="max-w-4xl">
               <div className="mb-6">
                 <span className="bg-[#86f2e4] text-[#006a61] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">
-                  Comparing {brief.hotels.length} Hotels for {brief.intent.destination}
+                  Top {showAllHotels ? brief.hotels.length : Math.min(5, brief.hotels.length)} of {brief.hotels.length} Hotels for {brief.intent.destination}
                 </span>
                 <h2 className="text-3xl font-extrabold text-[#002542] mt-3" style={{ fontFamily: "Manrope, sans-serif" }}>
                   Hotel Comparison
@@ -546,7 +548,7 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, on
                 <p className="text-[#43474d] mt-2">Our concierge has filtered the best matches based on your preferences.</p>
               </div>
               <div className="space-y-6">
-                {brief.hotels.map((hotel, i) => (
+                {(showAllHotels ? brief.hotels : brief.hotels.slice(0, 5)).map((hotel, i) => (
                   <div key={hotel.id} className="bg-white rounded-2xl shadow-sm overflow-hidden flex flex-col md:flex-row">
                     <div className="md:w-64 h-48 md:h-auto relative overflow-hidden">
                       <img src={getHotelImage(brief.intent.destination)} alt={hotel.name} className="w-full h-full object-cover" />
@@ -591,19 +593,28 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, on
                   </div>
                 ))}
               </div>
+              {brief.hotels.length > 5 && (
+                <button
+                  onClick={() => setShowAllHotels(!showAllHotels)}
+                  className="mt-6 w-full py-3 bg-[#f2f4f6] hover:bg-[#e6e8ea] rounded-xl text-sm font-semibold text-[#002542] transition-colors flex items-center justify-center gap-2"
+                >
+                  <span className="material-symbols-outlined text-sm">{showAllHotels ? "expand_less" : "expand_more"}</span>
+                  {showAllHotels ? "Show Top 5 Hotels" : `Show All ${brief.hotels.length} Hotels`}
+                </button>
+              )}
 
               {/* Flight Comparison */}
               <div className="mt-12">
                 <div className="mb-6">
                   <span className="bg-[#d1e4ff] text-[#002542] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">
-                    Comparing {brief.flights.length} Flights
+                    Top {showAllFlights ? brief.flights.length : Math.min(5, brief.flights.length)} of {brief.flights.length} Flights
                   </span>
                   <h2 className="text-2xl font-extrabold text-[#002542] mt-3" style={{ fontFamily: "Manrope, sans-serif" }}>
                     Flight Options
                   </h2>
                 </div>
                 <div className="space-y-4">
-                  {brief.flights.map((flight, i) => (
+                  {(showAllFlights ? brief.flights : brief.flights.slice(0, 5)).map((flight, i) => (
                     <div key={flight.id} className={`bg-white p-5 rounded-2xl shadow-sm flex flex-col md:flex-row md:items-center gap-4 ${i === 0 ? "ring-1 ring-[#006a61]/20" : ""}`}>
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
@@ -624,6 +635,15 @@ export function TripBriefView({ brief, onNewTrip, onShowSaved, onShowProfile, on
                     </div>
                   ))}
                 </div>
+                {brief.flights.length > 5 && (
+                  <button
+                    onClick={() => setShowAllFlights(!showAllFlights)}
+                    className="mt-4 w-full py-3 bg-[#f2f4f6] hover:bg-[#e6e8ea] rounded-xl text-sm font-semibold text-[#002542] transition-colors flex items-center justify-center gap-2"
+                  >
+                    <span className="material-symbols-outlined text-sm">{showAllFlights ? "expand_less" : "expand_more"}</span>
+                    {showAllFlights ? "Show Top 5 Flights" : `Show All ${brief.flights.length} Flights`}
+                  </button>
+                )}
               </div>
             </div>
           )}

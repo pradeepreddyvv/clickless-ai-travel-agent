@@ -1,25 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { parseIntent, parseIntentWithGroq } from "@/lib/nlu/parser";
-import { getFlights, getHotels } from "@/lib/providers/demo-data";
-import { loadCityCache } from "@/lib/cache";
+import { parseIntentWithGroq } from "@/lib/nlu/parser";
+import { getSupabaseData } from "@/lib/providers/supabase-data";
 import { getWeatherLive } from "@/lib/providers/weather-live";
 import { getWikivoyageData } from "@/lib/providers/wikivoyage";
 import { normalizePayload } from "@/lib/extraction/normalize";
 import { buildKnowledgeGraph } from "@/lib/knowledge/graph";
 import { synthesizeTripBrief, synthesizeWithGemini, synthesizeWithLLM } from "@/lib/synthesis/brief";
 import { getSupabase } from "@/lib/supabase/client";
-import type { HotelOption } from "@/lib/types";
-
-/** Cache-first hotel lookup — falls back to hardcoded demo data */
-function getHotelsCached(destination: string): HotelOption[] {
-  const cache = loadCityCache(destination);
-  if (cache?.hotels && cache.hotels.length > 0) {
-    console.log(`[hotels] Serving "${destination}" from static cache (${cache.hotels.length} hotels)`);
-    return cache.hotels;
-  }
-  console.log(`[hotels] No cache for "${destination}" — using demo data`);
-  return getHotels(destination);
-}
 
 export async function POST(req: NextRequest) {
   try {
@@ -40,16 +27,24 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 2. Provider orchestration — live data where available, demo fallback
+    // 2. Provider orchestration — Supabase (dynamic, budget-aware) + live weather/wikivoyage
     const totalDays = intent.duration || 5;
-    const rawFlights = getFlights(intent.destination);
-    const rawHotels = getHotelsCached(intent.destination);
-    const [rawWeather, wikivoyage] = await Promise.all([
-      getWeatherLive(intent.destination, totalDays, intent.dates?.start),  // live OWM
-      getWikivoyageData(intent.destination, intent.activities), // live Wikivoyage
+    const [supabaseData, rawWeather, wikivoyage] = await Promise.all([
+      getSupabaseData(intent),                                              // dynamic from DB
+      getWeatherLive(intent.destination, totalDays, intent.dates?.start),    // live OWM
+      getWikivoyageData(intent.destination, intent.activities),              // live Wikivoyage
     ]);
+    const rawFlights = supabaseData.flights;
+    const rawHotels = supabaseData.hotels;
+    // Merge Supabase activities with Wikivoyage activities (dedup by name)
+    const wikiActivities = wikivoyage.activities;
+    const supaActivities = supabaseData.activities;
+    const seenNames = new Set(supaActivities.map((a) => a.name.toLowerCase()));
+    const rawActivities = [
+      ...supaActivities,
+      ...wikiActivities.filter((a) => !seenNames.has(a.name.toLowerCase())),
+    ];
     const rawCultural = wikivoyage.cultural;
-    const rawActivities = wikivoyage.activities;
 
     // 3. Extraction/normalization
     const normalized = normalizePayload({
